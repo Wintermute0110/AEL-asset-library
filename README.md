@@ -1,4 +1,4 @@
-#Advanced Emulator Launcher assets library#
+#Advanced Emulator Launcher asset library#
 
 This archive contains category and launcher NFOs to use with Avanced Emulator Launcher, to help
 you in the setup process of AEL.
@@ -12,9 +12,13 @@ be no larger than `1920x1080`. [Kodi Wiki, Add on structure Fanart]
 
 Banners sould have a size of `758 x 140` pixels. [Kodi Wiki, Wide banner icons]
 
+Posters should have an aspect ratio 2:3, so pixel sizes of 666x1000 and 1000x1500 whould be
+OK. [Kodi Forum, Poster art size question]
+
 [Kodi Wiki, Add on structure Icon]: http://kodi.wiki/view/Add-on_structure#icon.png
 [Kodi Wiki, Add on structure Fanart]: http://kodi.wiki/view/Add-on_structure#fanart.jpg
 [Kodi Wiki, Wide banner icons]: http://kodi.wiki/view/Wide_banner_icons
+[Kodi Forum, Poster art size question]: http://forum.kodi.tv/showthread.php?tid=155258
 
 ## Credits ##
 
