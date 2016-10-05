@@ -12,7 +12,7 @@ be no larger than `1920x1080`. [Kodi Wiki, Add on structure Fanart]
 
 Banners sould have a size of `758 x 140` pixels. [Kodi Wiki, Wide banner icons]
 
-Posters should have an aspect ratio 2:3, so pixel sizes of 666x1000 and 1000x1500 whould be
+Posters should have an aspect ratio 2:3, so pixel sizes of `666x1000` and `1000x1500` whould be
 OK. [Kodi Forum, Poster art size question]
 
 [Kodi Wiki, Add on structure Icon]: http://kodi.wiki/view/Add-on_structure#icon.png
