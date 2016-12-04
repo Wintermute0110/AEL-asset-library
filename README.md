@@ -27,7 +27,7 @@ All NFO files have been compiled by Wintermute0110 with information from the Wik
 Artwork has been taken from many sources including:
 
   * [Hyper Launcher artwork pack] by theeeduub.
-  * The old Advanced Launcher forum by Angelscry.
+  * [Advanced Launcher artwork pack] by Angelscry.
   * [Home Theater Backdrops]
   * [RazorFR] has graciously allowed to include a set of Posters.
 
@@ -35,5 +35,6 @@ If you are the author of some of the assets and want to be credited here contact
 an issue in Github.
 
 [Hyper Launcher artwork pack]: http://forum.kodi.tv/showthread.php?tid=258159
+[Advanced Launcher artwork pack]: http://forum.kodi.tv/showthread.php?tid=85724
 [Home Theater Backdrops]: http://www.htbackdrops.org
 [RazorFR]: http://forum.kodi.tv/showthread.php?tid=273663
