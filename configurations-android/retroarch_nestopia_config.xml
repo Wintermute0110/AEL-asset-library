@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <name>NES</name>
+  <category>Nintendo</category>  
+  <platform>Nintendo NES</platform>
+  <application>/system/bin/am</application>
+  <args>start --user 0 -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -e ROM &quot;%rom%&quot; -e LIBRETRO /data/data/com.retroarch/cores/nestopia_libretro_android.so -e CONFIGFILE /sdcard/Android/data/com.retroarch/files/retroarch.cfg -e IME com.android.inputmethod.latin/.LatinIME -e REFRESH 60 -n com.retroarch/.browser.retroactivity.RetroActivityFuture</args>
+  <path_assets>/storage/emulated/0/roms/nes</path_assets>
+  <romext>nes</romext>
+  <path_assets>/storage/emulated/0/roms/assets/nes</path_assets>
+</launcher>
+</advanced_emulator_launcher_configuration>
