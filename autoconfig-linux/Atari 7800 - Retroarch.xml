@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <name>Atari 7800 (Retroarch)</name>
+  <category>Atari</category>
+  <platform>Atari 7800</platform>
+  <application>/home/kodi/bin/retroarch</application>
+  <args>-L /home/kodi/bin/libretro/prosystem_libretro.so -f -v &quot;$rom$&quot;</args>
+  <args_extra></args_extra>
+  <romext>zip</romext>
+  <rompath>/home/kodi/AEL-ROMs/atari-7800/</rompath>
+  <path_assets>/home/kodi/AEL-assets/atari-7800/</path_assets>
+</launcher>
+</advanced_emulator_launcher_configuration>
