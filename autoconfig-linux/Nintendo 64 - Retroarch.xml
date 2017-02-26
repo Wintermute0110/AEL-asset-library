@@ -6,6 +6,7 @@
   <platform>Nintendo 64</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mupen64plus_libretro.so -f -v &quot;$rom$&quot;</args>
+  <args_extra>-L /home/kodi/bin/libretro/parallel_n64_libretro.so -f -v &quot;$rom$&quot;</args_extra>
   <romext>nds</romext>
   <rompath>/home/kodi/AEL-ROMs/nintendo-n64/</rompath>
   <path_assets>/home/kodi/AEL-assets/nintendo-n64</path_assets>
