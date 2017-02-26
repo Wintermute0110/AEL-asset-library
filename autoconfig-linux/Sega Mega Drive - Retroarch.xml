@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <category>SEGA</category>
+  <name>Mega Drive (Retroarch)</name>
+  <platform>Sega MegaDrive/Genesis</platform>
+  <application>/home/kodi/bin/retroarch</application>
+  <args>-L /home/kodi/bin/libretro/genesis_plus_gx_libretro.so -f -v &quot;$rom$&quot;</args>
+  <args_extra>-L /home/kodi/bin/libretro/picodrive_libretro.so -f -v &quot;$rom$&quot;</args_extra>
+  <args_extra>-L /home/kodi/bin/libretro/blastem_libretro.so -f -v &quot;$rom$&quot;</args_extra>
+  <romext>zip</romext>
+  <rompath>/home/kodi/AEL-ROMs/sega-genesis/</rompath>
+  <path_assets>/home/kodi/AEL-assets/sega-genesis</path_assets>
+</launcher>
+</advanced_emulator_launcher_configuration>

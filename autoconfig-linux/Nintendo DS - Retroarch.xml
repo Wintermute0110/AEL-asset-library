@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <category>Nintendo</category>
+  <name>Nintendo DS (Retroarch Desmume)</name>
+  <platform>Nintendo DS</platform>
+  <application>/home/kodi/bin/retroarch</application>
+  <args>-L /home/kodi/bin/libretro/desmume_libretro.so -f -v &quot;$rom$&quot;</args>
+  <romext>nds</romext>
+  <rompath>/home/kodi/AEL-ROMs/nintendo-ds/</rompath>
+  <path_assets>/home/kodi/AEL-assets/nintendo-ds</path_assets>
+</launcher>
+</advanced_emulator_launcher_configuration>

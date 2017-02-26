@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <category>SEGA</category>
+  <name>SMS (MAME)</name>
+  <platform>Sega Master System/Mark III</platform>
+  <application>/usr/games/mame</application>
+  <args>sms -cart &quot;$rom$&quot;</args>
+  <args_extra>smspal -cart &quot;$rom$&quot;</args_extra>
+  <args_extra>smsj -cart &quot;$rom$&quot;</args_extra>
+  <romext>zip</romext>
+  <rompath>/home/kodi/AEL-ROMs/sega-sms/</rompath>
+  <path_assets>/home/kodi/AEL-assets/sega-sms</path_assets>
+</launcher>
+</advanced_emulator_launcher_configuration>

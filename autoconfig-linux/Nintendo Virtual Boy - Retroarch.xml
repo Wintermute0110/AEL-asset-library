@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <category>Nintendo</category>
+  <name>Virtual Boy (Retroarch)</name>
+  <platform>Nintendo SNES</platform>
+  <application>/home/kodi/bin/retroarch</application>
+  <args>-L /home/kodi/bin/libretro/mednafen_vb_libretro.so -f -v &quot;$rom$&quot;</args>
+  <romext>zip</romext>
+  <rompath>/home/kodi/AEL-ROMs/nintendo-vb/</rompath>
+  <path_assets>/home/kodi/AEL-assets/nintendo-vb</path_assets>
+</launcher>
+</advanced_emulator_launcher_configuration>

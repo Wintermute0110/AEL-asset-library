@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <category>Nintendo</category>
+  <name>Pokemon Mini (Retroarch)</name>
+  <platform>Nintendo Pokemini</platform>
+  <application>/home/kodi/bin/retroarch</application>
+  <args>-L /home/kodi/bin/libretro/pokemini_libretro.so -f -v &quot;$rom$&quot;</args>
+  <args_extra></args_extra>
+  <romext>zip</romext>
+  <rompath>/home/kodi/AEL-ROMs/nintendo-pokemini/</rompath>
+  <path_assets>/home/kodi/AEL-assets/nintendo-pokemini</path_assets>
+</launcher>
+</advanced_emulator_launcher_configuration>

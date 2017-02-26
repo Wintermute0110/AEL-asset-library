@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <category>SEGA</category>
+  <name>32X (Retroarch)</name>
+  <platform>Sega 32X</platform>
+  <application>/home/kodi/bin/retroarch</application>
+  <args>-L /home/kodi/bin/libretro/picodrive_libretro.so -f -v &quot;$rom$&quot;</args>
+  <romext>zip</romext>
+  <rompath>/home/kodi/AEL-ROMs/sega-32x/</rompath>
+  <path_assets>/home/kodi/AEL-assets/sega-32x</path_assets>
+</launcher>
+</advanced_emulator_launcher_configuration>

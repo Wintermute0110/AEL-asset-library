@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <category>Nintendo</category>
+  <name>GameBoy (Retroarch)</name>
+  <platform>Nintendo GameBoy</platform>
+  <application>/home/kodi/bin/retroarch</application>
+  <args>-L /home/kodi/bin/libretro/gambatte_libretro.so -f -v &quot;$rom$&quot;</args>
+  <romext>zip</romext>
+  <rompath>/home/kodi/AEL-ROMs/nintendo-gb/</rompath>
+  <path_assets>/home/kodi/AEL-assets/nintendo-gb</path_assets>
+</launcher>
+</advanced_emulator_launcher_configuration>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <category>Nintendo</category>
+  <name>GameBoy Advance (Retroarch)</name>
+  <platform>Nintendo GameBoy Advance</platform>
+  <application>/home/kodi/bin/retroarch</application>
+  <args>-L /home/kodi/bin/libretro/vbam_libretro.so -f -v &quot;$rom$&quot;</args>
+  <args_extra>-L /home/kodi/bin/libretro/vba_next_libretro.so -f -v &quot;$rom$&quot;</args_extra>
+  <args_extra>-L /home/kodi/bin/libretro/meteor_libretro.so -f -v &quot;$rom$&quot;</args_extra>
+  <romext>zip</romext>
+  <rompath>/home/kodi/AEL-ROMs/nintendo-gba/</rompath>
+  <path_assets>/home/kodi/AEL-assets/nintendo-gba</path_assets>
+</launcher>
+</advanced_emulator_launcher_configuration>
