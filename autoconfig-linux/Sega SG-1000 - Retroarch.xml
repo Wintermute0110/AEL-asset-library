@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <category>SEGA</category>
+  <name>SG-1000 (Retroarch)</name>
+  <platform>Sega 32X</platform>
+  <application>/home/kodi/bin/retroarch</application>
+  <args>-L /home/kodi/bin/libretro/genesis_plus_gx_libretro.so -f -v &quot;$rom$&quot;</args>
+  <args_extra>-L /home/kodi/bin/libretro/bluemsx_libretro.so -f -v &quot;$rom$&quot;</args_extra>
+  <romext>zip</romext>
+  <rompath>/home/kodi/AEL-ROMs/sega-sg1000/</rompath>
+  <path_assets>/home/kodi/AEL-assets/sega-sg1000</path_assets>
+</launcher>
+</advanced_emulator_launcher_configuration>
