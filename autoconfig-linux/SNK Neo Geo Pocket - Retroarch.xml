@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <category>SNK</category>
+  <name>NeoGeo Pocket</name>
+  <platform>SNK Neo Geo Pocket</platform>
+  <application>/home/kodi/bin/retroarch</application>
+  <args>-L /home/kodi/bin/libretro/mednafen_ngp_libretro.so -f -v &quot;$rom$&quot;</args>
+  <romext>zip</romext>
+  <rompath>/home/kodi/AEL-ROMs/snk-ngp/</rompath>
+  <path_assets>/home/kodi/AEL-assets/snk-ngp/</path_assets>
+</launcher>
+</advanced_emulator_launcher_configuration>
