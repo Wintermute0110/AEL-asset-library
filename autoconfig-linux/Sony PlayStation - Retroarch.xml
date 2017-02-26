@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <category>SONY</category>
+  <name>PlayStation (Retroarch)</name>
+  <platform>Sony PlayStation</platform>
+  <application>/home/kodi/bin/retroarch</application>
+  <args>-L /home/kodi/bin/libretro/mednafen_psx_libretro.so -f -v &quot;$rom$&quot;</args>
+  <romext>cue|m3u</romext>
+  <rompath>/home/kodi/AEL-ROMs/sony-psx/</rompath>
+  <path_assets>/home/kodi/AEL-assets/sony-psx</path_assets>
+</launcher>
+</advanced_emulator_launcher_configuration>
