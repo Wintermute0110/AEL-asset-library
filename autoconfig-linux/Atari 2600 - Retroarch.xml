@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>Atari 2600 (Retroarch)</name>
   <category>Atari</category>
+  <name>Atari 2600 (Retroarch)</name>
   <platform>Atari 2600</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/stella_libretro.so -v -f &quot;$rom$&quot;</args>
-  <args_extra></args_extra>
   <romext>zip</romext>
   <rompath>/home/kodi/AEL-ROMs/atari-2600/</rompath>
   <path_assets>/home/kodi/AEL-assets/atari-2600/</path_assets>
