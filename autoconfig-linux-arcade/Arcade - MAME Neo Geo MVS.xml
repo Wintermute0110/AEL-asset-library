@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <category>Arcade</category>
+  <name>MAME Neo Geo MVS</name>
+  <platform>MAME</platform>
+  <application>/usr/games/mame</application>
+  <args>&quot;$rom$&quot;</args>
+  <romext>zip|7z</romext>
+  <rompath>/home/kodi/AEL-ROMs/mame-neogeo/</rompath>
+  <path_assets>/home/kodi/AEL-assets/mame-neogeo/</path_assets>
+</launcher>
+</advanced_emulator_launcher_configuration>
