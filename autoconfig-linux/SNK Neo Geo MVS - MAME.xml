@@ -8,7 +8,7 @@
   <args>&quot;$rom$&quot;</args>
   <args_extra></args_extra>
   <romext>zip|7z</romext>
-  <rompath>/home/kodi/AEL-ROMs/mame-neogeo/</rompath>
-  <path_assets>/home/kodi/AEL-assets/mame-neogeo</path_assets>
+  <rompath>/home/kodi/AEL-ROMs/mame-mvs/</rompath>
+  <path_assets>/home/kodi/AEL-assets/mame-mvs/</path_assets>
 </launcher>
 </advanced_emulator_launcher_configuration>
