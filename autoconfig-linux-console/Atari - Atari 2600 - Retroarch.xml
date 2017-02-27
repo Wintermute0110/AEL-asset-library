@@ -3,6 +3,7 @@
 <launcher>
   <category>Atari</category>
   <name>Atari 2600 (Retroarch)</name>
+  <year>1977</year>
   <platform>Atari 2600</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/stella_libretro.so -v -f &quot;$rom$&quot;</args>

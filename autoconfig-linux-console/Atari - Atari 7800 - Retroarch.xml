@@ -3,6 +3,7 @@
 <launcher>
   <category>Atari</category>
   <name>Atari 7800 (Retroarch)</name>
+  <year>1986</year>
   <platform>Atari 7800</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/prosystem_libretro.so -f -v &quot;$rom$&quot;</args>

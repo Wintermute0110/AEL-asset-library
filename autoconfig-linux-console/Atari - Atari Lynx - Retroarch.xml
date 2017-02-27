@@ -3,6 +3,7 @@
 <launcher>
   <category>Atari</category>
   <name>Atari Lynx (Retroarch)</name>
+  <year>1989</year>
   <platform>Atari Lynx</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_lynx_libretro.so -f -v &quot;$rom$&quot;</args>

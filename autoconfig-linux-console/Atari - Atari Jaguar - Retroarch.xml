@@ -3,6 +3,7 @@
 <launcher>
   <category>Atari</category>
   <name>Atari Jaguar (Retroarch)</name>
+  <year>1993</year>
   <platform>Atari Jaguar</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/virtualjaguar_libretro.so -f -v &quot;$rom$&quot;</args>

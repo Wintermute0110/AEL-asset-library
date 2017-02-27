@@ -3,6 +3,7 @@
 <launcher>
   <category>Atari</category>
   <name>Atari 5200 (Retroarch)</name>
+  <year>1982</year>
   <platform>Atari 5200</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/atari800_libretro.so -f -v &quot;$rom$&quot;</args>
