@@ -3,6 +3,7 @@
 <launcher>
   <category>Computers</category>
   <name>Microsoft MSX2 (Retroarch)</name>
+  <year>1985</year>
   <platform>Microsoft MSX2</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/bluemsx_libretro.so -f -v &quot;$rom$&quot;</args>
