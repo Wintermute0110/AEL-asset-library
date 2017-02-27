@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <category>NEC</category>
-  <name>PC Engine SuperGrafx (Retroarch)</name>
-  <platform>NEC PC Engine/TurboGrafx 16</platform>
+  <category>Consoles</category>
+  <name>3DO (Retroarch)</name>
+  <year>1993</year>
+  <platform>3DO</platform>
   <application>/home/kodi/bin/retroarch</application>
-  <args>-L /home/kodi/bin/libretro/mednafen_supegrafx_fast_libretro.so -f -v &quot;$rom$&quot;</args>
-  <romext>cue|iso</romext>
-  <rompath>/home/kodi/AEL-ROMs/nec-sg/</rompath>
-  <path_assets>/home/kodi/AEL-assets/nec-sg/</path_assets>
+  <args>-L /home/kodi/bin/libretro/4do_libretro.so -f -v &quot;$rom$&quot;</args>
+  <romext>cue</romext>
+  <rompath>/home/kodi/AEL-ROMs/con-3do/</rompath>
+  <path_assets>/home/kodi/AEL-assets/con-3do/</path_assets>
 </launcher>
 </advanced_emulator_launcher_configuration>
