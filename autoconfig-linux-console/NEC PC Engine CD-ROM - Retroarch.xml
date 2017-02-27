@@ -2,7 +2,8 @@
 <advanced_emulator_launcher_configuration>
 <launcher>
   <category>NEC</category>
-  <name>PC Engine CD (Retroarch)</name>
+  <name>PC Engine CD-ROM2 (Retroarch)</name>
+  <year>1988</year>
   <platform>NEC PC Engine/TurboGrafx 16</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_pce_fast_libretro.so -f -v &quot;$rom$&quot;</args>

@@ -3,11 +3,12 @@
 <launcher>
   <category>NEC</category>
   <name>PC Engine SuperGrafx (Retroarch)</name>
+  <year>1989</year>
   <platform>NEC PC Engine/TurboGrafx 16</platform>
   <application>/home/kodi/bin/retroarch</application>
-  <args>-L /home/kodi/bin/libretro/mednafen_supegrafx_fast_libretro.so -f -v &quot;$rom$&quot;</args>
-  <romext>cue|iso</romext>
-  <rompath>/home/kodi/AEL-ROMs/nec-sg/</rompath>
-  <path_assets>/home/kodi/AEL-assets/nec-sg/</path_assets>
+  <args>-L /home/kodi/bin/libretro/mednafen_supegrafx_libretro.so -f -v &quot;$rom$&quot;</args>
+  <romext>zip</romext>
+  <rompath>/home/kodi/AEL-ROMs/nec-sgx/</rompath>
+  <path_assets>/home/kodi/AEL-assets/nec-sgx/</path_assets>
 </launcher>
 </advanced_emulator_launcher_configuration>

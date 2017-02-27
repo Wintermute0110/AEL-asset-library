@@ -3,6 +3,7 @@
 <launcher>
   <category>NEC</category>
   <name>PC Engine (Retroarch)</name>
+  <year>1987</year>
   <platform>NEC PC Engine/TurboGrafx 16</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_pce_fast_libretro.so -f -v &quot;$rom$&quot;</args>

@@ -3,6 +3,7 @@
 <launcher>
   <category>NEC</category>
   <name>PC-FX (Retroarch)</name>
+  <year>1994</year>
   <platform>NEC PC Engine/TurboGrafx 16</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_pcfx_libretro.so -f -v &quot;$rom$&quot;</args>
