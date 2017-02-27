@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <category>Atari</category>
-  <name>Atari Lynx (Retroarch)</name>
-  <platform>Atari Lynx</platform>
+  <category>Computers</category>
+  <name>Microsoft MSX2 (Retroarch)</name>
+  <platform>Microsoft MSX2</platform>
   <application>/home/kodi/bin/retroarch</application>
-  <args>-L /home/kodi/bin/libretro/mednafen_lynx_libretro.so -f -v &quot;$rom$&quot;</args>
-  <args_extra>-L /home/kodi/bin/libretro/handy_libretro.so -f -v &quot;$rom$&quot;</args_extra>
+  <args>-L /home/kodi/bin/libretro/bluemsx_libretro.so -f -v &quot;$rom$&quot;</args>
+  <args_extra>-L /home/kodi/bin/libretro/fmsx_libretro.so -f -v &quot;$rom$&quot;</args_extra>
   <romext>zip</romext>
-  <rompath>/home/kodi/AEL-ROMs/atari-lynx/</rompath>
-  <path_assets>/home/kodi/AEL-assets/atari-lynx/</path_assets>
+  <rompath>/home/kodi/AEL-ROMs/com-msx2/</rompath>
+  <path_assets>/home/kodi/AEL-assets/com-msx2/</path_assets>
 </launcher>
 </advanced_emulator_launcher_configuration>
