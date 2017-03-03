@@ -7,7 +7,7 @@
   <platform>3DO</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/4do_libretro.so -f -v &quot;$rom$&quot;</args>
-  <romext>cue</romext>
+  <romext>iso</romext>
   <rompath>/home/kodi/AEL-ROMs/con-3do/</rompath>
   <path_assets>/home/kodi/AEL-assets/con-3do/</path_assets>
 </launcher>
