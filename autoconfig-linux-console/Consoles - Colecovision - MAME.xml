@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <category>Consoles</category>
+  <name>Colecovision (MAME)</name>
+  <year>1982</year>
+  <platform>Colecovision</platform>
+  <application>/usr/games/mame</application>
+  <args>coleco -cart &quot;$rom$&quot;</args>
+  <args_extra>colecop -cart &quot;$rom$&quot;</args_extra>
+  <romext>zip</romext>
+  <rompath>/home/kodi/AEL-ROMs/con-coleco/</rompath>
+  <path_assets>/home/kodi/AEL-assets/con-coleco/</path_assets>
+</launcher>
+</advanced_emulator_launcher_configuration>
