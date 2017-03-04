@@ -7,8 +7,8 @@
   <platform>NEC PC Engine/TurboGrafx 16</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_pce_fast_libretro.so -f -v &quot;$rom$&quot;</args>
-  <rompath>/home/kodi/AEL-ROMs/nec-pcenginecd/</rompath>
   <romext>cue</romext>
-  <path_assets>/home/kodi/AEL-assets/nec-pcenginecd/</path_assets>
+  <rompath>/home/kodi/AEL-ROMs/nec-pcecd/</rompath>
+  <path_assets>/home/kodi/AEL-assets/nec-pcecd/</path_assets>
 </launcher>
 </advanced_emulator_launcher_configuration>

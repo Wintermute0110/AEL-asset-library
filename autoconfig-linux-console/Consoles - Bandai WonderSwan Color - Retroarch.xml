@@ -7,7 +7,7 @@
   <platform>Bandai WonderSwan</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_wswan_libretro.so -f -v &quot;$rom$&quot;</args>
-  <romext>cue|iso</romext>
+  <romext>zip</romext>
   <rompath>/home/kodi/AEL-ROMs/con-wswancolor/</rompath>
   <path_assets>/home/kodi/AEL-assets/con-wswancolor/</path_assets>
 </launcher>
