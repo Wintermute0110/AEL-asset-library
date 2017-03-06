@@ -3,11 +3,12 @@
 <launcher>
   <category>SNK</category>
   <name>NeoGeo CD (MAME)</name>
+  <year>1994</year>
   <platform>SNK Neo Geo CD</platform>
-  <application>mame</application>
-  <args>neocd -cdrom &quot;$rom$&quot;</args>
-  <args_extra>neocdz -cdrom &quot;$rom$&quot;</args_extra>
-  <args_extra>neocdj -cdrom &quot;$rom$&quot;</args_extra>
+  <application>/usr/games/mame</application>
+  <args>neocdz -cdrom &quot;$rom$&quot;</args>
+  <args_extra>neocdzj -cdrom &quot;$rom$&quot;</args_extra>
+  <args_extra>neocd -cdrom &quot;$rom$&quot;</args_extra>
   <romext>cue|chd</romext>
   <rompath>/home/kodi/AEL-ROMs/snk-neocd/</rompath>
   <path_assets>/home/kodi/AEL-assets/snk-neocd/</path_assets>
