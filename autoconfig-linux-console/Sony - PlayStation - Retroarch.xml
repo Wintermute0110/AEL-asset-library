@@ -3,6 +3,7 @@
 <launcher>
   <category>SONY</category>
   <name>PlayStation (Retroarch)</name>
+  <year>1994</year>
   <platform>Sony PlayStation</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_psx_libretro.so -f -v &quot;$rom$&quot;</args>

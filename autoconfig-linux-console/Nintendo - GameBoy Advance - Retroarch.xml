@@ -3,6 +3,7 @@
 <launcher>
   <category>Nintendo</category>
   <name>GameBoy Advance (Retroarch)</name>
+  <year>2001</year>
   <platform>Nintendo GameBoy Advance</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/vbam_libretro.so -f -v &quot;$rom$&quot;</args>

@@ -3,6 +3,7 @@
 <launcher>
   <category>SEGA</category>
   <name>Game Gear (Retroarch)</name>
+  <year>1990</year>
   <platform>Sega Game Gear</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/genesis_plus_gx_libretro.so -f -v &quot;$rom$&quot;</args>

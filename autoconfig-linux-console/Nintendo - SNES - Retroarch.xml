@@ -3,6 +3,7 @@
 <launcher>
   <category>Nintendo</category>
   <name>SNES (Retroarch)</name>
+  <year>1990</year>
   <platform>Nintendo SNES</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/bsnes_balanced_libretro.so -f -v &quot;$rom$&quot;</args>

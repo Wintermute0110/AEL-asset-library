@@ -3,6 +3,7 @@
 <launcher>
   <category>Nintendo</category>
   <name>Pokemon Mini (Retroarch)</name>
+  <year>2001</year>
   <platform>Nintendo Pokemini</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/pokemini_libretro.so -f -v &quot;$rom$&quot;</args>

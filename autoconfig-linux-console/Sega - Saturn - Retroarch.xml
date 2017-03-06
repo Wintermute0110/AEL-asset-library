@@ -3,6 +3,7 @@
 <launcher>
   <category>SEGA</category>
   <name>Saturn (Retroarch)</name>
+  <year>1994</year>
   <platform>Sega Saturn</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_saturn_libretro.so -f -v &quot;$rom$&quot;</args>

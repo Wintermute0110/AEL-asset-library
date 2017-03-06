@@ -3,6 +3,7 @@
 <launcher>
   <category>Nintendo</category>
   <name>GameBoy Color (Retroarch)</name>
+  <year>1998</year>
   <platform>Nintendo GameBoy Color</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/gambatte_libretro.so -f -v &quot;$rom$&quot;</args>

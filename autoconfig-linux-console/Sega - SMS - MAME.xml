@@ -3,6 +3,7 @@
 <launcher>
   <category>SEGA</category>
   <name>SMS (MAME)</name>
+  <year>1985</year>
   <platform>Sega Master System/Mark III</platform>
   <application>/usr/games/mame</application>
   <args>sms -cart &quot;$rom$&quot;</args>

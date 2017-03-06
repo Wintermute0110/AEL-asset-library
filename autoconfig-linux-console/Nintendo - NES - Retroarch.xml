@@ -3,6 +3,7 @@
 <launcher>
   <category>Nintendo</category>
   <name>NES (Retroarch)</name>
+  <year>1983</year>
   <platform>Nintendo NES</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/fceumm_libretro.so -f -v &quot;$rom$&quot;</args>

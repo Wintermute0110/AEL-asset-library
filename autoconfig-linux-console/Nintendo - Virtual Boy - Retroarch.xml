@@ -3,6 +3,7 @@
 <launcher>
   <category>Nintendo</category>
   <name>Virtual Boy (Retroarch)</name>
+  <year>1995</year>
   <platform>Nintendo SNES</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_vb_libretro.so -f -v &quot;$rom$&quot;</args>

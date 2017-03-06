@@ -3,6 +3,7 @@
 <launcher>
   <category>SEGA</category>
   <name>PICO (Retroarch)</name>
+  <year>1993</year>
   <platform>Sega MegaDrive/Genesis</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/genesis_plus_gx_libretro.so -f -v &quot;$rom$&quot;</args>

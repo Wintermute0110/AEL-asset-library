@@ -3,6 +3,7 @@
 <launcher>
   <category>Nintendo</category>
   <name>Nintendo FDS (Retroarch)</name>
+  <year>1986</year>
   <platform>Nintendo Famicom Disk System</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/nestopia_libretro.so -f -v &quot;$rom$&quot;</args>

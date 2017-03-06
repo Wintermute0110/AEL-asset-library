@@ -3,6 +3,7 @@
 <launcher>
   <category>SEGA</category>
   <name>Dreamcast (Retroarch)</name>
+  <year>1998</year>
   <platform>Sega Dreamcast</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/reicast_libretro.so -f -v &quot;$rom$&quot;</args>

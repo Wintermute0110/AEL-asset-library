@@ -3,6 +3,7 @@
 <launcher>
   <category>SEGA</category>
   <name>32X (Retroarch)</name>
+  <year>1994</year>
   <platform>Sega 32X</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/picodrive_libretro.so -f -v &quot;$rom$&quot;</args>

@@ -3,6 +3,7 @@
 <launcher>
   <category>Nintendo</category>
   <name>Nintendo 64 DD (Retroarch)</name>
+  <year>1996</year>
   <platform>Nintendo 64</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mupen64plus_libretro.so -f -v &quot;$rom$&quot;</args>

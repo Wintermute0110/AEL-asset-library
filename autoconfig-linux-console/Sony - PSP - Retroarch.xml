@@ -3,6 +3,7 @@
 <launcher>
   <category>SONY</category>
   <name>PSP (Retroarch)</name>
+  <year>2004</year>
   <platform>Sony PlayStation Portable</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/ppsspp_libretro.so -f -v &quot;$rom$&quot;</args>

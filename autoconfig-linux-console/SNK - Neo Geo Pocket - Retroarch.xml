@@ -3,6 +3,7 @@
 <launcher>
   <category>SNK</category>
   <name>NeoGeo Pocket</name>
+  <year>1998</year>
   <platform>SNK Neo Geo Pocket</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_ngp_libretro.so -f -v &quot;$rom$&quot;</args>

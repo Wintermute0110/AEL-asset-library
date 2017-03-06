@@ -3,6 +3,7 @@
 <launcher>
   <category>SEGA</category>
   <name>Mega CD (Retroarch)</name>
+  <year>1991</year>
   <platform>Sega MegaCD</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/genesis_plus_gx_libretro.so -f -v &quot;$rom$&quot;</args>
