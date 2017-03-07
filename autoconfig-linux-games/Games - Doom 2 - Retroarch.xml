@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- Standalone launcher for Doom using Retroarch -->
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <category>Games</category>
+  <name>Doom 2(Retroarch)</name>
+  <year>1994</year>
+  <platform>Unknown</platform>
+  <application>/home/kodi/bin/retroarch</application>
+  <args>-L /home/kodi/bin/libretro/prboom_libretro.so -v -f /home/kodi/Games/doom/doom2.wad</args>
+</launcher>
+</advanced_emulator_launcher_configuration>
