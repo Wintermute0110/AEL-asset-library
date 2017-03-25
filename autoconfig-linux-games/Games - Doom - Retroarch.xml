@@ -4,7 +4,7 @@
 <launcher>
   <category>Games</category>
   <name>Doom (Retroarch)</name>
-  <year>1994</year>
+  <year>1993</year>
   <platform>Unknown</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/prboom_libretro.so -v -f /home/kodi/Games/doom/doom.wad</args>
