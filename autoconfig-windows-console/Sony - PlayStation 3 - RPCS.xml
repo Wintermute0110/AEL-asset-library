@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <category>SONY</category>
+  <name>PlayStation 3 (Retroarch)</name>
+  <year>2006</year>
+  <platform>Sony PlayStation 3</platform>
+  <application>D:\Emulators\rpcs3\rpcs3.exe</application>
+  <args>&quot;$rom$&quot;</args>
+  <romext>bin|BIN</romext>
+  <rompath>D:\ROMs\sony-ps3\</rompath>
+  <path_assets>D:\AEL-assets\sony-ps3\</path_assets>
+</launcher>
+</advanced_emulator_launcher_configuration>
