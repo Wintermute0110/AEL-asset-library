@@ -1,7 +1,17 @@
-#Advanced Emulator Launcher asset library#
+# Advanced Emulator Launcher asset library #
 
-This archive contains category and launcher NFOs to use with Avanced Emulator Launcher, to help
-you in the setup process of AEL.
+Advanced Emulator Launcher repository of metadata and assets containing:
+
+ * Category and launcher metadata in NFO format.
+ 
+ * Category metadata/artwork in XML format.
+ 
+ * Launcher (emulator) metadata/artwork in XML format for Linux, Windows and Android.
+
+More information, tutorials and screenshots about AEL can be found in 
+the [Advanced Emulator Launcher thread] in the Kodi forum.
+
+[Advanced Emulator Launcher thread]: https://forum.kodi.tv/showthread.php?tid=287826
 
 ## Image sizes ##
 
