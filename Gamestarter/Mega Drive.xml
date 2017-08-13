@@ -3,11 +3,11 @@
 <launcher>
   <name>Megadrive</name>
   <!--
-      If a category named 'SEGA' already exists this launcher will be added inside that category.
+      If a category named 'Gamestarter' already exists this launcher will be added inside that category.
       If the category does not exist it will be automatically created. Note that this created
       category will not have any metadata or assets.
     -->
-  <category>SEGA</category>
+  <category>Gamestarter</category>
   <year>1988</year>
   <genre>Fourth generation console</genre>
   <developer>SEGA</developer>
