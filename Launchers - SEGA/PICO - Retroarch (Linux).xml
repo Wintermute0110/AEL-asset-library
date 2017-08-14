@@ -4,12 +4,17 @@
   <category>SEGA</category>
   <name>PICO (Retroarch)</name>
   <year>1993</year>
-  <platform>Sega MegaDrive/Genesis</platform>
+  <genre>Fourth generation console</genre>
+  <developer>SEGA</developer>
+  <rating></rating>
+  <plot>The Sega Pico, also known as Kids Computer Pico, is an educational video game console by Sega. Marketed as "edutainment", the main focus of the Pico was educational video games for children between 3 and 7 years old. The Pico was released in June 1993 in Japan and November 1994 in North America and Europe, later reaching China. It was succeeded by the Advanced Pico Beena, which was released in Japan in 2005. Though the Pico was sold continuously in Japan through the release of the Beena, in North America and Europe the Pico was less successful and was discontinued in early 1998, later being rereleased by Majesco Entertainment. Releases for the Pico were focused on education for children and included titles supported by licensed franchised animated characters, including Disney and Sega's own Sonic the Hedgehog series. Overall, Sega claims sales of 3.4 million Pico consoles and 11.2 million game cartridges, and over 350,000 Beena consoles and 800,000 cartridges.</plot>
+  <platform>Sega PICO</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/genesis_plus_gx_libretro.so -f -v &quot;$rom$&quot;</args>
   <args_extra>-L /home/kodi/bin/libretro/picodrive_libretro.so -f -v &quot;$rom$&quot;</args_extra>
-  <romext>zip</romext>
-  <rompath>/home/kodi/AEL-ROMs/sega-pico/</rompath>
-  <path_assets>/home/kodi/AEL-assets/sega-pico</path_assets>
+  <asset_prefix>PICO</asset_prefix>
+  <ROM_path>/home/kodi/AEL-ROMs/sega-pico/</ROM_path>
+  <ROM_ext>zip</ROM_ext>
+  <ROM_asset_path>/home/kodi/AEL-assets/sega-pico</ROM_asset_path>
 </launcher>
 </advanced_emulator_launcher_configuration>
