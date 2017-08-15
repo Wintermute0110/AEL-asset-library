@@ -12,7 +12,7 @@ Designed by an R&amp;D team supervised by Hideki Sato and Masami Ishikawa, the h
   <platform>Sega MegaDrive</platform>
   <application>E:\Emulators\Fusion364\Fusion.exe</application>
   <args>&quot;$rom$&quot; -gen -auto -fullscreen</args>
-  <asset_prefix>Genesis</asset_prefix>
+  <asset_prefix>Mega Drive</asset_prefix>
   <ROM_path>E:\AEL-ROMs\sega-genesis\</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>E:\AEL-assets\sega-genesis\</ROM_asset_path>
