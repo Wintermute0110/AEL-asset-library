@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <category>Nintendo</category>
   <name>Virtual Boy (Retroarch)</name>
+  <category>Nintendo</category>
   <year>1995</year>
+  <genre>Fourth generation console</genre>
+  <developer>Nintendo</developer>
+  <rating></rating>
+  <plot>The Game Boy is an 8-bit handheld video game device developed and manufactured by Nintendo. It was released in Japan on April 21, 1989, in North America on July 31, 1989, and in Europe on September 28, 1990. It is the first handheld console in the Game Boy line, and was created by Gunpei Yokoi and Nintendo Research & Development 1 (the same staff who had designed the Game &amp; Watch series as well as several popular games for the Nintendo Entertainment System). Redesigned versions were released in 1996 and 1998, in the form of Game Boy Pocket, and Game Boy Light (Japan only), respectively.</plot>
   <platform>Nintendo SNES</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_vb_libretro.so -f -v &quot;$rom$&quot;</args>
-  <romext>zip</romext>
-  <rompath>/home/kodi/AEL-ROMs/nintendo-vb/</rompath>
-  <path_assets>/home/kodi/AEL-assets/nintendo-vb</path_assets>
+  <asset_prefix>Game Boy</asset_prefix>
+  <ROM_path>/home/kodi/AEL-ROMs/nintendo-vb/</ROM_path>
+  <ROM_ext>zip</ROM_ext>
+  <ROM_asset_path>/home/kodi/AEL-assets/nintendo-vb</ROM_asset_path>
 </launcher>
 </advanced_emulator_launcher_configuration>
