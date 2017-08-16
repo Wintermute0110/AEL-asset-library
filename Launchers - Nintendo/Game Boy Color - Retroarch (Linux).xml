@@ -2,14 +2,18 @@
 <advanced_emulator_launcher_configuration>
 <launcher>
   <category>Nintendo</category>
-  <name>GameBoy Color (Retroarch)</name>
+  <name>Game Boy Color (Retroarch)</name>
   <year>1998</year>
+  <genre>Fifth generation console</genre>
+  <developer>Nintendo</developer>
+  <rating></rating>
+  <plot>The Game Boy Color, referred to as GBC, is a handheld game console manufactured by Nintendo. It was released on October 21, 1998 in Japan and was released in November of the same year in international markets. It is the successor of the Game Boy. The Game Boy Color, as suggested by the name, features a color screen, but no backlight. It is slightly thicker and taller than the Game Boy Pocket, which is a redesigned Game Boy released in 1996. As with the original Game Boy, it has an 8-bit processor and the custom Zilog Z80 central processing unit (CPU). The original name (with its American English spelling of "color") remained unchanged even in markets where "colour" was the accepted English spelling.</plot>
   <platform>Nintendo GameBoy Color</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/gambatte_libretro.so -f -v &quot;$rom$&quot;</args>
-  <args_extra></args_extra>
-  <romext>zip</romext>
-  <rompath>/home/kodi/AEL-ROMs/nintendo-gbcolor/</rompath>
-  <path_assets>/home/kodi/AEL-assets/nintendo-gbcolor</path_assets>
+  <asset_prefix>Game Boy Color</asset_prefix>
+  <ROM_path>/home/kodi/AEL-ROMs/nintendo-gbcolor/</ROM_path>
+  <ROM_ext>zip</ROM_ext>
+  <ROM_asset_path>/home/kodi/AEL-assets/nintendo-gbcolor</ROM_asset_path>
 </launcher>
 </advanced_emulator_launcher_configuration>
