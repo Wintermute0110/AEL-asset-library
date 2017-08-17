@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <category>SONY</category>
   <name>PlayStation (Retroarch)</name>
+  <category>SONY</category>
   <year>1994</year>
+  <genre>Fifth generation console</genre>
+  <developer>SONY</developer>
+  <rating></rating>
+  <plot>The PlayStation (officially abbreviated as PS, and commonly known as the PS1 or PSX) is a home video game console developed and marketed by Sony Computer Entertainment. The console was released on 3 December 1994 in Japan, 9 September 1995 in North America, 29 September 1995 in Europe, 15 November 1995 in Australia, and for Korea in 1996. The console was the first of the PlayStation lineup of home video game consoles. It primarily competed with the Nintendo 64 and the Sega Saturn as part of the fifth generation of video game consoles.</plot>
   <platform>Sony PlayStation</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_psx_libretro.so -f -v &quot;$rom$&quot;</args>
-  <romext>cue|m3u</romext>
-  <rompath>/home/kodi/AEL-ROMs/sony-psx/</rompath>
-  <path_assets>/home/kodi/AEL-assets/sony-psx</path_assets>
+  <asset_prefix>PlayStation</asset_prefix>
+  <ROM_path>/home/kodi/AEL-ROMs/sony-psx/</ROM_path>
+  <ROM_ext>cue|m3u</ROM_ext>
+  <ROM_asset_path>/home/kodi/AEL-assets/sony-psx</ROM_asset_path>
 </launcher>
 </advanced_emulator_launcher_configuration>
