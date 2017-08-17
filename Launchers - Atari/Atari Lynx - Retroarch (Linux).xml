@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <category>Atari</category>
   <name>Atari Lynx (Retroarch)</name>
+  <category>Atari</category>
   <year>1989</year>
+  <genre>XXXX generation console</genre>
+  <developer>YYYY</developer>
+  <rating></rating>
+  <plot>Test plot</plot>
   <platform>Atari Lynx</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_lynx_libretro.so -f -v &quot;$rom$&quot;</args>
   <args_extra>-L /home/kodi/bin/libretro/handy_libretro.so -f -v &quot;$rom$&quot;</args_extra>
-  <romext>zip</romext>
-  <rompath>/home/kodi/AEL-ROMs/atari-lynx/</rompath>
-  <path_assets>/home/kodi/AEL-assets/atari-lynx/</path_assets>
+  <asset_prefix>Atari Lynx</asset_prefix>
+  <ROM_path>/home/kodi/AEL-ROMs/atari-lynx/</ROM_path>
+  <ROM_ext>zip</ROM_ext>
+  <ROM_asset_path>/home/kodi/AEL-assets/atari-lynx/</ROM_asset_path>
 </launcher>
 </advanced_emulator_launcher_configuration>

@@ -8,8 +8,9 @@
   <args>start --user 0 -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -e ROM "%rom%" -e LIBRETRO /data/data/com.retroarch/cores/genesis_plus_gx_libretro_android.so -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg -e IME com.android.inputmethod.latin/.LatinIME -e REFRESH 60 -n com.retroarch/.browser.retroactivity.RetroActivityFuture</args>
   <args_extra>start --user 0 -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -e ROM "%rom%" -e LIBRETRO /data/data/com.retroarch/cores/picodrive_libretro.so -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg -e IME com.android.inputmethod.latin/.LatinIME -e REFRESH 60 -n com.retroarch/.browser.retroactivity.RetroActivityFuture</args_extra>
   <args_extra>start --user 0 -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -e ROM "%rom%" -e LIBRETRO /data/data/com.retroarch/cores/blastem_libretro.so -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg -e IME com.android.inputmethod.latin/.LatinIME -e REFRESH 60 -n com.retroarch/.browser.retroactivity.RetroActivityFuture</args_extra>
-  <romext>zip|md</romext>
-  <rompath>/sdcard/roms/games/genesis</rompath>
-  <path_assets>/sdcard/roms/assets/genesis</path_assets>
+  <asset_prefix>32X</asset_prefix>
+  <ROM_path>/sdcard/roms/games/genesis</ROM_path>
+  <ROM_ext>zip|md</ROM_ext>
+  <ROM_asset_path>/sdcard/roms/assets/genesis</ROM_asset_path>
 </launcher>
 </advanced_emulator_launcher_configuration>
