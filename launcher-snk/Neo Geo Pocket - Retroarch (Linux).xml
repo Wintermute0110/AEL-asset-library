@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
+  <name>Neo Geo Pocket (Retroarch)</name>
   <category>SNK</category>
-  <name>NeoGeo Pocket</name>
   <year>1998</year>
+  <genre>Fifth generation console</genre>
+  <developer>SNK</developer>
+  <rating></rating>
+  <plot>The Neo Geo Pocket is a monochrome handheld video game console released by SNK. It was the company's first handheld system and is part of the Neo Geo family. It debuted in Japan in late 1998, however never saw a western release, being exclusive to Japan and smaller Asian markets such as Hong Kong. The Neo Geo Pocket is considered to be an unsuccessful console. It was immediately succeeded by the Neo Geo Pocket Color, a full color device allowing the system to compete more easily with the dominant Game Boy Color handheld, and which also saw a western release. Though the system enjoyed only a short life, there were some significant games released on the system such as Samurai Shodown, and King of Fighters R-1.</plot>
   <platform>SNK Neo Geo Pocket</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_ngp_libretro.so -f -v &quot;$rom$&quot;</args>
-  <romext>zip</romext>
-  <rompath>/home/kodi/AEL-ROMs/snk-ngp/</rompath>
-  <path_assets>/home/kodi/AEL-assets/snk-ngp/</path_assets>
+  <asset_prefix>Neo Geo Pocket</asset_prefix>
+  <ROM_path>/home/kodi/AEL-ROMs/snk-ngp/</ROM_path>
+  <ROM_ext>zip</ROM_ext>
+  <ROM_asset_path>/home/kodi/AEL-assets/snk-ngp/</ROM_asset_path>
 </launcher>
 </advanced_emulator_launcher_configuration>

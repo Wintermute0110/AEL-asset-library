@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
+  <name>Neo Geo CD (MAME)</name>
   <category>SNK</category>
-  <name>NeoGeo CD (MAME)</name>
   <year>1994</year>
+  <genre>Fourth generation console</genre>
+  <developer>SNK</developer>
+  <rating></rating>
+  <plot>Neo Geo CD is the second home video game console of SNK Corporation's Neo Geo family, released in September 1994, four years after its cartridge-based equivalent. This is the same platform, converted to the cheaper CD format retailing at $49 to $79 per title, compared to the $300 cartridges. The system was originally priced at US$399, or £399 in the UK. The unit's 1X CD-ROM drive is slow, with very long loading times of up to 56 Mbit of data per load. The system can also play Audio CDs. All three versions of the system have no region-lock. The Neo Geo CD was launched bundled with a control pad instead of a joystick like the AES version. However, the original AES joystick can be used with all three Neo Geo CD models. As of March 1997, the Neo Geo CD had sold 570,000 units worldwide.</plot>
   <platform>SNK Neo Geo CD</platform>
   <application>/usr/games/mame</application>
   <args>neocdz -cdrom &quot;$rom$&quot;</args>
   <args_extra>neocdzj -cdrom &quot;$rom$&quot;</args_extra>
   <args_extra>neocd -cdrom &quot;$rom$&quot;</args_extra>
-  <romext>cue|chd</romext>
-  <rompath>/home/kodi/AEL-ROMs/snk-neocd/</rompath>
-  <path_assets>/home/kodi/AEL-assets/snk-neocd/</path_assets>
+  <asset_prefix>Neo Geo CD</asset_prefix>
+  <ROM_path>/home/kodi/AEL-ROMs/snk-neocd/</ROM_path>
+  <ROM_ext>cue|chd</ROM_ext>
+  <ROM_asset_path>/home/kodi/AEL-assets/snk-neocd/</ROM_asset_path>
 </launcher>
 </advanced_emulator_launcher_configuration>
