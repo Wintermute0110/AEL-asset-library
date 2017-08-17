@@ -4,14 +4,14 @@
   <category>Atari</category>
   <name>Atari Jaguar (Retroarch)</name>
   <year>1993</year>
-  <genre>XXXX generation console</genre>
-  <developer>YYYY</developer>
+  <genre>Fifth generation console</genre>
+  <developer>Atari</developer>
   <rating></rating>
-  <plot>Test plot</plot>
+  <plot>The Atari Jaguar is a home video game console that was developed by Atari Corporation. The console was the sixth and last programmable console to be developed under the Atari brand, originally released in North America in November 1993. Marketed by Atari as the first 64-bit video game console, the Jaguar was designed to compete with the existing 16-bit consoles (Sega Genesis and Super Nintendo Entertainment System) and the 32-bit 3DO Interactive Multiplayer platform (which launched the same year). Development on the Atari Jaguar started in the early 90s, and was designed by Flare Technology, who were tasked by Atari to create two consoles; the Atari Panther, which would compete with the Genesis and the Super NES, and a successor, the Jaguar, which would surpass the capabilities of any other console on the market at the time. With development of the Jaguar running ahead of schedule, the Panther was cancelled, and the release of the Jaguar was pushed forward. It was originally released to test markets in New York City and San Francisco in November 1993, and to the general public in 1994, with Cybermorph as the pack-in launch game.</plot>
   <platform>Atari Jaguar</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/virtualjaguar_libretro.so -f -v &quot;$rom$&quot;</args>
-  <asset_prefix>32X</asset_prefix>
+  <asset_prefix>Atari Jaguar</asset_prefix>
   <ROM_path>/home/kodi/AEL-ROMs/atari-jaguar/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/atari-jaguar/</ROM_asset_path>
