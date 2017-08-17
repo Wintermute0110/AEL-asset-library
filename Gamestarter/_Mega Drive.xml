@@ -7,7 +7,7 @@
       If the category does not exist it will be automatically created. Note that this created
       category will not have any metadata or assets.
     -->
-  <category>Gamestarter</category>
+  <category>GAMESTARTER</category>
   <year>1988</year>
   <genre>Fourth generation console</genre>
   <developer>SEGA</developer>
@@ -56,6 +56,6 @@ Designed by an R&amp;D team supervised by Hideki Sato and Masami Ishikawa, the h
       user will get a warning and ROM asset paths will not be set. This is a security measure
       to prevent creating lots of directories in the wrong places.
     -->
-  <ROM_asset_path>/storage/.kodi/userdata/addon_data/plugin.program.advanced.emulator.launcher/artworks/megadrive/</ROM_asset_path>
+  <ROM_asset_path>/storage/emulators/ael-assets/megadrive/</ROM_asset_path>
 </launcher>
 </advanced_emulator_launcher_configuration>

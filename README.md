@@ -53,4 +53,4 @@ an issue in Github.
 [RazorFR]: http://forum.kodi.tv/showthread.php?tid=273663
 [Advanced Launcher console thumbnails]: http://forum.kodi.tv/showthread.php?tid=106921
 [Sega Retro]: https://segaretro.org/
-[Tronkyfran EmulationStation theme]: https://github.com/HerbFargus/es-theme-tronkyfran
+[Gamestarter theme by Tronkyfran]: https://retropie.org.uk/forum/user/tronkyfran
