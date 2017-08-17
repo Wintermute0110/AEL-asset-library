@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
+  <name>SuperGrafx (Retroarch)</name>
   <category>NEC</category>
-  <name>PC Engine SuperGrafx (Retroarch)</name>
   <year>1989</year>
-  <platform>NEC PC Engine/TurboGrafx 16</platform>
+  <genre>Fourth generation console</genre>
+  <developer>NEC</developer>
+  <rating></rating>
+  <plot>The PC Engine SuperGrafx, also shortened as the SuperGrafx or PC Engine SG, is a video game console by NEC. It is an upgraded version of the PC Engine, released exclusively in Japan. Originally announced as the PC Engine 2, the machine was purported to be a true 16-bit system with improved graphics and audio capabilities over the original PC Engine. Expected to be released in 1990, the SuperGrafx was rushed to market, debuting several months earlier in late 1989 with only modest improvements over the original PC Engine. Only seven games were produced which took advantage of the improved SuperGrafx hardware, and two of those could be played on a regular PC Engine. However, the SuperGrafx is backwards compatible with all PC Engine software in both, HuCard and CD-ROM2 format, bringing the compatible software total up to nearly 700. The system was not widely adopted and is largely seen as a commercial failure.</plot>
+  <platform>NEC PC Engine</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_supegrafx_libretro.so -f -v &quot;$rom$&quot;</args>
-  <romext>zip</romext>
-  <rompath>/home/kodi/AEL-ROMs/nec-sgx/</rompath>
-  <path_assets>/home/kodi/AEL-assets/nec-sgx/</path_assets>
+  <asset_prefix>SuperGrafx</asset_prefix>
+  <ROM_path>/home/kodi/AEL-ROMs/nec-sgx/</ROM_path>
+  <ROM_ext>zip</ROM_ext>
+  <ROM_asset_path>/home/kodi/AEL-assets/nec-sgx/</ROM_asset_path>
 </launcher>
 </advanced_emulator_launcher_configuration>

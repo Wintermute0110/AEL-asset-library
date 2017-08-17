@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <category>NEC</category>
   <name>PC Engine CD-ROM2 (Retroarch)</name>
+  <category>NEC</category>
   <year>1988</year>
+  <genre>Fourth generation console</genre>
+  <developer>NEC</developer>
+  <rating></rating>
+  <plot>The TurboGrafx-16 was the first video game console to have a CD-ROM peripheral, and first device ever to use CD-ROM as a storage medium for video games. NEC released the CD-ROM2 in Japan on December 4, 1988, and released the TurboGrafx-CD in the United States on August 1, 1990. The TurboGrafx-CD had a launch price of $399.99, and did not include any bundled games. Fighting Street and Monster Lair were the TurboGrafx-CD launch titles; Ys Book I &amp; II soon followed.</plot>
   <platform>NEC PC Engine/TurboGrafx 16</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_pce_fast_libretro.so -f -v &quot;$rom$&quot;</args>
-  <romext>cue</romext>
-  <rompath>/home/kodi/AEL-ROMs/nec-pcecd/</rompath>
-  <path_assets>/home/kodi/AEL-assets/nec-pcecd/</path_assets>
+  <asset_prefix>PC Engine CD-ROM2</asset_prefix>
+  <ROM_path>/home/kodi/AEL-ROMs/nec-pcecd/</ROM_path>
+  <ROM_ext>cue</ROM_ext>
+  <ROM_asset_path>/home/kodi/AEL-assets/nec-pcecd/</ROM_asset_path>
 </launcher>
 </advanced_emulator_launcher_configuration>
