@@ -2,18 +2,69 @@
 <advanced_emulator_launcher_configuration>
 <launcher>
   <name>PlayStation (Retroarch)</name>
+  <!--
+      If a category named 'SONY' already exists this launcher will be added inside that category.
+      If the category does not exist it will be automatically created. Note that this created
+      category will not have any metadata or assets.
+      Use 'root_category' or leave the <category> tag blank to place the launcher in the addon root.
+    -->
   <category>SONY</category>
   <year>1994</year>
   <genre>Fifth generation console</genre>
   <developer>SONY</developer>
   <rating></rating>
-  <plot>The PlayStation (officially abbreviated as PS, and commonly known as the PS1 or PSX) is a home video game console developed and marketed by Sony Computer Entertainment. The console was released on 3 December 1994 in Japan, 9 September 1995 in North America, 29 September 1995 in Europe, 15 November 1995 in Australia, and for Korea in 1996. The console was the first of the PlayStation lineup of home video game consoles. It primarily competed with the Nintendo 64 and the Sega Saturn as part of the fifth generation of video game consoles.</plot>
+  <plot>The PlayStation is a home video game console released on 3 December 1994.</plot>
+  <!--
+      If platform is not in AEL official platform names it will set automatically to Unknown (after
+      warning the user about this).
+      Here is a list of AEL official platform names:
+      https://github.com/Wintermute0110/plugin.program.advanced.emulator.launcher/blob/master/resources/platforms.py#L26
+    -->
   <platform>Sony PlayStation</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_psx_libretro.so -f -v &quot;$rom$&quot;</args>
-  <asset_prefix>PlayStation</asset_prefix>
+  <!--
+      <args_extra> can be used as many times as necessary. Al launching time, AEL will show
+      a select dialog and the user can choose the arguments to launch the ROM from the list.
+      For example, this is useful to select the Retroarch core or the MAME machine name.
+      Note that if <args_extra> is not used and there is only one set of arguments defined by
+      <args> there won't be any select dialog.
+  -->
+  <args_extra>-L /home/kodi/bin/libretro/pcsx_rearmed_libretro.so -f -v &quot;$rom$&quot;</args_extra>
+  <!--
+      If <ROM_path> does not exists a YES/NO dialog shows up to tell if the directory should be
+      created or not.
+    -->
   <ROM_path>/home/kodi/AEL-ROMs/sony-psx/</ROM_path>
   <ROM_ext>cue|m3u</ROM_ext>
+  <!--
+      If <ROM_asset_path> does not exists a YES/NO dialog shows up to tell if the directory should be
+      created or not. Note that if <ROM_asset_path> does not exists or could not be created then
+      the ROM artwork paths will be left unconfigured.
+    -->
   <ROM_asset_path>/home/kodi/AEL-assets/sony-psx</ROM_asset_path>
+  <!--
+      This tag configures the assets of the launcher itself. Image files must be on the same
+      directory as this XML configuration file. AEL will search for graphic files having the 
+      following names:
+          a) <Asset_Prefix>_[icon|fanart|banner|poster|clearlogo|controller].[png|jpg|gif]
+          b) <Asset_Prefix>_[icon|fanart|banner|poster|clearlogo|controller]_NN.[png|jpg|gif]
+
+      If several images are present then AEL will show a dialog and user chooses which image to
+      import. For example: 'PlayStation_icon_1.jpg' and 'PlayStation_icon_2.jpg'.
+
+      Image files may have an optinal comment at the end of the filename. For example:
+          a) 'PlayStation_fanart_Artist_Name.jpg'
+          b) 'PlayStation_fanart_1_Artist Name.jpg'
+          c) 'PlayStation_fanart_01_Artist Name.jpg'
+    -->
+  <Asset_Prefix>PlayStation</Asset_Prefix>
+  <s_icon />
+  <s_fanart />
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
 </launcher>
 </advanced_emulator_launcher_configuration>

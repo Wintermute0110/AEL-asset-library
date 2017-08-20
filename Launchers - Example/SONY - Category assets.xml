@@ -4,7 +4,28 @@
   <name>SONY</name>
   <genre>Company</genre>
   <rating></rating>
-  <plot>Sony Corporation, commonly referred to as Sony, styled SONY /ˈsoʊniː/, is a Japanese multinational conglomerate corporation headquartered in Kōnan Minato, Tokyo, Japan. Its diversified business includes consumer and professional electronics, gaming, entertainment and financial services. The company is one of the leading manufacturers of electronic products for the consumer and professional markets. Sony is ranked 116th on the 2015 list of Fortune Global 500.&#10;Sony Corporation is the electronics business unit and the parent company of the Sony Group, which is engaged in business through its four operating segments: electronics (including video games, network services and medical business), motion pictures, music and financial services. These make Sony one of the most comprehensive entertainment companies in the world. Sony's principal business operations include Sony Corporation (Sony Electronics in the U.S.), Sony Pictures Entertainment, Sony Interactive Entertainment, Sony Music Entertainment, Sony Mobile Communications (formerly Sony Ericsson) and Sony Financial. Sony is among the Worldwide Top 20 Semiconductor Sales Leaders and as of 2013, the fourth-largest television manufacturer in the world, after Samsung Electronics, LG Electronics and TCL.</plot>
-  <asset_prefix>SONY</asset_prefix>
+  <plot>Sony Corporation, commonly referred to as Sony, styled SONY, is a Japanese multinational conglomerate corporation.</plot>
+  <!--
+      This tag configures the assets of the launcher itself. Image files must be on the same
+      directory as this XML configuration file. AEL will search for graphic files having the 
+      following names:
+          a) <Asset_Prefix>_[icon|fanart|banner|poster|clearlogo].[png|jpg|gif]
+          b) <Asset_Prefix>_[icon|fanart|banner|poster|clearlogo]_NN.[png|jpg|gif]
+
+      If several images are present then AEL will show a dialog and user chooses which image to
+      import. For example: 'SONY_icon_1.jpg' and 'PlayStation_icon_2.jpg'.
+
+      Image files may have an optinal comment at the end of the filename. For example:
+          a) 'SONY_fanart_Artist_Name.jpg'
+          b) 'SONY_fanart_1_Artist Name.jpg'
+          c) 'SONY_fanart_01_Artist Name.jpg'
+    -->
+  <Asset_Prefix>SONY</Asset_Prefix>
+  <s_icon />
+  <s_fanart />
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_trailer />
 </category>
 </advanced_emulator_launcher_configuration>
