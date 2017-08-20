@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <name>Commodore 64 (MAME)</name>
+  <category>Computers</category>
+  <year />
+  <genre />
+  <developer />
+  <rating />
+  <plot />
+  <platform>Commodore 64</platform>
+  <application>/usr/games/bin/mame</application>
+  <args>&quot;$rom$&quot;</args>
+  <ROM_path>/home/kodi/AEL-ROMs/com-c64/</ROM_path>
+  <ROM_ext>zip</ROM_ext>
+  <ROM_asset_path>/home/kodi/AEL-assets/com-c64/</ROM_asset_path>
+  <Asset_Prefix>Commodore 64</Asset_Prefix>
+</launcher>
+</advanced_emulator_launcher_configuration>

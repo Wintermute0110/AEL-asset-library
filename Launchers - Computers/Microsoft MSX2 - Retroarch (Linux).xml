@@ -3,18 +3,18 @@
 <launcher>
   <name>Microsoft MSX2 (Retroarch)</name>
   <category>Computers</category>
-  <year>1985</year>
-  <genre>XXXX generation console</genre>
-  <developer>YYYY</developer>
-  <rating></rating>
-  <plot>Test plot</plot>
-  <platform>Microsoft MSX2</platform>
+  <year />
+  <genre />
+  <developer />
+  <rating />
+  <plot />
+  <platform>Microsoft MSX 2</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/bluemsx_libretro.so -f -v &quot;$rom$&quot;</args>
   <args_extra>-L /home/kodi/bin/libretro/fmsx_libretro.so -f -v &quot;$rom$&quot;</args_extra>
-  <asset_prefix>32X</asset_prefix>
   <ROM_path>/home/kodi/AEL-ROMs/com-msx2/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/com-msx2/</ROM_asset_path>
+  <Asset_Prefix>Microsoft MSX2</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

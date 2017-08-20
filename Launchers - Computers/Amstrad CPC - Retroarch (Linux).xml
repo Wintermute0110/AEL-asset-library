@@ -3,17 +3,17 @@
 <launcher>
   <name>Amstrad CPC (Retroarch)</name>
   <category>Computers</category>
-  <year>1984</year>
-  <genre>XXXX generation console</genre>
-  <developer>YYYY</developer>
-  <rating></rating>
-  <plot>Test plot</plot>
+  <year />
+  <genre />
+  <developer />
+  <rating />
+  <plot />
   <platform>Amstrad CPC</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/cap32_libretro.so -f -v &quot;$rom$&quot;</args>
-  <asset_prefix>32X</asset_prefix>
   <ROM_path>/home/kodi/AEL-ROMs/com-amstrad-cpc/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/com-amstrad-cpc/</ROM_asset_path>
+  <Asset_Prefix>Amstrad CPC</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>
