@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <category>Arcade</category>
-  <name>MAME Capcom Play System</name>
+  <name>Capcom Play System (MAME)</name>
+  <category>Arcade (MAME)</category>
   <platform>MAME</platform>
   <application>/usr/games/mame</application>
   <args>&quot;$rom$&quot;</args>
-  <romext>zip|7z</romext>
-  <rompath>/home/kodi/AEL-ROMs/mame-cps/</rompath>
-  <path_assets>/home/kodi/AEL-assets/mame-cps/</path_assets>
+  <ROM_path>/home/kodi/AEL-ROMs/mame-cps/</ROM_path>
+  <ROM_ext>zip|7z</ROM_ext>
+  <ROM_asset_path>/home/kodi/AEL-assets/mame-cps/</ROM_asset_path>
+  <Asset_Prefix>Capcom Play System</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>
