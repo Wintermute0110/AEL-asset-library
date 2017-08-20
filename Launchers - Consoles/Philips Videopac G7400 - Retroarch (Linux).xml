@@ -3,11 +3,11 @@
 <launcher>
   <name>Philips Videopac+ G7400 (Retroarch)</name>
   <category>Consoles</category>
-  <year />
-  <genre />
-  <developer />
+  <year>1983</year>
+  <genre>Third generation console</genre>
+  <developer>Philips</developer>
   <rating />
-  <plot />
+  <plot>The Philips Videopac+ G7400 is a video game console released in limited quantities in 1983, and only in Europe; an American release as the Odyssey3 Command Center was planned but never occurred. The G7400 was the successor to the Philips Videopac G7000, the European counterpart to the American Magnavox Odyssey2. The system featured excellently tailored background and foreground graphics. The G7400 could play three types of games: all normal G7000 games, special G7000 games with additional high-res background graphics that would appear only when played on the G7400, and G7400-only games with high-res sprites and backgrounds.</plot>
   <platform>Philips Videopac+ G7400</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/o2em_libretro.so -f -v &quot;$rom$&quot;</args>
