@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>3DO (Retroarch)</name>
+  <name>Amiga CD32 (MAME)</name>
   <category>Consoles</category>
   <year>1993</year>
   <genre>XXXX generation console</genre>
-  <developer>The 3DO Company</developer>
+  <developer>Commodore</developer>
   <rating></rating>
   <plot>Test plot</plot>
-  <platform>3DO</platform>
+  <platform>Commodore Amiga CD32</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/4do_libretro.so -f -v &quot;$rom$&quot;</args>
-  <ROM_path>/home/kodi/AEL-ROMs/con-3do/</ROM_path>
+  <ROM_path>/home/kodi/AEL-ROMs/con-cd32/</ROM_path>
   <ROM_ext>iso</ROM_ext>
-  <ROM_asset_path>/home/kodi/AEL-assets/con-3do/</ROM_asset_path>
-  <Asset_Prefix>3DO</Asset_Prefix>
+  <ROM_asset_path>/home/kodi/AEL-assets/con-cd32/</ROM_asset_path>
+  <Asset_Prefix>Amiga CD32</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

@@ -4,17 +4,17 @@
   <name>Colecovision (MAME)</name>
   <category>Consoles</category>
   <year>1982</year>
-  <genre>XXXX generation console</genre>
-  <developer>YYYY</developer>
+  <genre>Second generation console</genre>
+  <developer>Coleco Industries, Inc.</developer>
   <rating></rating>
-  <plot>Test plot</plot>
+  <plot>The ColecoVision is Coleco Industries' second-generation home video-game console which was released in August 1982. The ColecoVision offered a closer experience to more powerful arcade game systems compared to competitors such as the Atari 2600, along with the means to expand the system's basic hardware.</plot>
   <platform>Colecovision</platform>
   <application>/usr/games/mame</application>
   <args>coleco -cart &quot;$rom$&quot;</args>
   <args_extra>colecop -cart &quot;$rom$&quot;</args_extra>
-  <asset_prefix>32X</asset_prefix>
   <ROM_path>/home/kodi/AEL-ROMs/con-coleco/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/con-coleco/</ROM_asset_path>
+  <Asset_Prefix>ColecoVision</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

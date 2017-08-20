@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>Philips Videopac+ (Retroarch)</name>
+  <name>Philips Videopac+ G7400 (Retroarch)</name>
   <category>Consoles</category>
-  <year>1983</year>
-  <genre>XXXX generation console</genre>
-  <developer>YYYY</developer>
-  <rating></rating>
-  <plot>Test plot</plot>
-  <platform>Magnavox Odyssey2</platform>
+  <year />
+  <genre />
+  <developer />
+  <rating />
+  <plot />
+  <platform>Philips Videopac+ G7400</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/o2em_libretro.so -f -v &quot;$rom$&quot;</args>
-  <asset_prefix>32X</asset_prefix>
-  <ROM_path>/home/kodi/AEL-ROMs/con-videopac/</ROM_path>
+  <ROM_path>/home/kodi/AEL-ROMs/con-g7400/</ROM_path>
   <ROM_ext>zip</ROM_ext>
-  <ROM_asset_path>/home/kodi/AEL-assets/con-videopac/</ROM_asset_path>
+  <ROM_asset_path>/home/kodi/AEL-assets/con-g7400/</ROM_asset_path>
+  <Asset_Prefix>Philips Videopac G7400</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <name>Vectrex (Retroarch)</name>
+  <category>Consoles</category>
+  <year />
+  <genre />
+  <developer />
+  <rating />
+  <plot />
+  <platform>Vectrex</platform>
+  <application>/home/kodi/bin/retroarch</application>
+  <args>-L /home/kodi/bin/libretro/vecx_libretro.so -f -v &quot;$rom$&quot;</args>
+  <ROM_path>/home/kodi/AEL-ROMs/con-vectrex/</ROM_path>
+  <ROM_ext>zip</ROM_ext>
+  <ROM_asset_path>/home/kodi/AEL-assets/con-vectrex/</ROM_asset_path>
+  <Asset_Prefix>Vectrex</Asset_Prefix>
+</launcher>
+</advanced_emulator_launcher_configuration>
