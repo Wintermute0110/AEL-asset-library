@@ -5,6 +5,6 @@
   <genre>Company</genre>
   <rating></rating>
   <plot>Atari is a corporate and brand name owned by several entities since its inception in 1972, currently by Atari Interactive, a subsidiary of the French publisher Atari, SA (ASA). The original Atari, Inc. founded in 1972 by Nolan Bushnell and Ted Dabney was a pioneer in arcade games, home video game consoles, and home computers. The company's products, such as Pong and the Atari 2600, helped define the electronic entertainment industry from the 1970s to the mid-1980s.&#10;In 1984, the original Atari Inc. was split due to its role in the video game crash of 1983, and the arcade division was turned into Atari Games Inc. Atari Games received the rights to use the logo and brand name with appended text "Games" on arcade games, as well as rights to the original 1972-1984 arcade hardware properties. The Atari Consumer Electronics Division properties were in turn sold to Jack Tramiel's Tramel Technology Ltd., which then renamed itself to Atari Corporation. In 1996, Atari Corporation reverse-merged with disk-drive manufacturer JT Storage (JTS), becoming a division within the company.</plot>
-  <asset_prefix>Atari</asset_prefix>
+  <Asset_Prefix>Atari</Asset_Prefix>
 </category>
 </advanced_emulator_launcher_configuration>

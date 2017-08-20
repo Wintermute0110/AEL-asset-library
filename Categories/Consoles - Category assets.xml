@@ -5,6 +5,6 @@
   <genre>Miscellaneous</genre>
   <rating></rating>
   <plot>Several mescellaneous consoles of less well known brands.</plot>
-  <asset_prefix>Consoles</asset_prefix>
+  <Asset_Prefix>Consoles</Asset_Prefix>
 </category>
 </advanced_emulator_launcher_configuration>
