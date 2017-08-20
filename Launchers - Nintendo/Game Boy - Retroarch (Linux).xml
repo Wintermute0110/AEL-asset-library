@@ -11,9 +11,9 @@
   <platform>Nintendo GameBoy</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/gambatte_libretro.so -f -v &quot;$rom$&quot;</args>
-  <asset_prefix>Game Boy</asset_prefix>
   <ROM_path>/home/kodi/AEL-ROMs/nintendo-gb/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/nintendo-gb</ROM_asset_path>
+  <Asset_Prefix>Game Boy</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

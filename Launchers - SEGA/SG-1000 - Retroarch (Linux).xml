@@ -12,9 +12,9 @@
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/genesis_plus_gx_libretro.so -f -v &quot;$rom$&quot;</args>
   <args_extra>-L /home/kodi/bin/libretro/bluemsx_libretro.so -f -v &quot;$rom$&quot;</args_extra>
-  <asset_prefix>SG-1000</asset_prefix>
   <ROM_path>/home/kodi/AEL-ROMs/sega-sg1000/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/sega-sg1000</ROM_asset_path>
+  <Asset_Prefix>SG-1000</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

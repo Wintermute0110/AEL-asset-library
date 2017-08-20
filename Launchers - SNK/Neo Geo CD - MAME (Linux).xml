@@ -13,9 +13,9 @@
   <args>neocdz -cdrom &quot;$rom$&quot;</args>
   <args_extra>neocdzj -cdrom &quot;$rom$&quot;</args_extra>
   <args_extra>neocd -cdrom &quot;$rom$&quot;</args_extra>
-  <asset_prefix>Neo Geo CD</asset_prefix>
   <ROM_path>/home/kodi/AEL-ROMs/snk-neocd/</ROM_path>
   <ROM_ext>cue|chd</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/snk-neocd/</ROM_asset_path>
+  <Asset_Prefix>Neo Geo CD</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

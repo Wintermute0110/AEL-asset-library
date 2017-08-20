@@ -13,9 +13,9 @@
   <args>sms -cart &quot;$rom$&quot;</args>
   <args_extra>smspal -cart &quot;$rom$&quot;</args_extra>
   <args_extra>smsj -cart &quot;$rom$&quot;</args_extra>
-  <asset_prefix>Master System</asset_prefix>
   <ROM_path>/home/kodi/AEL-ROMs/sega-sms/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/sega-sms</ROM_asset_path>
+  <Asset_Prefix>Master System</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

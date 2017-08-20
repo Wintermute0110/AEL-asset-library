@@ -11,9 +11,9 @@
   <platform>Atari Jaguar</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/virtualjaguar_libretro.so -f -v &quot;$rom$&quot;</args>
-  <asset_prefix>Atari Jaguar</asset_prefix>
   <ROM_path>/home/kodi/AEL-ROMs/atari-jaguar/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/atari-jaguar/</ROM_asset_path>
+  <Asset_Prefix>Atari Jaguar</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

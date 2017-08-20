@@ -11,9 +11,9 @@
   <platform>Nintendo Virtual Boy</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_vb_libretro.so -f -v &quot;$rom$&quot;</args>
-  <asset_prefix>Virtual Boy</asset_prefix>
   <ROM_path>/home/kodi/AEL-ROMs/nintendo-vb/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/nintendo-vb</ROM_asset_path>
+  <Asset_Prefix>Virtual Boy</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

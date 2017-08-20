@@ -12,9 +12,9 @@ Unveiled by Sega at June 1994's Consumer Electronics Show, the 32X was presented
   <platform>Sega 32X</platform>
   <application>E:\Emulators\Fusion364\Fusion.exe</application>
   <args>&quot;$rom$&quot; -32x -auto -fullscreen</args>
-  <asset_prefix>32X</asset_prefix>
   <ROM_path>E:\AEL-ROMs\sega-32x\</ROM_path>
   <ROM_ext>32x|zip</ROM_ext>
   <ROM_asset_path>E:\AEL-assets\sega-32x\</ROM_asset_path>
+  <Asset_Prefix>32X</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

@@ -12,9 +12,9 @@
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/fceumm_libretro.so -f -v &quot;$rom$&quot;</args>
   <args_extra>-L /home/kodi/bin/libretro/nestopia_libretro.so -f -v &quot;$rom$&quot;</args_extra>
-  <asset_prefix>NES</asset_prefix>
   <ROM_path>/home/kodi/AEL-ROMs/nintendo-nes/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/nintendo-nes</ROM_asset_path>
+  <Asset_Prefix>NES</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

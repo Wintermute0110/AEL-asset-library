@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <category>SEGA</category>
   <name>Game Gear (Retroarch)</name>
+  <category>SEGA</category>
   <year>1990</year>
   <genre>Fourth generation console</genre>
   <developer>SEGA</developer>
@@ -11,9 +11,9 @@
   <platform>Sega Game Gear</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/genesis_plus_gx_libretro.so -f -v &quot;$rom$&quot;</args>
-  <asset_prefix>Game Gear</asset_prefix>
   <ROM_path>/home/kodi/AEL-ROMs/sega-gg/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/sega-gg</ROM_asset_path>
+  <Asset_Prefix>Game Gear</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

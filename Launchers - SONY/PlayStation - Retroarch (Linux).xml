@@ -11,9 +11,9 @@
   <platform>Sony PlayStation</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_psx_libretro.so -f -v &quot;$rom$&quot;</args>
-  <asset_prefix>PlayStation</asset_prefix>
   <ROM_path>/home/kodi/AEL-ROMs/sony-psx/</ROM_path>
   <ROM_ext>cue|m3u</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/sony-psx</ROM_asset_path>
+  <Asset_Prefix>PlayStation</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

@@ -11,9 +11,9 @@
   <platform>Nintendo Pokemini</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/pokemini_libretro.so -f -v &quot;$rom$&quot;</args>
-  <asset_prefix>Pokemon Mini</asset_prefix>
   <ROM_path>/home/kodi/AEL-ROMs/nintendo-pokemini/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/nintendo-pokemini</ROM_asset_path>
+  <Asset_Prefix>Pokemon Mini</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

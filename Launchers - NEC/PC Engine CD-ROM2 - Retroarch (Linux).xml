@@ -11,9 +11,9 @@
   <platform>NEC PC Engine/TurboGrafx 16</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_pce_fast_libretro.so -f -v &quot;$rom$&quot;</args>
-  <asset_prefix>PC Engine CD-ROM2</asset_prefix>
   <ROM_path>/home/kodi/AEL-ROMs/nec-pcecd/</ROM_path>
   <ROM_ext>cue</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/nec-pcecd/</ROM_asset_path>
+  <Asset_Prefix>PC Engine CD-ROM2</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

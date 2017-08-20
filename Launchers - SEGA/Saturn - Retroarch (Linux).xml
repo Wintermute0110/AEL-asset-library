@@ -11,9 +11,9 @@
   <platform>Sega Saturn</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_saturn_libretro.so -f -v &quot;$rom$&quot;</args>
-  <asset_prefix>Saturn</asset_prefix>
   <ROM_path>/home/kodi/AEL-ROMs/sega-saturn/</ROM_path>
   <ROM_ext>cue</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/sega-saturn</ROM_asset_path>
+  <Asset_Prefix>Saturn</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

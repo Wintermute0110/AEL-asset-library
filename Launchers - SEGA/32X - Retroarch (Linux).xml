@@ -12,9 +12,9 @@ Unveiled by Sega at June 1994's Consumer Electronics Show, the 32X was presented
   <platform>Sega 32X</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/picodrive_libretro.so -f -v &quot;$rom$&quot;</args>
-  <asset_prefix>32X</asset_prefix>
   <ROM_path>/home/kodi/AEL-ROMs/sega-32x/</ROM_path>
   <ROM_ext>32x|zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/sega-32x</ROM_asset_path>
+  <Asset_Prefix>32X</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

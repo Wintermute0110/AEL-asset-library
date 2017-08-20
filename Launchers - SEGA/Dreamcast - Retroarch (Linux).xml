@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <category>SEGA</category>
   <name>Dreamcast (Retroarch)</name>
+  <category>SEGA</category>
   <year>1998</year>
   <genre>Sixth generation console</genre>
   <developer>SEGA</developer>
@@ -11,9 +11,9 @@
   <platform>Sega Dreamcast</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/reicast_libretro.so -f -v &quot;$rom$&quot;</args>
-  <asset_prefix>Dreamcast</asset_prefix>
   <ROM_path>/home/kodi/AEL-ROMs/sega-dreamcast/</ROM_path>
   <ROM_ext>cdi|gdi|chd|cue</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/sega-dreamcast</ROM_asset_path>
+  <Asset_Prefix>Dreamcast</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

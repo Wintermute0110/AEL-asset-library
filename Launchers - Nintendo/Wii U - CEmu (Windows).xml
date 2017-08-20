@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
+  <name>Wii U (CEmu)</name>
   <category>Nintendo</category>
-  <name>Nintendo Wii U (CEmu)</name>
   <year>2012</year>
   <platform>Nintendo Wii U</platform>
   <application>D:\Emulators\Cemu\Cemu_cracked.exe</application>
   <args>/high -f -g &quot;$rom$&quot;</args>
-  <romext>wud|rpx|WUD|RPX</romext>
-  <rompath>D:\ROMs\nintendo-wiiu\</rompath>
-  <path_assets>D:\AEL-assets\nintendo-wiiu\</path_assets>
+  <ROM_path>D:\ROMs\nintendo-wiiu\</ROM_path>
+  <ROM_ext>wud|rpx|WUD|RPX</ROM_ext>
+  <ROM_asset_path>D:\AEL-assets\nintendo-wiiu\</ROM_asset_path>
+  <Asset_Prefix>Wii U</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

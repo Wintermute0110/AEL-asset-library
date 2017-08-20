@@ -11,9 +11,9 @@
   <platform>SNK Neo Geo Pocket Color</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_ngp_libretro.so -f -v &quot;$rom$&quot;</args>
-  <asset_prefix>Neo Geo Pocket Color</asset_prefix>
   <ROM_path>/home/kodi/AEL-ROMs/snk-ngpc/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/snk-ngpc/</ROM_asset_path>
+  <Asset_Prefix>Neo Geo Pocket Color</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

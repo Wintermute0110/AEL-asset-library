@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <category>Nintendo</category>
   <name>Game Boy Color (Retroarch)</name>
+  <category>Nintendo</category>
   <year>1998</year>
   <genre>Fifth generation console</genre>
   <developer>Nintendo</developer>
@@ -11,9 +11,9 @@
   <platform>Nintendo GameBoy Color</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/gambatte_libretro.so -f -v &quot;$rom$&quot;</args>
-  <asset_prefix>Game Boy Color</asset_prefix>
   <ROM_path>/home/kodi/AEL-ROMs/nintendo-gbcolor/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/nintendo-gbcolor</ROM_asset_path>
+  <Asset_Prefix>Game Boy Color</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>
