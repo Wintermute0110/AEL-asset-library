@@ -9,6 +9,14 @@
       Use 'root_category' or leave the <category> tag blank to place the launcher in the addon root.
     -->
   <category>SONY</category>
+  <!--
+      NOT IMPLEMENTED YET.
+      This tag specifies an NFO file to read the metadata from. This is to share the metadata
+      among different XML configuration files and to not duplicate information. The metadata in the
+      launcher NFO file is: year, genre, developer, rating and plot. If any metadata tag is included 
+      in the XML file it overrides any metadata on the NFO file.
+    -->
+  <Launcher_NFO>Playstation.nfo</Launcher_NFO>
   <year>1994</year>
   <genre>Fifth generation console</genre>
   <developer>SONY</developer>
@@ -59,6 +67,13 @@
           c) 'PlayStation_fanart_01_Artist Name.jpg'
     -->
   <Asset_Prefix>PlayStation</Asset_Prefix>
+  <!--
+       When using the XML file to configure a launcher for the first time it is not recommended
+       to use these tags. When AEL exports an XML configuration, these tags will have the
+       corresponding artwork so it could be restored during a Categories/Launchers XML backup.
+       During the XML import process, the user will choose the artwork from here and also from 
+       the artwork found using the <Asset_Prefix> tag.
+    -->
   <s_icon />
   <s_fanart />
   <s_banner />
