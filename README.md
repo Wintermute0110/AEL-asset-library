@@ -15,8 +15,9 @@ the [Advanced Emulator Launcher thread] in the Kodi forum.
 
 ## Path configurations used the library ##
 
-If you want to change the **application path**, **ROM path** or **asset path** you can edit
-the XML configuration files. In Windows it is recommended to use the `Notepad++` editor.
+If you want to change the **application path**, **ROM path** or **asset path** from the defaults
+to fit your setup you can edit the XML configuration files in this library. In Windows it is 
+recommended to use the `Notepad++` editor to edit XML UTF-8 encoded files.
 
 ### Linux ###
 
@@ -25,7 +26,7 @@ the XML configuration files. In Windows it is recommended to use the `Notepad++`
  * MAME exectuable is located in `/usr/games/mame`. Remember to edit your `mame.ini` to include
    the **ROM path**. Otherwise MAME will not find the ROMs.
 
-ROM directory and assets directory are:
+The XML files in this library assume the following **ROM paths** and **asset directories**:
 
 | System                         | Category            | ROM path                                            | Assets path                                           |
 |--------------------------------|---------------------|-----------------------------------------------------|-------------------------------------------------------|
