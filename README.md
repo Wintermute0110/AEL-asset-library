@@ -13,6 +13,24 @@ the [Advanced Emulator Launcher thread] in the Kodi forum.
 
 [Advanced Emulator Launcher thread]: https://forum.kodi.tv/showthread.php?tid=287826
 
+## Path configuration in the library ##
+
+### Linux ###
+
+Retroarch executable is located in `/home/kodi/bin/retroarch`. Retroarch cores are located 
+in `/home/kodi/bin/libretro/`. MAME exectuable is located in `/usr/games/mame`.
+
+ROM directory and assets directory are:
+
+| System    | Category | ROM path                            | Assets path                          |
+|-----------|----------|-------------------------------------|--------------------------------------|
+| 32X       | SEGA     | `/home/kodi/AEL-ROMs/sega-32x/`     | `/home/kodi/AEL-assets/sega-32x`     |
+| Dreamcast | SEGA     | /home/kodi/AEL-ROMs/sega-dreamcast/ | /home/kodi/AEL-assets/sega-dreamcast |
+
+### Windows ###
+
+### Android ###
+
 ## Image sizes ##
 
 Icons should have a size of `256x256` or `512x512` pixels. [Kodi Wiki, Add on structure Icon]
