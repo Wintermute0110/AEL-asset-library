@@ -26,6 +26,7 @@ ROM directory and assets directory are:
 |-----------|----------|-------------------------------------|--------------------------------------|
 | 32X       | SEGA     | `/home/kodi/AEL-ROMs/sega-32x/`     | `/home/kodi/AEL-assets/sega-32x`     |
 | Dreamcast | SEGA     | /home/kodi/AEL-ROMs/sega-dreamcast/ | /home/kodi/AEL-assets/sega-dreamcast |
+|-----------|----------|-------------------------------------|--------------------------------------|
 
 ### Windows ###
 
