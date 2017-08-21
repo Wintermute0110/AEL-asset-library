@@ -29,7 +29,7 @@ ROM directory and assets directory are:
 
 | System              | Category | ROM path                                 | Assets path                                |
 |---------------------|----------|------------------------------------------|--------------------------------------------|
-| Nintendo DS         | Nintendo | `/home/kodi/AEL-ROMs/nintendo-ds/`       | `/home/kodi/AEL-assets/nintendo-ds/`       |
+| <sub>Nintendo DS</sub> | <sub>Nintendo</sub> | <sub>`/home/kodi/AEL-ROMs/nintendo-ds/`</sub> | <sub>`/home/kodi/AEL-assets/nintendo-ds/` </sub>      |
 | Famicom Disk System | Nintendo | `/home/kodi/AEL-ROMs/nintendo-fds/`      | `/home/kodi/AEL-assets/nintendo-fds/`      |
 | Game Boy            | Nintendo | `/home/kodi/AEL-ROMs/nintendo-gb/`       | `/home/kodi/AEL-assets/nintendo-gb/`       |
 | Game Boy Advance    | Nintendo | `/home/kodi/AEL-ROMs/nintendo-gba/`      | `/home/kodi/AEL-assets/nintendo-gba/`      |
