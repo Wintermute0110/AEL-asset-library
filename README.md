@@ -22,11 +22,25 @@ in `/home/kodi/bin/libretro/`. MAME exectuable is located in `/usr/games/mame`.
 
 ROM directory and assets directory are:
 
-| System    | Category | ROM path                            | Assets path                          |
-|-----------|----------|-------------------------------------|--------------------------------------|
-| 32X       | SEGA     | `/home/kodi/AEL-ROMs/sega-32x/`     | `/home/kodi/AEL-assets/sega-32x`     |
-| Dreamcast | SEGA     | /home/kodi/AEL-ROMs/sega-dreamcast/ | /home/kodi/AEL-assets/sega-dreamcast |
-|-----------|----------|-------------------------------------|--------------------------------------|
+| System              | Category | ROM path                              | Assets path                            |
+|---------------------|----------|---------------------------------------|----------------------------------------|
+| Nintendo DS         | Nintendo | `/home/kodi/AEL-ROMs/nintendo-ds/`    | `/home/kodi/AEL-assets/nintendo-ds/`   |
+| Famicom Disk System | Nintendo | `/home/kodi/AEL-ROMs/nintendo-fds/`   | `/home/kodi/AEL-assets/nintendo-fds/`  |
+| Game Boy            | Nintendo | `/home/kodi/AEL-ROMs/nintendo-gb/`    | `/home/kodi/AEL-assets/nintendo-gb/`   |
+| Game Boy Advance    | Nintendo | `/home/kodi/AEL-ROMs/nintendo-gba/`   | `/home/kodi/AEL-assets/nintendo-gba/`  |
+| Game Boy Color      | Nintendo | `/home/kodi/AEL-ROMs/nintendo-gbc/`   | `/home/kodi/AEL-assets/nintendo-gbc/`  |
+| GameCube            | Nintendo | `/home/kodi/AEL-ROMs/nintendo-gamecube/` | `/home/kodi/AEL-assets/nintendo-gamecube/` |
+| NES                 | Nintendo | `/home/kodi/AEL-ROMs/nintendo-nes/`   | `/home/kodi/AEL-assets/nintendo-nes/`  |
+| 32X                 | SEGA     | `/home/kodi/AEL-ROMs/sega-32x/`       | `/home/kodi/AEL-assets/sega-32x/`      |
+| Dreamcast           | SEGA     | `/home/kodi/AEL-ROMs/sega-dreamcast/` | `/home/kodi/AEL-assets/sega-dreamcast` |
+| Game Gear           | SEGA     | `/home/kodi/AEL-ROMs/sega-gg/`        | `/home/kodi/AEL-assets/sega-gg`        |
+| Master System       | SEGA     | `/home/kodi/AEL-ROMs/sega-sms/`       | `/home/kodi/AEL-assets/sega-sms`       |
+| Mega CD             | SEGA     | `/home/kodi/AEL-ROMs/sega-megacd/`    | `/home/kodi/AEL-assets/sega-megacd`    |
+| Mega Drive          | SEGA     | `/home/kodi/AEL-ROMs/sega-genesis/`   | `/home/kodi/AEL-assets/sega-genesis`   |
+| PICO                | SEGA     | `/home/kodi/AEL-ROMs/sega-pico/`      | `/home/kodi/AEL-assets/sega-pico`      |
+| Saturn              | SEGA     | `/home/kodi/AEL-ROMs/sega-saturn/`    | `/home/kodi/AEL-assets/sega-saturn`    |
+| SG-1000             | SEGA     | `/home/kodi/AEL-ROMs/sega-sg1000/`    | `/home/kodi/AEL-assets/sega-sg1000`    |
+
 
 ### Windows ###
 
