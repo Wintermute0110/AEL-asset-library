@@ -27,29 +27,29 @@ the XML configuration files. In Windows it is recommended to use the `Notepad++`
 
 ROM directory and assets directory are:
 
-| System              | Category | ROM path                                 | Assets path                                |
-|---------------------|----------|------------------------------------------|--------------------------------------------|
-| <sub>Nintendo DS</sub> | <sub>Nintendo</sub> | <sub>`/home/kodi/AEL-ROMs/nintendo-ds/`</sub> | <sub>`/home/kodi/AEL-assets/nintendo-ds/` </sub>      |
-| Famicom Disk System | Nintendo | `/home/kodi/AEL-ROMs/nintendo-fds/`      | `/home/kodi/AEL-assets/nintendo-fds/`      |
-| Game Boy            | Nintendo | `/home/kodi/AEL-ROMs/nintendo-gb/`       | `/home/kodi/AEL-assets/nintendo-gb/`       |
-| Game Boy Advance    | Nintendo | `/home/kodi/AEL-ROMs/nintendo-gba/`      | `/home/kodi/AEL-assets/nintendo-gba/`      |
-| Game Boy Color      | Nintendo | `/home/kodi/AEL-ROMs/nintendo-gbc/`      | `/home/kodi/AEL-assets/nintendo-gbc/`      |
-| GameCube            | Nintendo | `/home/kodi/AEL-ROMs/nintendo-gamecube/` | `/home/kodi/AEL-assets/nintendo-gamecube/` |
-| NES                 | Nintendo | `/home/kodi/AEL-ROMs/nintendo-nes/`      | `/home/kodi/AEL-assets/nintendo-nes/`      |
-| Nintendo 64         | Nintendo | `/home/kodi/AEL-ROMs/nintendo-n64/`      | `/home/kodi/AEL-assets/nintendo-n64/`      |
-| Pokemon Mini        | Nintendo | `/home/kodi/AEL-ROMs/nintendo-pokemini/` | `/home/kodi/AEL-assets/nintendo-pokemini/` |
-| SNES                | Nintendo | `/home/kodi/AEL-ROMs/nintendo-snes/`     | `/home/kodi/AEL-assets/nintendo-snes/`     |
-| Virtual Boy         | Nintendo | `/home/kodi/AEL-ROMs/nintendo-vb/`       | `/home/kodi/AEL-assets/nintendo-vb/`       |
-| Wii                 | Nintendo | `/home/kodi/AEL-ROMs/nintendo-wii/`      | `/home/kodi/AEL-assets/nintendo-wii/`      |
-| 32X                 | SEGA     | `/home/kodi/AEL-ROMs/sega-32x/`          | `/home/kodi/AEL-assets/sega-32x/`          |
-| Dreamcast           | SEGA     | `/home/kodi/AEL-ROMs/sega-dreamcast/`    | `/home/kodi/AEL-assets/sega-dreamcast`     |
-| Game Gear           | SEGA     | `/home/kodi/AEL-ROMs/sega-gg/`           | `/home/kodi/AEL-assets/sega-gg`            |
-| Master System       | SEGA     | `/home/kodi/AEL-ROMs/sega-sms/`          | `/home/kodi/AEL-assets/sega-sms`           |
-| Mega CD             | SEGA     | `/home/kodi/AEL-ROMs/sega-megacd/`       | `/home/kodi/AEL-assets/sega-megacd`        |
-| Mega Drive          | SEGA     | `/home/kodi/AEL-ROMs/sega-genesis/`      | `/home/kodi/AEL-assets/sega-genesis`       |
-| PICO                | SEGA     | `/home/kodi/AEL-ROMs/sega-pico/`         | `/home/kodi/AEL-assets/sega-pico`          |
-| Saturn              | SEGA     | `/home/kodi/AEL-ROMs/sega-saturn/`       | `/home/kodi/AEL-assets/sega-saturn`        |
-| SG-1000             | SEGA     | `/home/kodi/AEL-ROMs/sega-sg1000/`       | `/home/kodi/AEL-assets/sega-sg1000`        |
+| System                         | Category            | ROM path                                            | Assets path                                           |
+|--------------------------------|---------------------|-----------------------------------------------------|-------------------------------------------------------|
+| <sub>Nintendo DS</sub>         | <sub>Nintendo</sub> | <sub>`/home/kodi/AEL-ROMs/nintendo-ds/`</sub>       | <sub>`/home/kodi/AEL-assets/nintendo-ds/`</sub>       |
+| <sub>Famicom Disk System</sub> | <sub>Nintendo</sub> | <sub>`/home/kodi/AEL-ROMs/nintendo-fds/`</sub>      | <sub>`/home/kodi/AEL-assets/nintendo-fds/`</sub>      |
+| <sub>Game Boy</sub>            | <sub>Nintendo</sub> | <sub>`/home/kodi/AEL-ROMs/nintendo-gb/`</sub>       | <sub>`/home/kodi/AEL-assets/nintendo-gb/`</sub>       |
+| <sub>Game Boy Advance</sub>    | <sub>Nintendo</sub> | <sub>`/home/kodi/AEL-ROMs/nintendo-gba/`</sub>      | <sub>`/home/kodi/AEL-assets/nintendo-gba/`</sub>      |
+| <sub>Game Boy Color</sub>      | <sub>Nintendo</sub> | <sub>`/home/kodi/AEL-ROMs/nintendo-gbc/`</sub>      | <sub>`/home/kodi/AEL-assets/nintendo-gbc/`</sub>      |
+| <sub>GameCube</sub>            | <sub>Nintendo</sub> | <sub>`/home/kodi/AEL-ROMs/nintendo-gamecube/`</sub> | <sub>`/home/kodi/AEL-assets/nintendo-gamecube/`</sub> |
+| <sub>NES</sub>                 | <sub>Nintendo</sub> | <sub>`/home/kodi/AEL-ROMs/nintendo-nes/`</sub>      | <sub>`/home/kodi/AEL-assets/nintendo-nes/`</sub>      |
+| <sub>Nintendo 64</sub>         | <sub>Nintendo</sub> | <sub>`/home/kodi/AEL-ROMs/nintendo-n64/`</sub>      | <sub>`/home/kodi/AEL-assets/nintendo-n64/`</sub>      |
+| <sub>Pokemon Mini</sub>        | <sub>Nintendo</sub> | <sub>`/home/kodi/AEL-ROMs/nintendo-pokemini/`</sub> | <sub>`/home/kodi/AEL-assets/nintendo-pokemini/`</sub> |
+| <sub>SNES</sub>                | <sub>Nintendo</sub> | <sub>`/home/kodi/AEL-ROMs/nintendo-snes/`</sub>     | <sub>`/home/kodi/AEL-assets/nintendo-snes/`</sub>     |
+| <sub>Virtual Boy</sub>         | <sub>Nintendo</sub> | <sub>`/home/kodi/AEL-ROMs/nintendo-vb/`</sub>       | <sub>`/home/kodi/AEL-assets/nintendo-vb/`</sub>       |
+| <sub>Wii</sub>                 | <sub>Nintendo</sub> | <sub>`/home/kodi/AEL-ROMs/nintendo-wii/`</sub>      | <sub>`/home/kodi/AEL-assets/nintendo-wii/`</sub>      |
+| <sub>32X</sub>                 | <sub>SEGA</sub>     | <sub>`/home/kodi/AEL-ROMs/sega-32x/`</sub>          | <sub>`/home/kodi/AEL-assets/sega-32x/`</sub>          |
+| <sub>Dreamcast</sub>           | <sub>SEGA</sub>     | <sub>`/home/kodi/AEL-ROMs/sega-dreamcast/`</sub>    | <sub>`/home/kodi/AEL-assets/sega-dreamcast`</sub>     |
+| <sub>Game Gear</sub>           | <sub>SEGA</sub>     | <sub>`/home/kodi/AEL-ROMs/sega-gg/`</sub>           | <sub>`/home/kodi/AEL-assets/sega-gg`</sub>            |
+| <sub>Master System</sub>       | <sub>SEGA</sub>     | <sub>`/home/kodi/AEL-ROMs/sega-sms/`</sub>          | <sub>`/home/kodi/AEL-assets/sega-sms`</sub>           |
+| <sub>Mega CD</sub>             | <sub>SEGA</sub>     | <sub>`/home/kodi/AEL-ROMs/sega-megacd/`</sub>       | <sub>`/home/kodi/AEL-assets/sega-megacd`</sub>        |
+| <sub>Mega Drive</sub>          | <sub>SEGA</sub>     | <sub>`/home/kodi/AEL-ROMs/sega-genesis/`</sub>      | <sub>`/home/kodi/AEL-assets/sega-genesis`</sub>       |
+| <sub>PICO</sub>                | <sub>SEGA</sub>     | <sub>`/home/kodi/AEL-ROMs/sega-pico/`</sub>         | <sub>`/home/kodi/AEL-assets/sega-pico`</sub>          |
+| <sub>Saturn</sub>              | <sub>SEGA</sub>     | <sub>`/home/kodi/AEL-ROMs/sega-saturn/`</sub>       | <sub>`/home/kodi/AEL-assets/sega-saturn`</sub>        |
+| <sub>SG-1000</sub>             | <sub>SEGA</sub>     | <sub>`/home/kodi/AEL-ROMs/sega-sg1000/`</sub>       | <sub>`/home/kodi/AEL-assets/sega-sg1000`</sub>        |
 
 ### Windows ###
 
