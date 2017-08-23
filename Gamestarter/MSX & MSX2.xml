@@ -13,7 +13,7 @@
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>bluemsx &quot;%rom%&quot;</args>
   <args_extra></args_extra>
-  <asset_prefix>MSX</asset_prefix>
+  <Asset_Prefix>MSX</Asset_Prefix>
   <ROM_path>/storage/emulators/roms/msx/</ROM_path>
   <ROM_ext>rom|mx1|mx2|col|dsk|zip</ROM_ext>
   <ROM_asset_path>/storage/emulators/ael-assets/msx/</ROM_asset_path>

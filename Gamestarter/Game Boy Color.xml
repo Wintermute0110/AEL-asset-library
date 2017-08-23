@@ -13,7 +13,7 @@ The Game Boy Color, as suggested by the name, features a color screen, but no ba
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>gambatte &quot;%rom%&quot;</args>
   <args_extra></args_extra>
-  <asset_prefix>Game Boy Color</asset_prefix>
+  <Asset_Prefix>Game Boy Color</Asset_Prefix>
   <ROM_path>/storage/emulators/roms/gbc/</ROM_path>
   <ROM_ext>gb|zip|gbc</ROM_ext>
   <ROM_asset_path>/storage/emulators/ael-assets/gbc/</ROM_asset_path>

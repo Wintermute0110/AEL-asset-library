@@ -12,7 +12,7 @@
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>fceumm &quot;%rom%&quot;</args>
   <args_extra></args_extra>
-  <asset_prefix>NES</asset_prefix>
+  <Asset_Prefix>NES</Asset_Prefix>
   <ROM_path>/storage/emulators/roms/nes/</ROM_path>
   <ROM_ext>nes|zip</ROM_ext>
   <ROM_asset_path>/storage/emulators/ael-assets/nes/</ROM_asset_path>

@@ -14,7 +14,7 @@ The Spectrum was among the first mainstream-audience home computers in the UK, s
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>fuse &quot;%rom%&quot;</args>
   <args_extra></args_extra>
-  <asset_prefix>ZX Spectrum</asset_prefix>
+  <Asset_Prefix>ZX Spectrum</Asset_Prefix>
   <ROM_path>/storage/emulators/roms/zxspectrum/</ROM_path>
   <ROM_ext>tzx|Z80|z80|zip</ROM_ext>
   <ROM_asset_path>/storage/emulators/ael-assets/zxspectrum/</ROM_asset_path>

@@ -5,7 +5,13 @@
   <genre />
   <rating />
   <plot>Gamestarter default emulators collection</plot>
-  <asset_prefix />
+  <Asset_Prefix />
+  <s_icon>/storage/emulators/ael-assets/Gamestarter_icon.png</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Gamestarter_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_trailer />
 </category>
 <launcher>
   <name>Arcade (FBA)</name>
@@ -19,10 +25,17 @@
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>fbalpha &quot;%rom%&quot;</args>
   <args_extra />
-  <asset_prefix />
   <ROM_path>/storage/emulators/roms/fba/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path />
+  <Asset_Prefix />
+  <s_icon>/storage/emulators/ael-assets/Arcade - FBA_icon.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Arcade - FBA_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
 </launcher>
 <launcher>
   <name>Arcade (MAME)</name>
@@ -36,10 +49,17 @@
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>mame2003 &quot;%rom%&quot;</args>
   <args_extra />
-  <asset_prefix />
   <ROM_path>/storage/emulators/roms/mame/</ROM_path>
   <ROM_ext>zip</ROM_ext>
-  <ROM_asset_path>/storage/emulators/ael-assets/mame</ROM_asset_path>
+  <ROM_asset_path />
+  <Asset_Prefix />
+  <s_icon>/storage/emulators/ael-assets/Arcade - MAME_icon.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Arcade - MAME_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
 </launcher>
 <launcher>
   <name>Atari Lynx</name>
@@ -53,10 +73,17 @@
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>handy &quot;%rom%&quot;</args>
   <args_extra />
-  <asset_prefix />
   <ROM_path>/storage/emulators/roms/atarilynx/</ROM_path>
   <ROM_ext />
   <ROM_asset_path />
+  <Asset_Prefix />
+  <s_icon>/storage/emulators/ael-assets/Atari Lynx_icon.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Atari Lynx_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
 </launcher>
 <launcher>
   <name>Game Boy / Game Boy Color</name>
@@ -70,10 +97,17 @@
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>gambatte &quot;%rom%&quot;</args>
   <args_extra />
-  <asset_prefix />
   <ROM_path>/storage/emulators/roms/gb/</ROM_path>
   <ROM_ext>gb|zip|gbc</ROM_ext>
   <ROM_asset_path />
+  <Asset_Prefix />
+  <s_icon>/storage/emulators/ael-assets/Game Boy_icon.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Game Boy_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
 </launcher>
 <launcher>
   <name>Game Boy Advance</name>
@@ -87,10 +121,17 @@
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>gpsp &quot;%rom%&quot;</args>
   <args_extra />
-  <asset_prefix />
   <ROM_path>/storage/emulators/roms/gba/</ROM_path>
   <ROM_ext>gba|zip</ROM_ext>
   <ROM_asset_path />
+  <Asset_Prefix />
+  <s_icon>/storage/emulators/ael-assets/Game Boy Advance_icon.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Game Boy Advance_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
 </launcher>
 <launcher>
   <name>Game Gear</name>
@@ -104,10 +145,17 @@
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>genesis_plus_gx &quot;%rom%&quot;</args>
   <args_extra />
-  <asset_prefix />
   <ROM_path>/storage/emulators/roms/gamegear/</ROM_path>
   <ROM_ext>gg|zip</ROM_ext>
   <ROM_asset_path />
+  <Asset_Prefix />
+  <s_icon>/storage/emulators/ael-assets/Game Gear_icon.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Game Gear_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
 </launcher>
 <launcher>
   <name>MSX / MSX2</name>
@@ -121,10 +169,17 @@
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>bluemsx &quot;%rom%&quot;</args>
   <args_extra />
-  <asset_prefix />
   <ROM_path>/storage/emulators/roms/msx/</ROM_path>
   <ROM_ext>rom|mx1|mx2|col|dsk|zip</ROM_ext>
   <ROM_asset_path />
+  <Asset_Prefix />
+  <s_icon>/storage/emulators/ael-assets/MSX_icon.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/MSX_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
 </launcher>
 <launcher>
   <name>Master System</name>
@@ -138,10 +193,17 @@
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>picodrive &quot;%rom%&quot;</args>
   <args_extra />
-  <asset_prefix />
   <ROM_path>/storage/emulators/roms/mastersystem/</ROM_path>
   <ROM_ext>sms|zip</ROM_ext>
   <ROM_asset_path />
+  <Asset_Prefix />
+  <s_icon>/storage/emulators/ael-assets/Master System_icon.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Master System_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
 </launcher>
 <launcher>
   <name>Mega Drive / Mega CD</name>
@@ -155,10 +217,17 @@
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>genesis_plus_gx &quot;$rom$&quot;</args>
   <args_extra />
-  <asset_prefix />
   <ROM_path>/storage/emulators/roms/megadrive/</ROM_path>
   <ROM_ext>smd|md|bin|zip</ROM_ext>
   <ROM_asset_path />
+  <Asset_Prefix />
+  <s_icon>/storage/emulators/ael-assets/Mega Drive_icon.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Mega Drive_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
 </launcher>
 <launcher>
   <name>NES</name>
@@ -172,10 +241,17 @@
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>fceumm &quot;%rom%&quot;</args>
   <args_extra />
-  <asset_prefix />
   <ROM_path>/storage/emulators/roms/nes/</ROM_path>
   <ROM_ext>nes|zip</ROM_ext>
   <ROM_asset_path />
+  <Asset_Prefix />
+  <s_icon>/storage/emulators/ael-assets/NES_icon.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/NES_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
 </launcher>
 <launcher>
   <name>Neo Geo</name>
@@ -189,10 +265,17 @@
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>fbalpha &quot;%rom%&quot;</args>
   <args_extra />
-  <asset_prefix />
   <ROM_path>/storage/emulators/roms/neogeo/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path />
+  <Asset_Prefix />
+  <s_icon>/storage/emulators/ael-assets/Neo Geo_icon.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Neo Geo_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
 </launcher>
 <launcher>
   <name>Nintendo 64</name>
@@ -206,10 +289,17 @@
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>mupen64plus &quot;%rom%&quot;</args>
   <args_extra />
-  <asset_prefix />
   <ROM_path>/storage/emulators/roms/n64/</ROM_path>
   <ROM_ext>v64|n64|z64|zip</ROM_ext>
   <ROM_asset_path />
+  <Asset_Prefix />
+  <s_icon>/storage/emulators/ael-assets/Nintendo 64_icon.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Nintendo 64_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
 </launcher>
 <launcher>
   <name>Nintendo DS</name>
@@ -223,10 +313,17 @@
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>drastic &quot;%rom%&quot;</args>
   <args_extra />
-  <asset_prefix />
   <ROM_path>/storage/emulators/roms/nds/</ROM_path>
   <ROM_ext>zip|nds</ROM_ext>
   <ROM_asset_path />
+  <Asset_Prefix />
+  <s_icon>/storage/emulators/ael-assets/Nintendo DS_icon.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Nintendo DS_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
 </launcher>
 <launcher>
   <name>PC Engine/PC Engine CD</name>
@@ -240,10 +337,17 @@
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>mednafen_pce_fast &quot;%rom%&quot;</args>
   <args_extra />
-  <asset_prefix />
   <ROM_path>/storage/emulators/roms/pcengine/</ROM_path>
   <ROM_ext>pce|cue</ROM_ext>
   <ROM_asset_path />
+  <Asset_Prefix />
+  <s_icon>/storage/emulators/ael-assets/PC Engine_icon.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/PC Engine_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
 </launcher>
 <launcher>
   <name>PSP</name>
@@ -257,10 +361,17 @@
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>ppsspp &quot;%rom%&quot;</args>
   <args_extra />
-  <asset_prefix />
   <ROM_path>/storage/emulators/roms/psp/</ROM_path>
   <ROM_ext>cso|iso</ROM_ext>
   <ROM_asset_path />
+  <Asset_Prefix />
+  <s_icon>/storage/emulators/ael-assets/PSP_icon.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/PSP_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
 </launcher>
 <launcher>
   <name>PlayStation</name>
@@ -274,10 +385,17 @@
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>pcsx_rearmed &quot;%rom%&quot;</args>
   <args_extra />
-  <asset_prefix />
   <ROM_path>/storage/emulators/roms/psx/</ROM_path>
   <ROM_ext>bin|img|pbp|PBP|IMG|BIN</ROM_ext>
   <ROM_asset_path />
+  <Asset_Prefix />
+  <s_icon>/storage/emulators/ael-assets/PlayStation_icon.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/PlayStation_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
 </launcher>
 <launcher>
   <name>Super Nintendo</name>
@@ -291,10 +409,17 @@
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>snes9x2010 &quot;%rom%&quot;</args>
   <args_extra />
-  <asset_prefix />
   <ROM_path>/storage/emulators/roms/snes/</ROM_path>
   <ROM_ext>smc|sfc|zip</ROM_ext>
-  <ROM_asset_path>/storage/emulators/ael-assets/snes</ROM_asset_path>
+  <ROM_asset_path />
+  <Asset_Prefix />
+  <s_icon>/storage/emulators/ael-assets/SNES_icon.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/SNES_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller>/storage/emulators/ael-assets/SNES_controller.jpg</s_controller>
+  <s_trailer />
 </launcher>
 <launcher>
   <name>ZX Spectrum</name>
@@ -308,9 +433,16 @@
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>fuse &quot;%rom%&quot;</args>
   <args_extra />
-  <asset_prefix />
   <ROM_path>/storage/emulators/roms/zxspectrum/</ROM_path>
   <ROM_ext>tzx|Z80|z80|zip</ROM_ext>
   <ROM_asset_path />
+  <Asset_Prefix />
+  <s_icon>/storage/emulators/ael-assets/ZX Spectrum_icon.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/ZX Spectrum_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
 </launcher>
 </advanced_emulator_launcher_configuration>

@@ -14,7 +14,7 @@ The Neo Geo originally launched as the MVS (Multi Video System) coin-operated ar
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>fbalpha &quot;%rom%&quot;</args>
   <args_extra></args_extra>
-  <asset_prefix>Neo Geo</asset_prefix>
+  <Asset_Prefix>Neo Geo</Asset_Prefix>
   <ROM_path>/storage/emulators/roms/neogeo/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/storage/emulators/ael-assets/neogeo/</ROM_asset_path>

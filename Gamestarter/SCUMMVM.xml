@@ -12,7 +12,7 @@
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>scummvm</args>
   <args_extra></args_extra>
-  <asset_prefix>PC Ports</asset_prefix>
+  <Asset_Prefix>PC Ports</Asset_Prefix>
   <ROM_path>/storage/emulators/roms/scummvm/</ROM_path>
   <ROM_ext>sh</ROM_ext>
   <ROM_asset_path>/storage/emulators/ael-assets/scummvm/</ROM_asset_path>

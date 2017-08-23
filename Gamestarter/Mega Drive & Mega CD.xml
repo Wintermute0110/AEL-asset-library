@@ -15,7 +15,7 @@ The Sega CD, released as the Mega-CD most regions outside North America, is a CD
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>genesis_plus_gx &quot;$rom$&quot;</args>
   <args_extra></args_extra>
-  <asset_prefix>Mega Drive</asset_prefix>
+  <Asset_Prefix>Mega Drive</Asset_Prefix>
   <ROM_path>/storage/emulators/roms/megadrive/</ROM_path>
   <ROM_ext>smd|md|bin|zip</ROM_ext>
   <ROM_asset_path>/storage/emulators/ael-assets/megadrive/</ROM_asset_path>

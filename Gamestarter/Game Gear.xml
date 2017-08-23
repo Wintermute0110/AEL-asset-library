@@ -12,7 +12,7 @@
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>genesis_plus_gx &quot;%rom%&quot;</args>
   <args_extra></args_extra>
-  <asset_prefix>Game Gear</asset_prefix>
+  <Asset_Prefix>Game Gear</Asset_Prefix>
   <ROM_path>/storage/emulators/roms/gamegear/</ROM_path>
   <ROM_ext>gg|zip</ROM_ext>
   <ROM_asset_path>/storage/emulators/ael-assets/gamegear/</ROM_asset_path>

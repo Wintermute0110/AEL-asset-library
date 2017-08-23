@@ -12,7 +12,7 @@
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>handy &quot;%rom%&quot;</args>
   <args_extra></args_extra>
-  <asset_prefix>Atari Lynx</asset_prefix>
+  <Asset_Prefix>Atari Lynx</Asset_Prefix>
   <ROM_path>/storage/emulators/roms/atarilynx/</ROM_path>
   <romext>lnx|zip</romext>
   <ROM_asset_path>/storage/emulators/ael-assets/atarilynx/</ROM_asset_path>

@@ -22,8 +22,8 @@ Designed by an R&amp;D team supervised by Hideki Sato and Masami Ishikawa, the h
       This tag configures the assets of the launcher itself. Image files must be on the same
       directory as this XML configuration file. AEL will search for graphic files having the 
       following names:
-          a) <asset_prefix>_[icon|fanart|banner|poster|clearlogo].[png|jpg|gif]
-          b) <asset_prefix>_[icon|fanart|banner|poster|clearlogo]_NN.[png|jpg|gif]
+          a) <Asset_Prefix>_[icon|fanart|banner|poster|clearlogo].[png|jpg|gif]
+          b) <Asset_Prefix>_[icon|fanart|banner|poster|clearlogo]_NN.[png|jpg|gif]
 
       If several images are present then AEL will show a dialog and user chooses which image to
       import. For example: 'Mega Drive_icon_1.jpg' and 'Mega Drive_icon_2.jpg'.
@@ -33,7 +33,7 @@ Designed by an R&amp;D team supervised by Hideki Sato and Masami Ishikawa, the h
           b) 'Mega Drive_fanart_1_Artist Name.jpg'
           c) 'Mega Drive_fanart_01_Artist Name.jpg'
     -->
-  <asset_prefix>Mega Drive</asset_prefix>
+  <Asset_Prefix>Mega Drive</Asset_Prefix>
   <ROM_path>/storage/emulators/roms/megadrive/</ROM_path>
   <ROM_ext>smd|md|bin|zip</ROM_ext>
   <!--

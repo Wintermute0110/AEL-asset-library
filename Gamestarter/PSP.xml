@@ -14,7 +14,7 @@ The PlayStation Portable became the most powerful portable system when launched,
   <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
   <args>ppsspp &quot;%rom%&quot;</args>
   <args_extra></args_extra>
-  <asset_prefix>PSP</asset_prefix>
+  <Asset_Prefix>PSP</Asset_Prefix>
   <ROM_path>/storage/emulators/roms/psp/</ROM_path>
   <ROM_ext>cso|iso</ROM_ext>
   <ROM_asset_path>/storage/emulators/ael-assets/psp/</ROM_asset_path>

@@ -5,6 +5,6 @@
   <genre></genre>
   <rating></rating>
   <plot>Gamestarter default emulators collection</plot>
-  <asset_prefix>Gamestarter</asset_prefix>
+  <Asset_Prefix>Gamestarter</Asset_Prefix>
 </category>
 </advanced_emulator_launcher_configuration>
