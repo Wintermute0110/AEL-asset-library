@@ -5,9 +5,8 @@
   <category>Consoles</category>
   <year>1978</year>
   <genre>Second generation console</genre>
-  <developer>Magnavox</developer>
-  <rating></rating>
-  <plot>...</plot>
+  <developer>Magnavox/Philips</developer>
+  <plot>The Magnavox Odyssey2, known in Europe as the Philips Videopac G7000, in Brazil as the Philips Odyssey, in the United States and Canada as the Magnavox Odyssey2 and the Philips Odyssey2, and also by many other names, is a home video game console released in 1978. In the early 1970s, Magnavox was an innovator in the home video game industry. They succeeded in bringing the first home video game system to market, the Odyssey, which was quickly followed by a number of later models, each with a few technological improvements (Magnavox Odyssey series). In 1978, Magnavox, now a subsidiary of North American Philips, released the Odyssey2, its new second-generation video game console.</plot>
   <platform>Magnavox Odyssey2</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/o2em_libretro.so -f -v &quot;$rom$&quot;</args>
