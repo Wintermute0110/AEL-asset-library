@@ -85,7 +85,7 @@ Artwork has been taken from many sources including:
   * [RazorFR] has graciously allowed to include a set of Posters.
   * [Advanced Launcher console thumbnails] by Middle, phear, BarryAllen, aNILEator and Digital Vortex.
   * [Sega Retro].
-  * [Tronkyfran EmulationStation theme] by Nils Bonenberger.
+  * [Gamestarter theme] by Tronkyfran.
 
 If you are the author of some of the assets and want to be credited here contact me opening 
 an issue in Github.
@@ -96,4 +96,4 @@ an issue in Github.
 [RazorFR]: http://forum.kodi.tv/showthread.php?tid=273663
 [Advanced Launcher console thumbnails]: http://forum.kodi.tv/showthread.php?tid=106921
 [Sega Retro]: https://segaretro.org/
-[Tronkyfran EmulationStation theme]: https://github.com/HerbFargus/es-theme-tronkyfran
+[Gamestarter theme]: https://retropie.org.uk/forum/user/tronkyfran
