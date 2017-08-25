@@ -46,6 +46,23 @@
   <ROM_path>/home/kodi/AEL-ROMs/sony-psx/</ROM_path>
   <ROM_ext>cue|m3u</ROM_ext>
   <!--
+      This path is the main path of the ROM assets. When importing, AEL will create the following
+      directories automatically:
+           Any platform launcher                MAME launcher
+          ------------------------------------------------------------------
+          <ROM_asset_path>/banners/            <ROM_asset_path>/marquees/
+          <ROM_asset_path>/boxbacks/           <ROM_asset_path>/cpanels/
+          <ROM_asset_path>/boxfronts/          <ROM_asset_path>/cabinets/
+          <ROM_asset_path>/cartridges/         <ROM_asset_path>/PCBs/
+          <ROM_asset_path>/clearlogos/         <ROM_asset_path>/clearlogos/
+          <ROM_asset_path>/fanarts/            <ROM_asset_path>/fanarts/
+          <ROM_asset_path>/flyers/             <ROM_asset_path>/flyers/
+          <ROM_asset_path>/manuals/            <ROM_asset_path>/manuals/
+          <ROM_asset_path>/maps/               <ROM_asset_path>/maps/
+          <ROM_asset_path>/snaps/              <ROM_asset_path>/snaps/
+          <ROM_asset_path>/titles/             <ROM_asset_path>/titles/
+          <ROM_asset_path>/trailers/           <ROM_asset_path>/trailers/
+
       If <ROM_asset_path> does not exists a YES/NO dialog shows up to tell if the directory should be
       created or not. Note that if <ROM_asset_path> does not exists or could not be created then
       the ROM artwork paths will be left unconfigured.
