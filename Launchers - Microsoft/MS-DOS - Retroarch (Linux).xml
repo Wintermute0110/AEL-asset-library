@@ -23,7 +23,7 @@ exit
 <advanced_emulator_launcher_configuration>
 <launcher>
   <name>MS-DOS (Retroarch)</name>
-  <category>Microsoft </category>
+  <category>Microsoft</category>
   <year>1981</year>
   <genre>Operating System</genre>
   <developer>Microsoft</developer>

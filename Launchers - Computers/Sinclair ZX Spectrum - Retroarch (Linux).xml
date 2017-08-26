@@ -7,7 +7,7 @@
   <genre />
   <developer>Sinclair Research</developer>
   <rating />
-  <plot>The ZX Spectrum is an 8-bit personal home computer released in the United Kingdom in 1982 by Sinclair Research. The Spectrum was released as eight different models, ranging from the entry level with 16 KB RAM released in 1982 to the ZX Spectrum +3 with 128 KB RAM and built in floppy disk drive in 1987; together they sold in excess of 5 million units worldwide (not counting clones). The Commodore 64, Dragon 32, Oric-1 and Oric Atmos, BBC Microcomputer and later the Amstrad CPC range were rivals to the Spectrum in the UK market during the early 1980s. Over 24,000 software titles have been released since the Spectrum's launch and new titles continue to be released—over 100 in 2012.</plot>
+  <plot>The ZX Spectrum is an 8-bit personal home computer released in the United Kingdom in 1982 by Sinclair Research. The Spectrum was released as eight different models, ranging from the entry level with 16 KB RAM released in 1982 to the ZX Spectrum +3 with 128 KB RAM and built in floppy disk drive in 1987; together they sold in excess of 5 million units worldwide (not counting clones). The Commodore 64, Dragon 32, Oric-1 and Oric Atmos, BBC Microcomputer and later the Amstrad CPC range were rivals to the Spectrum in the UK market during the early 1980s. Over 24,000 software titles have been released since the Spectrum's launch and new titles continue to be released (over 100 in 2012).</plot>
   <platform>Sinclair ZX Spectrum</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/bluemsx_libretro.so -f -v &quot;$rom$&quot;</args>
