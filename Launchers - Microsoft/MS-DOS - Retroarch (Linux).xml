@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+I took 3 games from the exoDOS set. Left the exo conf files stock, and only changed the autoexec 
+to my file paths. Then called them this way:
+
+retroarch -L "C:\Emulation\Emulators\RetroArch\cores\dosbox _lib retro.dll" \
+"C:\Emulation\Emulators\RetroArch\dosgames\Kin g's Quest V - Absence Makes the Heart Go Yonder (1990)\kq5\kq5.conf"
+
+They launched right up and ran flawlessly.
+
+The only thing I changed from the exo kq5.conf was the [autoexec] section at the bottom. Here is mine:
+
+[autoexec]
+# Lines in this section will be run at startup.
+cd ..
+cd ..
+mount c "C:\Emulation\Emulators\RetroArch\dosgames\Kin g's Quest V - Absence Makes the Heart Go Yonder (1990)\"
+c:
+cd kq5
+sierra C:\kq5\resource.cfg
+exit
+-->
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <name>MS-DOS (Retroarch)</name>
+  <category>Microsoft </category>
+  <year>1981</year>
+  <genre>Operating System</genre>
+  <developer>Microsoft</developer>
+  <plot>MS-DOS (acronym for Microsoft Disk Operating System) is a discontinued operating system for x86-based personal computers mostly developed by Microsoft. It was the most commonly used member of the DOS family of operating systems, and was the main operating system for IBM PC compatible personal computers during the 1980s and the early 1990s, when it was gradually superseded by operating systems offering a graphical user interface (GUI), in various generations of the graphical Microsoft Windows operating system by Microsoft Corporation. MS-DOS resulted from a request in 1981 by IBM for an operating system to use in its IBM PC range of personal computers. Microsoft quickly bought the rights to 86-DOS from Seattle Computer Products, and began work on modifying it to meet IBM's specification. IBM licensed and released it in August 1981 as PC DOS 1.0 for use in their PCs. Although MS-DOS and PC DOS were initially developed in parallel by Microsoft and IBM, in subsequent years the two products diverged, with recognizable differences in compatibility, syntax, and capabilities.</plot>
+  <platform>Microsoft MS-DOS</platform>
+  <application>/home/kodi/bin/retroarch</application>
+  <args>-L /home/kodi/bin/libretro/dosbox_libretro.so -f -v &quot;$rom$&quot;</args>
+  <ROM_path>/home/kodi/AEL-ROMs/msdos/</ROM_path>
+  <ROM_ext>conf</ROM_ext>
+  <ROM_asset_path>/home/kodi/AEL-assets/msdos/</ROM_asset_path>
+  <Asset_Prefix>MS-DOS</Asset_Prefix>
+</launcher>
+</advanced_emulator_launcher_configuration>
