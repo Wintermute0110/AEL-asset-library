@@ -12,7 +12,7 @@
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/dolphin_libretro.so -f -v &quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/nintendo-wii/</ROM_path>
-  <ROM_ext>cue|iso</ROM_ext>
+  <ROM_ext>iso</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/nintendo-wii</ROM_asset_path>
   <Asset_Prefix>Wii</Asset_Prefix>
 </launcher>
