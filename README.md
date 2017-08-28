@@ -28,13 +28,13 @@ recommended to use the `Notepad++` editor to edit XML UTF-8 encoded files.
 
 The XML files in this library assume the following **ROM paths** and **asset directories**:
 
-| System                                 | Category             | ROM path or data files                              | Assets path                                           |
-|----------------------------------------|----------------------|-----------------------------------------------------|-------------------------------------------------------|
-| <sub>Atari 2600</sub>                  | <sub>Atari</sub>     | <sub>`/home/kodi/AEL-ROMs/atari-2600/`</sub>        | <sub>`/home/kodi/AEL-assets/atari-2600/`</sub>        |
-| <sub>Atari 5200</sub>                  | <sub>Atari</sub>     | <sub>`/home/kodi/AEL-ROMs/atari-5200/`</sub>        | <sub>`/home/kodi/AEL-assets/atari-5200/`</sub>        |
-| <sub>Atari 7800</sub>                  | <sub>Atari</sub>     | <sub>`/home/kodi/AEL-ROMs/atari-7800/`</sub>        | <sub>`/home/kodi/AEL-assets/atari-7800/`</sub>        |
-| <sub>Atari Jaguar</sub>                | <sub>Atari</sub>     | <sub>`/home/kodi/AEL-ROMs/atari-jaguar/`</sub>      | <sub>`/home/kodi/AEL-assets/atari-jaguar/`</sub>      |
-| <sub>Atari Lynx</sub>                  | <sub>Atari</sub>     | <sub>`/home/kodi/AEL-ROMs/atari-lynx/`</sub>        | <sub>`/home/kodi/AEL-assets/atari-lynx/`</sub>        |
+| System                                 | Category             | ROM path or data files                              | Assets path                                           | Emulators                                                            |
+|----------------------------------------|----------------------|-----------------------------------------------------|-------------------------------------------------------|----------------------------------------------------------------------|
+| <sub>Atari 2600</sub>                  | <sub>Atari</sub>     | <sub>`/home/kodi/AEL-ROMs/atari-2600/`</sub>        | <sub>`/home/kodi/AEL-assets/atari-2600/`</sub>        | [Retroarch](./Launchers - SEGA/Atari 2600 - Retroarch (Linux).xml)   |
+| <sub>Atari 5200</sub>                  | <sub>Atari</sub>     | <sub>`/home/kodi/AEL-ROMs/atari-5200/`</sub>        | <sub>`/home/kodi/AEL-assets/atari-5200/`</sub>        | [Retroarch](./Launchers - SEGA/Atari 5200 - Retroarch (Linux).xml)   |
+| <sub>Atari 7800</sub>                  | <sub>Atari</sub>     | <sub>`/home/kodi/AEL-ROMs/atari-7800/`</sub>        | <sub>`/home/kodi/AEL-assets/atari-7800/`</sub>        | [Retroarch](./Launchers - SEGA/Atari 7800 - Retroarch (Linux).xml)   |
+| <sub>Atari Jaguar</sub>                | <sub>Atari</sub>     | <sub>`/home/kodi/AEL-ROMs/atari-jaguar/`</sub>      | <sub>`/home/kodi/AEL-assets/atari-jaguar/`</sub>      | [Retroarch](./Launchers - SEGA/Atari Jaguar - Retroarch (Linux).xml) |
+| <sub>Atari Lynx</sub>                  | <sub>Atari</sub>     | <sub>`/home/kodi/AEL-ROMs/atari-lynx/`</sub>        | <sub>`/home/kodi/AEL-assets/atari-lynx/`</sub>        | [Retroarch](./Launchers - SEGA/Atari Lynx - Retroarch (Linux).xml)   |
 | <sub>Amstrad CPC</sub>                 | <sub>Computers</sub> | <sub>`/home/kodi/AEL-ROMs/com-amstrad-cpc/`</sub>   | <sub>`/home/kodi/AEL-assets/com-amstrad-cpc/`</sub>   |
 | <sub>Commodore 64</sub>                | <sub>Computers</sub> | <sub>`/home/kodi/AEL-ROMs/com-c64/`</sub>           | <sub>`/home/kodi/AEL-assets/com-c64/`</sub>           |
 | <sub>Commodore Amiga</sub>             | <sub>Computers</sub> | <sub>`/home/kodi/AEL-ROMs/com-amiga/`</sub>         | <sub>`/home/kodi/AEL-assets/com-amiga/`</sub>         |
@@ -74,15 +74,15 @@ The XML files in this library assume the following **ROM paths** and **asset dir
 | <sub>SNES</sub>                        | <sub>Nintendo</sub>  | <sub>`/home/kodi/AEL-ROMs/nintendo-snes/`</sub>     | <sub>`/home/kodi/AEL-assets/nintendo-snes/`</sub>     |
 | <sub>Virtual Boy</sub>                 | <sub>Nintendo</sub>  | <sub>`/home/kodi/AEL-ROMs/nintendo-vb/`</sub>       | <sub>`/home/kodi/AEL-assets/nintendo-vb/`</sub>       |
 | <sub>Wii</sub>                         | <sub>Nintendo</sub>  | <sub>`/home/kodi/AEL-ROMs/nintendo-wii/`</sub>      | <sub>`/home/kodi/AEL-assets/nintendo-wii/`</sub>      |
-| <sub>32X</sub>                         | <sub>SEGA</sub>      | <sub>`/home/kodi/AEL-ROMs/sega-32x/`</sub>          | <sub>`/home/kodi/AEL-assets/sega-32x/`</sub>          |
-| <sub>Dreamcast</sub>                   | <sub>SEGA</sub>      | <sub>`/home/kodi/AEL-ROMs/sega-dreamcast/`</sub>    | <sub>`/home/kodi/AEL-assets/sega-dreamcast`</sub>     |
-| <sub>Game Gear</sub>                   | <sub>SEGA</sub>      | <sub>`/home/kodi/AEL-ROMs/sega-gg/`</sub>           | <sub>`/home/kodi/AEL-assets/sega-gg`</sub>            |
-| <sub>Master System</sub>               | <sub>SEGA</sub>      | <sub>`/home/kodi/AEL-ROMs/sega-sms/`</sub>          | <sub>`/home/kodi/AEL-assets/sega-sms`</sub>           |
-| <sub>Mega CD</sub>                     | <sub>SEGA</sub>      | <sub>`/home/kodi/AEL-ROMs/sega-megacd/`</sub>       | <sub>`/home/kodi/AEL-assets/sega-megacd`</sub>        |
-| <sub>Mega Drive</sub>                  | <sub>SEGA</sub>      | <sub>`/home/kodi/AEL-ROMs/sega-genesis/`</sub>      | <sub>`/home/kodi/AEL-assets/sega-genesis`</sub>       |
-| <sub>PICO</sub>                        | <sub>SEGA</sub>      | <sub>`/home/kodi/AEL-ROMs/sega-pico/`</sub>         | <sub>`/home/kodi/AEL-assets/sega-pico`</sub>          |
-| <sub>Saturn</sub>                      | <sub>SEGA</sub>      | <sub>`/home/kodi/AEL-ROMs/sega-saturn/`</sub>       | <sub>`/home/kodi/AEL-assets/sega-saturn`</sub>        |
-| <sub>SG-1000</sub>                     | <sub>SEGA</sub>      | <sub>`/home/kodi/AEL-ROMs/sega-sg1000/`</sub>       | <sub>`/home/kodi/AEL-assets/sega-sg1000`</sub>        |
+| <sub>32X</sub>                         | <sub>SEGA</sub>      | <sub>`/home/kodi/AEL-ROMs/sega-32x/`</sub>          | <sub>`/home/kodi/AEL-assets/sega-32x/`</sub>          | [Retroarch](./Launchers - SEGA/32X - Retroarch (Linux).xml) |
+| <sub>Dreamcast</sub>                   | <sub>SEGA</sub>      | <sub>`/home/kodi/AEL-ROMs/sega-dreamcast/`</sub>    | <sub>`/home/kodi/AEL-assets/sega-dreamcast`</sub>     | [Retroarch](./Launchers - SEGA/Dreamcast - Retroarch (Linux).xml) |
+| <sub>Game Gear</sub>                   | <sub>SEGA</sub>      | <sub>`/home/kodi/AEL-ROMs/sega-gg/`</sub>           | <sub>`/home/kodi/AEL-assets/sega-gg`</sub>            | [Retroarch](./Launchers - SEGA/Game Gear - Retroarch (Linux).xml) |
+| <sub>Master System</sub>               | <sub>SEGA</sub>      | <sub>`/home/kodi/AEL-ROMs/sega-sms/`</sub>          | <sub>`/home/kodi/AEL-assets/sega-sms`</sub>           | [Retroarch](./Launchers - SEGA/Master System - Retroarch (Linux).xml) |
+| <sub>Mega CD</sub>                     | <sub>SEGA</sub>      | <sub>`/home/kodi/AEL-ROMs/sega-megacd/`</sub>       | <sub>`/home/kodi/AEL-assets/sega-megacd`</sub>        | [Retroarch](./Launchers - SEGA/Mega CD - Retroarch (Linux).xml) |
+| <sub>Mega Drive</sub>                  | <sub>SEGA</sub>      | <sub>`/home/kodi/AEL-ROMs/sega-genesis/`</sub>      | <sub>`/home/kodi/AEL-assets/sega-genesis`</sub>       | [Retroarch](./Launchers - SEGA/Mega Drive - Retroarch (Linux).xml) |
+| <sub>PICO</sub>                        | <sub>SEGA</sub>      | <sub>`/home/kodi/AEL-ROMs/sega-pico/`</sub>         | <sub>`/home/kodi/AEL-assets/sega-pico`</sub>          | [Retroarch](./Launchers - SEGA/PICO - Retroarch (Linux).xml) |
+| <sub>Saturn</sub>                      | <sub>SEGA</sub>      | <sub>`/home/kodi/AEL-ROMs/sega-saturn/`</sub>       | <sub>`/home/kodi/AEL-assets/sega-saturn`</sub>        | [Retroarch](./Launchers - SEGA/Saturn - Retroarch (Linux).xml) |
+| <sub>SG-1000</sub>                     | <sub>SEGA</sub>      | <sub>`/home/kodi/AEL-ROMs/sega-sg1000/`</sub>       | <sub>`/home/kodi/AEL-assets/sega-sg1000`</sub>        | [Retroarch](./Launchers - SEGA/SG-1000 - Retroarch (Linux).xml) |
 | <sub>Neo Geo CD</sub>                  | <sub>SNK</sub>       | <sub>`/home/kodi/AEL-ROMs/snk-neocd/`</sub>         | <sub>`/home/kodi/AEL-assets/snk-neocd/`</sub>         |
 | <sub>Neo Geo Pocket</sub>              | <sub>SNK</sub>       | <sub>`/home/kodi/AEL-ROMs/snk-ngp/`</sub>           | <sub>`/home/kodi/AEL-assets/snk-ngp/`</sub>           |
 | <sub>Neo Geo Pocket Color</sub>        | <sub>SNK</sub>       | <sub>`/home/kodi/AEL-ROMs/snk-ngpc/`</sub>          | <sub>`/home/kodi/AEL-assets/snk-ngpc/`</sub>          |
