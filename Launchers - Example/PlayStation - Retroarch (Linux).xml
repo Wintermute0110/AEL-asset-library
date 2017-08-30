@@ -10,11 +10,10 @@
     -->
   <category>SONY</category>
   <!--
-      NOT IMPLEMENTED YET.
       This tag specifies an NFO file to read the metadata from. This is to share the metadata
-      among different XML configuration files and to not duplicate information. The metadata in the
-      launcher NFO file is: year, genre, developer, rating and plot. If any metadata tag is included 
-      in the XML file it overrides any metadata on the NFO file.
+      among different XML configuration files to avoid duplicate information. The metadata in the
+      launcher NFO file is: year, genre, developer, rating and plot. If any metadata tags are 
+      included in the XML file they overrides whatever metadata on the NFO file.
     -->
   <Launcher_NFO>Playstation.nfo</Launcher_NFO>
   <year>1994</year>
