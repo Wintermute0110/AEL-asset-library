@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <launcher>
   <year>1997</year>
-  <publisher>Nicola Salmoria and the MAME Team</publisher>
   <genre>Arcade, console and computer emulator</genre>
-  <plot>MAME (an acronym of Multiple Arcade Machine Emulator) is a free and open source emulator designed to recreate the hardware of arcade game systems in software on modern personal computers and other platforms. The intention is to preserve gaming history by preventing vintage games from being lost or forgotten. The aim of MAME is to be a reference to the inner workings of the emulated arcade machines; the ability to actually play the games is considered "a nice side effect". Joystiq has listed MAME as an application that every gamer should have.
-
-The first public MAME release (0.1) was on February 5, 1997, by Nicola Salmoria. The emulator now supports over seven thousand unique games and ten thousand actual ROM image sets, though not all of the supported games are playable. MESS, an emulator for many video game consoles and computer systems, based on the MAME core, has been integrated into MAME in 2015.</plot>
+  <developer>Nicola Salmoria and the MAME Team</developer>
+  <plot>MAME (an acronym of Multiple Arcade Machine Emulator) is a free and open source emulator designed to recreate the hardware of arcade game systems in software on modern personal computers and other platforms. The intention is to preserve gaming history by preventing vintage games from being lost or forgotten. The aim of MAME is to be a reference to the inner workings of the emulated arcade machines; the ability to actually play the games is considered "a nice side effect". Joystiq has listed MAME as an application that every gamer should have. The first public MAME release (0.1) was on February 5, 1997, by Nicola Salmoria. The emulator now supports over seven thousand unique games and ten thousand actual ROM image sets, though not all of the supported games are playable. MESS, an emulator for many video game consoles and computer systems, based on the MAME core, has been integrated into MAME in 2015.</plot>
 </launcher>

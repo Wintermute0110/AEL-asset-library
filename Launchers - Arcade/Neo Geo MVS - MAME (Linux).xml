@@ -3,6 +3,7 @@
 <launcher>
   <name>Neo Geo MVS (MAME)</name>
   <category>Arcade (MAME)</category>
+  <Launcher_NFO>Neo Geo MVS.nfo</Launcher_NFO>
   <platform>MAME</platform>
   <application>/usr/games/mame</application>
   <args>&quot;$rom$&quot;</args>
