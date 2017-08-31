@@ -28,11 +28,19 @@
 
   <!--
       If platform is not in AEL official platform names it will set automatically to Unknown (after
-      warning the user about this).
-      Here is a list of AEL official platform names:
+      warning the user about this). Note that some platforms are aliases. Here is the list of 
+      AEL official platform names:
       https://github.com/Wintermute0110/plugin.program.advanced.emulator.launcher/blob/master/resources/platforms.py#L26
     -->
   <platform>Sony PlayStation</platform>
+
+  <!--
+      * Use <application>retroplayer_launcher_app</application> if you want to use Kodi Retroplayer
+        for this launcher. Retroplayer do not need any arguments so omit <args> tag.
+      * Use <application>lnk_launcher_app</application> if you want to create a LNK launcher (LNK
+        launcher only available on Windows). The typical arguments of a LNK launcher are 
+        <args>"$rom$"</args>.
+    -->
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_psx_libretro.so -f -v &quot;$rom$&quot;</args>
 
