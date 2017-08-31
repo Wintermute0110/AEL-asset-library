@@ -92,8 +92,8 @@
        * When AEL exports an XML configuration, these tags will have the corresponding paths so 
          it could be restored during a Categories/Launchers XML backup.
        * When exporting, if all paths share a common </ROM_asset_path> these tags won't be used.
-       * When importing the XML these tags will override <ROM_asset_path>. However, if
-         <ROM_asset_path> the directories will be created if they don't exists.
+       * When importing these tags will override <ROM_asset_path>. However, if <ROM_asset_path> is
+         specified then the ROM assets directories will be created if they don't exists as usual.
        * When using the XML file to configure a launcher for the first time it is not recommended
          to use these tags, just </ROM_asset_path>.
     -->
