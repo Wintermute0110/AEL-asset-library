@@ -5,6 +5,6 @@
   <genre>Company</genre>
   <rating></rating>
   <plot>SNK Playmore Corporation, officially branded as SNK, is a Japanese video game hardware and software company, successor to the original SNK Corporation and current owner of the SNK video game brand and Neo Geo video game platform. The original SNK Corporation was founded in Suita, Osaka, Japan on July 22, 1978 by Eikichi Kawasaki. Initially called Shin Nihon Kikaku (lit. "New Japan Project"), the name was shortened to SNK Corporation in 1986.&#10;SNK is most notable as creator of the Neo Geo family of arcade, home, and handheld game consoles, beginning in 1990. The Neo Geo line was halted in 2001, when financial troubles forced SNK Corporation to close. Anticipating the end of the company, Kawasaki founded Playmore Corporation in August 1, 2001. By October, Playmore had acquired all of the intellectual property of the former SNK Corporation. On July 7, 2003, Playmore Corporation was renamed to SNK Playmore Corporation, to more firmly establish itself as the successor to the SNK brand and legacy.</plot>
-  <Asset_Prefix>SNK</Asset_Prefix>
+  <Asset_Prefix>../Category assets/SNK</Asset_Prefix>
 </category>
 </advanced_emulator_launcher_configuration>

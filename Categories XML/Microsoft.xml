@@ -5,6 +5,6 @@
   <genre>Company</genre>
   <rating></rating>
   <plot>Microsoft was founded by Paul Allen and Bill Gates on April 4, 1975, to develop and sell BASIC interpreters for the Altair 8800. It rose to dominate the personal computer operating system market with MS-DOS in the mid-1980s, followed by Microsoft Windows. The company's 1986 initial public offering (IPO), and subsequent rise in its share price, created three billionaires and an estimated 12,000 millionaires among Microsoft employees. As of 2015, Microsoft is market-dominant in the IBM PC-compatible operating system market and the office software suite market, although it has lost the majority of the overall operating system market to Android.</plot>
-  <Asset_Prefix>Microsoft</Asset_Prefix>
+  <Asset_Prefix>../Category assets/Microsoft</Asset_Prefix>
 </category>
 </advanced_emulator_launcher_configuration>

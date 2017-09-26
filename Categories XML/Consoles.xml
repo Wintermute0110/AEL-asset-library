@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <category>
-  <name>Computers</name>
+  <name>Consoles</name>
   <genre>Miscellaneous</genre>
   <rating></rating>
-  <plot>Miscellaneous computers and machines.</plot>
-  <Asset_Prefix>Computers</Asset_Prefix>
+  <plot>Several miscellaneous consoles of less well known brands.</plot>
+  <Asset_Prefix>../Category assets/Consoles</Asset_Prefix>
 </category>
 </advanced_emulator_launcher_configuration>
