@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <category>SEGA</category>
+  <name>Mega Drive (Retroarch wrapper)</name>
+  <Launcher_NFO>Genesis.nfo</Launcher_NFO>
+  <platform>Sega MegaDrive</platform>
+  <application>/home/kodi/bin/run_retroarch.sh</application>
+  <args>genesis_plus_gx &quot;$rom$&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra>picodrive &quot;$rom$&quot; $categoryID$ $launcherID$ $romID$</args_extra>
+  <args_extra>blastem &quot;$rom$&quot; $categoryID$ $launcherID$ $romID$</args_extra>
+  <ROM_path>/home/kodi/AEL-ROMs/sega-genesis/</ROM_path>
+  <ROM_ext>smd|md|bin|zip</ROM_ext>
+  <ROM_asset_path>/home/kodi/AEL-assets/sega-genesis</ROM_asset_path>
+  <Asset_Prefix>Mega Drive</Asset_Prefix>
+</launcher>
+</advanced_emulator_launcher_configuration>
+
