@@ -69,13 +69,19 @@
   <!--
       Separate different options with a comma, for example: <Options>NonBlocking, ToggleWindow</Options>
       Available launcher options:
+          Blocking      Launcher is blocking (default)
           NonBlocking   Launcher is non-blocking (control will be returned to Kodi inmediately as
                         opposed to a blocking launcher which waits until app has finished).
+          StaticWindow  Do not toggle Kodi into windowed mode (default)
           ToggleWindow  Toggle Kodi into windowed mode before launching and then back to fullscreen
                         mode when the launcher app finishes.
+          Unfinished    Mark launcher as not finihsed (default)
           Finished      Mark this launcher as finished.
+
+      If <Options> tag is ommited or empty and the imported launcher exists in AEL then the 
+      launcher options are not modified.
     -->
-  <Options>NonBlocking, ToggleWindow, Finished</Options>
+  <Options>Blocking, StaticWindow, Unfinished</Options>
 
   <!--
       This path is the main path of the ROM assets. When importing, AEL will create the following
