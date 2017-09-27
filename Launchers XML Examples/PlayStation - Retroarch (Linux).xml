@@ -18,6 +18,8 @@
         platforms.
       * The metadata in the launcher NFO file is: year, genre, developer, rating and plot. If any
         metadata tags are included in the XML file they overrides whatever metadata on the NFO file.
+      * <Launcher_NFO> may be a relative path, for example "../NFO dir/Playstation.nfo". This path
+        is relative to the directory where this XML file is stored.
     -->
   <Launcher_NFO>Playstation.nfo</Launcher_NFO>
   <year>1994</year>
@@ -65,6 +67,17 @@
   <ROM_ext>cue|m3u</ROM_ext>
 
   <!--
+      Separate different options with a comma, for example: <Options>NonBlocking, ToggleWindow</Options>
+      Available launcher options:
+          NonBlocking   Launcher is non-blocking (control will be returned to Kodi inmediately as
+                        opposed to a blocking launcher which waits until app has finished).
+          ToggleWindow  Toggle Kodi into windowed mode before launching and then back to fullscreen
+                        mode when the launcher app finishes.
+          Finished      Mark this launcher as finished.
+    -->
+  <Options>NonBlocking, ToggleWindow, Finished</Options>
+
+  <!--
       This path is the main path of the ROM assets. When importing, AEL will create the following
       directories automatically:
            Any platform launcher                MAME launcher
@@ -86,16 +99,16 @@
       created or not. Note that if <ROM_asset_path> does not exists or could not be created then
       the ROM artwork paths will be left unconfigured.
     -->
-  <ROM_asset_path>/home/kodi/AEL-assets/sony-psx</ROM_asset_path>
+  <ROM_asset_path>/home/kodi/AEL-assets/sony-psx/</ROM_asset_path>
 
   <!--
        * When AEL exports an XML configuration, these tags will have the corresponding paths so 
          it could be restored during a Categories/Launchers XML backup.
-       * When exporting, if all paths share a common </ROM_asset_path> these tags won't be used.
+       * When exporting, if all paths share a common <ROM_asset_path> these tags won't be used.
        * When importing these tags will override <ROM_asset_path>. However, if <ROM_asset_path> is
          specified then the ROM assets directories will be created if they don't exists as usual.
        * When using the XML file to configure a launcher for the first time it is not recommended
-         to use these tags, just </ROM_asset_path>.
+         to use these tags, just use <ROM_asset_path>.
     -->
   <path_title />
   <path_snap />
@@ -124,6 +137,8 @@
           a) 'PlayStation_fanart_Artist_Name.jpg'
           b) 'PlayStation_fanart_1_Artist Name.jpg'
           c) 'PlayStation_fanart_01_Artist Name.jpg'
+          
+      <Asset_Prefix> may be a relative path, for example "../Artwork dir/PlayStation"
     -->
   <Asset_Prefix>PlayStation</Asset_Prefix>
 
@@ -133,7 +148,7 @@
        * During the XML import process, the user will choose the artwork from here and also from 
          the artwork found using the <Asset_Prefix> tag.
        * When using the XML file to configure a launcher for the first time it is not recommended
-         to use these tags, </Asset_Prefix>.
+         to use these tags, just use <Asset_Prefix>.
     -->
   <s_icon />
   <s_fanart />
