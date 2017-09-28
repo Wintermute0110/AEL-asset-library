@@ -62,16 +62,12 @@ if [ ! -x "$RETROARCH" ]; then
 fi
 echo "Retroarch executable has executable permissions." >> $LOG_FILE
 
-# --- In LibreELEC use this ---
-# echo "Shutting down Kodi (LibreELEC) ..." >> $LOG_FILE
-# systemctl stop kodi
-
 # --- In Kodibuntu kill the Kodi process after shutdown ---
 echo "Shutting down Kodi (Linux) ..." >> $LOG_FILE
 kodi_rpc "Application.Quit"
 
 # >> If AEL Launcher is non-blocking there is no need to kill Kodi, it will shutdown with JSON
-# >> RPC Application.Quit command.
+# >> RPC Application.Quit command. If AEL launcher if blocking (default) then Kodi must be killed.
 # sleep 2
 # killall -9 kodi
 # killall -9 kodi.bin
@@ -93,24 +89,19 @@ done
 echo "Running Retroarch ..." >> $LOG_FILE
 $RETROARCH -L $core_file -v "$2" > $LOG_RETROARCH 2>&1
 
-# --- In LibreELEC use this ---
-# echo "Starting Kodi (LibreELEC) ..." >> $LOG_FILE
-# systemctl start kodi
-
 # --- In Kodibuntu use this ---
 echo "Starting Kodi (Linux) ..." >> $LOG_FILE
 /usr/bin/kodi &
 sleep 2
-kodi_rpc_notification "run_retroarch.sh" "Restarted Kodi"
+kodi_rpc_notification "run_retroarch_Linux.sh" "Restarted Kodi"
 
 # --- Tell Kodi to open AEL in the correct Launcher ---
-echo "Starting AEL Launcher ..." >> $LOG_FILE
-ael_id="\"addonid\":\"plugin.program.advanced.emulator.launcher\""
-ael_pars="\"params\":{\"com\":\"SHOW_ROMS\",\"catID\":\"$3\",\"launID\":\"$4\"}"
-PARAMS="\"params\":{$ael_id,$ael_pars}"
-kodi_rpc_params "Addons.ExecuteAddon" "$PARAMS"
+# echo "Starting AEL Launcher ..." >> $LOG_FILE
+# ael_id="\"addonid\":\"plugin.program.advanced.emulator.launcher\""
+# ael_pars="\"params\":{\"com\":\"SHOW_ROMS\",\"catID\":\"$3\",\"launID\":\"$4\"}"
+# PARAMS="\"params\":{$ael_id,$ael_pars}"
+# kodi_rpc_params "Addons.ExecuteAddon" "$PARAMS"
 
 # --- END ---
 echo "Finishing run_retroarch.sh" >> $LOG_FILE
 exit 0
-
