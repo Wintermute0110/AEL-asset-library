@@ -3,13 +3,13 @@
 <launcher>
   <name>Capcom Play System (MAME)</name>
   <category>Arcade (MAME)</category>
-  <Launcher_NFO>Capcom Play System.nfo</Launcher_NFO>
+  <Launcher_NFO>../Launcher assets Arcade/Capcom Play System.nfo</Launcher_NFO>
   <platform>MAME</platform>
   <application>/usr/games/mame</application>
   <args>&quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/mame-cps/</ROM_path>
   <ROM_ext>zip|7z</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/mame-cps/</ROM_asset_path>
-  <Asset_Prefix>Capcom Play System</Asset_Prefix>
+  <Asset_Prefix>../Launcher assets Arcade/Capcom Play System</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

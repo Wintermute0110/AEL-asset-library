@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <category>Atari</category>
   <name>Atari 7800 (Retroarch)</name>
-  <year>1986</year>
-  <genre>Third generation console</genre>
-  <developer>Atari</developer>
-  <rating></rating>
-  <plot>The Atari 7800 ProSystem, or simply the Atari 7800, is a home video game console officially released by Atari Corporation in 1986. It is almost fully backward-compatible with the Atari 2600, the first console to have backward compatibility without the use of additional modules. It was considered affordable at a price of US$140. The 7800 has significantly improved graphics hardware over the 2600, but uses the same audio chip. It also shipped with a different model of joystick than the 2600-standard CX40. The 1986 launch is sometimes referred to as a "re-release" or "relaunch" because the Atari 7800 had originally been announced on May 21, 1984, to replace Atari Inc.'s Atari 5200, but a general release was shelved due to the sale of the company. A few units were released to test markets in June 1984 though. However, by 1987 the Nintendo Entertainment System was already dominating the home console market, and the 7800 could not gain a significant foothold.</plot>
+  <category>Atari</category>
+  <Launcher_NFO>../Launcher assets Atari/Atari 7800.nfo</Launcher_NFO>
   <platform>Atari 7800</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/prosystem_libretro.so -f -v &quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/atari-7800/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/atari-7800/</ROM_asset_path>
-  <Asset_Prefix>Atari 7800</Asset_Prefix>
+  <Asset_Prefix>../Launcher assets Atari/Atari 7800</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

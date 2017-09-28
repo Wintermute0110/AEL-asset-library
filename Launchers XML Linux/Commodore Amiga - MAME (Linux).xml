@@ -3,16 +3,13 @@
 <launcher>
   <name>Commodore Amiga (MAME)</name>
   <category>Computers</category>
-  <year>1985</year>
-  <genre>Personal computer</genre>
-  <developer>Commodore Business Machines</developer>
-  <plot>The Amiga is a family of personal computers sold by Commodore in the 1980s and 1990s. Based on the Motorola 68000 family of microprocessors, the machine has a custom chipset with graphics and sound capabilities that were unprecedented for the price, and a pre-emptive multitasking operating system called AmigaOS. The Amiga provided a significant upgrade from earlier 8-bit home computers, including Commodore's own C64.</plot>
+  <Launcher_NFO>../Launcher assets Computers/Commodore Amiga.nfo</Launcher_NFO>
   <platform>Commodore Amiga</platform>
   <application>/usr/games/bin/mame</application>
   <args>&quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/com-amiga/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/com-amiga/</ROM_asset_path>
-  <Asset_Prefix>Commodore Amiga</Asset_Prefix>
+  <Asset_Prefix>../Launcher assets Computers/Commodore Amiga</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

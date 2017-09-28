@@ -3,16 +3,13 @@
 <launcher>
   <name>Bandai WonderSwan Color (Retroarch)</name>
   <category>Consoles</category>
-  <year>2000</year>
-  <genre>Fifth generation console</genre>
-  <developer>Bandai</developer>
-  <plot>The WonderSwan is a handheld game console released in Japan by Bandai. It was developed by Gunpei Yokoi's company Koto Laboratory and Bandai, and was the last piece of hardware Yokoi developed before his death in 1997. Released in 1999 in the fifth generation of video game consoles, the WonderSwan and its two later models, the WonderSwan Color and SwanCrystal were officially supported until being discontinued by Bandai in 2003. During its lifespan, no variation of the WonderSwan was released outside of Japan.</plot>
+  <Launcher_NFO>../Launcher assets Consoles/Bandai WonderSwan Color.nfo</Launcher_NFO>
   <platform>Bandai WonderSwan Color</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_wswan_libretro.so -f -v &quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/con-wswancolor/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/con-wswancolor/</ROM_asset_path>
-  <Asset_Prefix>Bandai WonderSwan Color</Asset_Prefix>
+  <Asset_Prefix>../Launcher assets Consoles/Bandai WonderSwan Color</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

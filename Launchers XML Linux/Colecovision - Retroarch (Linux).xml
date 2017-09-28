@@ -3,16 +3,13 @@
 <launcher>
   <name>Colecovision (Retroarch)</name>
   <category>Consoles</category>
-  <year>1982</year>
-  <genre>Second generation console</genre>
-  <developer>Coleco Industries, Inc.</developer>
-  <plot>The ColecoVision is Coleco Industries' second-generation home video-game console which was released in August 1982. The ColecoVision offered a closer experience to more powerful arcade game systems compared to competitors such as the Atari 2600, along with the means to expand the system's basic hardware.</plot>
+  <Launcher_NFO>../Launcher assets Consoles/ColecoVision.nfo</Launcher_NFO>
   <platform>Colecovision</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/bluemsx_libretro.so -f -v &quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/con-coleco/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/con-coleco/</ROM_asset_path>
-  <Asset_Prefix>ColecoVision</Asset_Prefix>
+  <Asset_Prefix>../Launcher assets Consoles/ColecoVision</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

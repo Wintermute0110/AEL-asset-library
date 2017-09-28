@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <launcher>
   <year>1982</year>
-  <publisher>Commodore Business Machines</publisher>
   <genre>Personal computer</genre>
+  <developer>Commodore Business Machines</developer>
   <plot>The Commodore 64, also known as the C64, C-64, C= 64, or occasionally CBM 64 or VIC-64 in Sweden, is an 8-bit home computer introduced in January 1982 by Commodore International. It is listed in the Guinness World Records as the highest-selling single computer model of all time, with independent estimates placing the number sold between 10 and 17 million units. Volume production started in early 1982, with machines being released on to the market in August at a price of US$595 (equivalent to US $1,481.25 in 2016). Preceded by the Commodore VIC-20 and Commodore PET, the C64 takes its name from its 64 kilobytes (65,536 bytes) of RAM, and has technologically superior sound and graphical specifications when compared to some earlier systems such as the Apple II and Atari 800, with multi-color sprites and a more advanced sound processor.</plot>
 </launcher>

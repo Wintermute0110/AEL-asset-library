@@ -3,11 +3,7 @@
 <launcher>
   <name>Atari Lynx (Retroarch)</name>
   <category>Atari</category>
-  <year>1989</year>
-  <genre>Fourth generation console</genre>
-  <developer>Atari</developer>
-  <rating></rating>
-  <plot>The Atari Lynx is an 8 bit handheld game console that was released by Atari Corporation in October 1989 in North America, and in Europe and Japan in 1990. The Lynx holds the distinction of being the world's first handheld electronic game with a color LCD. The system is also notable for its forward-looking features, advanced graphics, and ambidextrous layout. As part of the fourth generation of gaming, the Lynx competed with the Game Boy (released just 2 months earlier), as well as the Game Gear and TurboExpress, both released the following year.</plot>
+  <Launcher_NFO>../Launcher assets Atari/Atari Lynx.nfo</Launcher_NFO>
   <platform>Atari Lynx</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_lynx_libretro.so -f -v &quot;$rom$&quot;</args>
@@ -15,6 +11,6 @@
   <ROM_path>/home/kodi/AEL-ROMs/atari-lynx/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/atari-lynx/</ROM_asset_path>
-  <Asset_Prefix>Atari Lynx</Asset_Prefix>
+  <Asset_Prefix>../Launcher assets Atari/Atari Lynx</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>
