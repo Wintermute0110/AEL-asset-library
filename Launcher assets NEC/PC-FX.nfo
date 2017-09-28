@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <launcher>
   <year>1994</year>
-  <publisher>NEC</publisher>
   <genre>Fifth generation console</genre>
+  <developer>NEC</developer>
+  <rating></rating>
   <plot>The PC-FX is a 32-bit home video game console made by NEC Corporation. It was released in Japan on December 23, 1994, just weeks after Sony's PlayStation and a month after the Sega Saturn. It is the successor to NEC's PC Engine, known as TurboGrafx-16 in North America. Unlike its predecessor, the PC-FX was only released in Japan. The console is shaped just like a tower PC and was meant to be similarly upgradeable. However the PC-FX was using an outdated graphics chip that rendered the system underpowered in comparison to its competitors, which caused it to be a commercial failure. A lack of developers' support also meant inadequate games and as a result it was unable to compete effectively with its fifth generation peers. The PC-FX was NEC's last home video game console, and was discontinued in February 1998.</plot>
 </launcher>

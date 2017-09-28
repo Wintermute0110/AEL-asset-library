@@ -3,17 +3,13 @@
 <launcher>
   <name>FM Towns Marty (Retroarch)</name>
   <category>Consoles</category>
-  <year>1993</year>
-  <genre>Fifth generation console</genre>
-  <developer>Fujitsu</developer>
-  <rating></rating>
-  <plot>The FM Towns Marty is a fifth-generation home video game console released in 1991 by Fujitsu, exclusively for the Japanese market. It was the first 32-bit home video game system, and came complete with a built in CD-ROM drive and disk drive. It was based on the earlier FM Towns computer system Fujitsu had released in 1989. The Marty was backward-compatible with older FM Towns games.</plot>
+  <Launcher_NFO>../Launcher assets Consoles/Fujitsu FM Towns Marty.nfo</Launcher_NFO>
   <platform>Fujitsu FM Towns Marty</platform>
   <application>/usr/games/bin/mame</application>
   <args>&quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/con-fmtowns/</ROM_path>
   <ROM_ext>iso</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/con-fmtowns/</ROM_asset_path>
-  <Asset_Prefix>FM Towns Marty</Asset_Prefix>
+  <Asset_Prefix>../Launcher assets Consoles/Fujitsu FM Towns Marty</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

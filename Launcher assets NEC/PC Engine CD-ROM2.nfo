@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <launcher>
   <year>1988</year>
-  <publisher>NEC</publisher>
   <genre>Fourth generation console</genre>
+  <developer>NEC</developer>
+  <rating></rating>
   <plot>The TurboGrafx-16 was the first video game console to have a CD-ROM peripheral, and first device ever to use CD-ROM as a storage medium for video games. NEC released the CD-ROM2 in Japan on December 4, 1988, and released the TurboGrafx-CD in the United States on August 1, 1990. The TurboGrafx-CD had a launch price of $399.99, and did not include any bundled games. Fighting Street and Monster Lair were the TurboGrafx-CD launch titles; Ys Book I &amp; II soon followed.</plot>
 </launcher>

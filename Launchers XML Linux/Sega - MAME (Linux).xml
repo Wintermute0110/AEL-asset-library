@@ -3,6 +3,7 @@
 <launcher>
   <name>Sega (MAME)</name>
   <category>Arcade (MAME)</category>
+  <Launcher_NFO>../Launcher assets Arcade/SEGA.nfo</Launcher_NFO>
   <plot>Sega games supported by MAME.</plot>
   <platform>MAME</platform>
   <application>/usr/games/mame</application>
@@ -10,6 +11,6 @@
   <ROM_path>/home/kodi/AEL-ROMs/mame-sega/</ROM_path>
   <ROM_ext>zip|7z</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/mame-sega/</ROM_asset_path>
-  <Asset_Prefix>SEGA</Asset_Prefix>
+  <Asset_Prefix>../Launcher assets Arcade/SEGA</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

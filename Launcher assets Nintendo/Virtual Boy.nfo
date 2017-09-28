@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <launcher>
   <year>1995</year>
-  <publisher>Nintendo</publisher>
   <genre>Fifth generation console</genre>
+  <developer>Nintendo</developer>
   <plot>The Virtual Boy is a 32-bit table-top 3D video game console developed and manufactured by Nintendo. It was marketed as the first "portable" video game console capable of displaying "true 3D graphics" out of the box. It was released on July 21, 1995, in Japan and August 16, 1995, in North America at a price of US$179.95. It proved to be a commercial failure and was not released in other regions. Its negative reception was unaffected by continued price drops. Nintendo discontinued it on March 2, 1996. The Virtual Boy is Nintendo's second lowest-selling platform after the 64DD.</plot>
 </launcher>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <launcher>
   <year>1994</year>
-  <publisher>SEGA</publisher>
   <genre>Fifth generation console</genre>
+  <developer>SEGA</developer>
+  <rating></rating>
   <plot>The Sega Saturn is a 32-bit fifth-generation home video game console that was developed by Sega and released on November 22, 1994 in Japan, May 11, 1995 in North America, and July 8, 1995 in Europe as the successor to the successful Sega Genesis. The Saturn has a dual-CPU architecture and eight processors. Its games are in CD-ROM format, and its game library contains several arcade ports as well as original titles. Development of the Saturn began in 1992, the same year Sega's groundbreaking 3D Model 1 arcade hardware debuted. Designed around a new CPU from Japanese electronics company Hitachi, another video display processor was incorporated into the system's design in early 1994 to better compete with Sony's forthcoming PlayStation. The Saturn was initially successful in Japan, but failed to sell in large numbers in the United States after its surprise May 1995 launch, four months before its scheduled release date. After the debut of the Nintendo 64 in late 1996, the Saturn rapidly lost market share in the U.S., where it was discontinued in 1998. Having sold 9.26 million units worldwide, the Saturn is considered a commercial failure. The failure of Sega's development teams to release a game in the Sonic the Hedgehog series, known in development as Sonic X-treme, has been considered a factor in the console's poor performance.</plot>
 </launcher>

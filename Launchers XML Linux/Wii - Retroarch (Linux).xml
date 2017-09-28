@@ -3,17 +3,13 @@
 <launcher>
   <name>Wii (Retroarch)</name>
   <category>Nintendo</category>
-  <year>2006</year>
-  <genre>Seventh generation console</genre>
-  <developer>Nintendo</developer>
-  <rating></rating>
-  <plot>The Wii (WEE) is a home video game console released by Nintendo on November 19, 2006. As a seventh-generation console, the Wii competed with Microsoft's Xbox 360 and Sony's PlayStation 3. Nintendo states that its console targets a broader demographic than that of the two others. As of the first quarter of 2012, the Wii leads its generation over PlayStation 3 and Xbox 360 in worldwide sales, with more than 101 million units sold; in December 2009, the console broke the sales record for a single month in the United States. The Wii introduced the Wii Remote controller, which can be used as a handheld pointing device and which detects movement in three dimensions. Another notable feature of the console is the now defunct WiiConnect24, which enabled it to receive messages and updates over the Internet while in standby mode. Like other seventh-generation consoles, it features a game download service, called "Virtual Console", which features emulated games from past systems.</plot>
+  <Launcher_NFO>../Launcher assets Nintendo/Wii.nfo</Launcher_NFO>
   <platform>Nintendo Wii</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/dolphin_libretro.so -f -v &quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/nintendo-wii/</ROM_path>
   <ROM_ext>iso</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/nintendo-wii</ROM_asset_path>
-  <Asset_Prefix>Wii</Asset_Prefix>
+  <Asset_Prefix>../Launcher assets Nintendo/Wii</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

@@ -2,11 +2,12 @@
 <!-- Standalone launcher for Doom using Retroarch -->
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <category>Games</category>
   <name>Final Doom - The Plutonia Experiment (Retroarch)</name>
-  <year>1996</year>
+  <category>Games</category>
+  <Launcher_NFO>../Launcher assets Games/Final Doom Plutonia.nfo</Launcher_NFO>
   <platform>Unknown</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/prboom_libretro.so -v -f /home/kodi/Games/doom/plutonia.wad</args>
+  <Asset_Prefix>../Launcher assets Games/Final Doom Plutonia</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <launcher>
   <year>1983</year>
-  <publisher>SEGA</publisher>
   <genre>Third generation console</genre>
-  <plot>The SG-1000, also known as the Sega Computer Videogame SG-1000, is a cartridge-based home video game console manufactured by Sega and released in Japan, Australia, and other countries. It was Sega's first entry into the home video game hardware business, and provided the basis for the more successful Master System. Introduced in 1983, the SG-1000 was released on the same day that Nintendo released the Family Computer (Famicom for short) in Japan. The SG-1000 was released in several forms, including the SC-3000 computer and the redesigned SG-1000 II, released in 1984. Developed in response to a downturn in arcades in 1982, the SG-1000 was created on the advice of Hayao Nakayama, president of Sega Enterprises, Ltd. Shortly after the release, Sega Enterprises was sold to CSK Corporation, which was followed by the release of the SG-1000 II. Due to the release of the Famicom, and the number of consoles present in the market at the time, the SG-1000 was not commercially successful.</plot>
+  <developer>SEGA</developer>
+  <rating></rating>
+  <plot>The SG-1000, also known as the Sega Computer Videogame SG-1000, is a cartridge-based home video game console manufactured by Sega and released in Japan, Australia, and other countries. It was Sega's first entry into the home video game hardware business, and provided the basis for the more successful Master System. Introduced in 1983, the SG-1000 was released on the same day that Nintendo released the Family Computer (Famicom for short) in Japan. The SG-1000 was released in several forms, including the SC-3000 computer and the redesigned SG-1000 II, also known as the Mark II, released in 1984.</plot>
 </launcher>
