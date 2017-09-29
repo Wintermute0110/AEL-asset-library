@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>GameCube (Retroarch wrapper)</name>
+  <name>GameCube (Retroarch LibreELEC)</name>
   <category>Nintendo</category>
   <Launcher_NFO>../Launcher assets Nintendo/GameCube.nfo</Launcher_NFO>
   <platform>Nintendo GameCube</platform>
-  <application>/home/kodi/bin/run_retroarch_Linux.sh</application>
+  <application>/home/kodi/bin/run_retroarch_LibreELEC.sh</application>
   <args>dolphin &quot;$rom$&quot; $categoryID$ $launcherID$ $romID$</args>
   <ROM_path>/home/kodi/AEL-ROMs/nintendo-gamecube/</ROM_path>
   <ROM_ext>iso|gcm</ROM_ext>

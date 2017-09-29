@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>Mega Drive (Retroarch wrapper)</name>
+  <name>Mega Drive (Retroarch LibreELEC)</name>
   <category>SEGA</category>
   <Launcher_NFO>../Launcher assets SEGA/Genesis.nfo</Launcher_NFO>
   <platform>Sega MegaDrive</platform>
-  <application>/home/kodi/bin/run_retroarch_Linux.sh</application>
+  <application>/home/kodi/bin/run_retroarch_LibreELEC.sh</application>
   <args>genesis_plus_gx &quot;$rom$&quot; $categoryID$ $launcherID$ $romID$</args>
   <args_extra>picodrive &quot;$rom$&quot; $categoryID$ $launcherID$ $romID$</args_extra>
   <ROM_path>/home/kodi/AEL-ROMs/sega-genesis/</ROM_path>

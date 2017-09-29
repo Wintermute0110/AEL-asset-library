@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <category>SONY</category>
   <name>PlayStation 3 (Retroarch)</name>
-  <year>2006</year>
+  <category>SONY</category>
+  <Launcher_NFO>../Launcher assets SONY/PlayStation 3.nfo</Launcher_NFO>
   <platform>Sony PlayStation 3</platform>
   <application>D:\Emulators\rpcs3\rpcs3.exe</application>
   <args>&quot;$rom$&quot;</args>
-  <romext>bin|BIN</romext>
-  <rompath>D:\ROMs\sony-ps3\</rompath>
-  <path_assets>D:\AEL-assets\sony-ps3\</path_assets>
+  <ROM_path>D:\ROMs\sony-ps3\</ROM_path>
+  <ROM_ext>bin|BIN</ROM_ext>
+  <ROM_asset_path>D:\AEL-assets\sony-ps3\</ROM_asset_path>
+  <Asset_Prefix>../Launcher assets SONY/PlayStation 3</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <category>Microsoft</category>
   <name>XBox 360 (Xenia)</name>
-  <year>2005</year>
+  <category>Microsoft</category>
+  <Launcher_NFO>../Launcher assets Microsoft/Xbox 360.nfo</Launcher_NFO>
   <platform>Microsoft Xbox 360</platform>
   <application>E:\Emulators\Xenia\xenia.exe</application>
   <args>--fullscreen --gpu=gl4 &quot;$rom$&quot;</args>
-  <romext>xex|XEX</romext>
-  <rompath>D:\ROMs\ms-xbox360\</rompath>
-  <path_assets>D:\AEL-assets\ms-xbox360\</path_assets>
+  <ROM_path>D:\ROMs\ms-xbox360\</ROM_path>
+  <ROM_ext>xex|XEX</ROM_ext>
+  <ROM_asset_path>D:\AEL-assets\ms-xbox360\</ROM_asset_path>
+  <Asset_Prefix>../Launcher assets Microsoft/Xbox 360</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

@@ -3,13 +3,13 @@
 <launcher>
   <name>Master System (Fusion)</name>
   <category>SEGA</category>
-  <Launcher_NFO>Master System.nfo</Launcher_NFO>
+  <Launcher_NFO>../Launcher assets SEGA/Master System.nfo</Launcher_NFO>
   <platform>Sega 32X</platform>
   <application>E:\Emulators\Fusion364\Fusion.exe</application>
   <args>&quot;$rom$&quot; -sms -auto -fullscreen</args>
   <ROM_path>E:\AEL-ROMs\sega-sms\</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>E:\AEL-assets\sega-sms\</ROM_asset_path>
-  <Asset_Prefix>Master System</Asset_Prefix>
+  <Asset_Prefix>../Launcher assets SEGA/Master System</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <category>SEGA</category>
   <name>Mega Drive (Fusion)</name>
-  <year>1988</year>
-  <genre>Fourth generation console</genre>
-  <developer>SEGA</developer>
-  <rating></rating>
-  <plot>The Sega Genesis, known as the Mega Drive in most regions outside North America, is a 16-bit home video game console which was developed and sold by Sega Enterprises, Ltd. The Genesis was Sega's third console and the successor to the Master System. Sega first released the console as the Mega Drive in Japan in 1988, followed by a North American debut under the Genesis moniker in 1989. In 1990, the console was distributed as the Mega Drive by Virgin Mastertronic in Europe.
-Designed by an R&amp;D team supervised by Hideki Sato and Masami Ishikawa, the hardware was adapted from Sega's System 16 arcade board, centered on a Motorola 68000 processor as a primary CPU and a Zilog Z80 as a secondary processor. The system supports a library of more than 900 games created both by Sega and a wide array of third-party publishers and delivered on ROM-based cartridges. It can play Master System games when the separately sold Power Base Converter is inserted.</plot>
+  <category>SEGA</category>
+  <Launcher_NFO>../Launcher assets SEGA/Genesis.nfo</Launcher_NFO>
   <platform>Sega MegaDrive</platform>
   <application>E:\Emulators\Fusion364\Fusion.exe</application>
   <args>&quot;$rom$&quot; -gen -auto -fullscreen</args>
   <ROM_path>E:\AEL-ROMs\sega-genesis\</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>E:\AEL-assets\sega-genesis\</ROM_asset_path>
-  <Asset_Prefix>Mega Drive</Asset_Prefix>
+  <Asset_Prefix>../Launcher assets SEGA/Mega Drive</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>
