@@ -48,7 +48,7 @@ The XML files in this library assume the following **ROM paths** and **asset dir
 | <sub>Bandai WonderSwan</sub>           | <sub>Consoles</sub>  | <sub>`/home/kodi/AEL-ROMs/con-wswan/`</sub>         | <sub>`/home/kodi/AEL-assets/con-wswan/`</sub>         |
 | <sub>Bandai WonderSwan Color</sub>     | <sub>Consoles</sub>  | <sub>`/home/kodi/AEL-ROMs/con-wswancolor/`</sub>    | <sub>`/home/kodi/AEL-assets/con-wswancolor/`</sub>    |
 | <sub>Colecovision</sub>                | <sub>Consoles</sub>  | <sub>`/home/kodi/AEL-ROMs/con-coleco/`</sub>        | <sub>`/home/kodi/AEL-assets/con-coleco/`</sub>        |
-| <sub>FM Towns Marty</sub>              | <sub>Consoles</sub>  | <sub>`/home/kodi/AEL-ROMs/con-fmtmarty/`</sub>      | <sub>`/home/kodi/AEL-assets/con-fmtmarty/`</sub>      |
+| <sub>Fujitsu FM Towns Marty</sub>      | <sub>Consoles</sub>  | <sub>`/home/kodi/AEL-ROMs/con-fmtmarty/`</sub>      | <sub>`/home/kodi/AEL-assets/con-fmtmarty/`</sub>      |
 | <sub>GCE Vectrex</sub>                 | <sub>Consoles</sub>  | <sub>`/home/kodi/AEL-ROMs/con-vectrex/`</sub>       | <sub>`/home/kodi/AEL-assets/con-vectrex/`</sub>       |
 | <sub>Magnavox Odyssey 2</sub>          | <sub>Consoles</sub>  | <sub>`/home/kodi/AEL-ROMs/con-odyssey2/`</sub>      | <sub>`/home/kodi/AEL-assets/con-odyssey2/`</sub>      |
 | <sub>Mattel Intellivision</sub>        | <sub>Consoles</sub>  | <sub>`/home/kodi/AEL-ROMs/con-intellivision/`</sub> | <sub>`/home/kodi/AEL-assets/con-intellivision/`</sub> |
@@ -133,7 +133,7 @@ The XML files with emulator configurations are located in the [Launchers XML Lin
 | <sub>Bandai WonderSwan</sub>           | <sub>Consoles</sub>  | [Retroarch](./Launchers%20-%20Consoles/Bandai%20WonderSwan%20-%20Retroarch%20(Linux).xml) |
 | <sub>Bandai WonderSwan Color</sub>     | <sub>Consoles</sub>  | [Retroarch](./Launchers%20-%20Consoles/Bandai%20WonderSwan%20Color%20-%20Retroarch%20(Linux).xml) |
 | <sub>Colecovision</sub>                | <sub>Consoles</sub>  | [Retroarch](./Launchers%20-%20Consoles/Colecovision%20-%20Retroarch%20(Linux).xml) [MAME](./Launchers%20-%20Consoles/Colecovision%20-%20Retroarch%20(MAME).xml) |
-| <sub>FM Towns Marty</sub>              | <sub>Consoles</sub>  | [MAME](./Launchers%20-%20Consoles/FM%20Towns%20Marty%20-%20MAME%20(Linux).xml) |
+| <sub>Fujitsu FM Towns Marty</sub>      | <sub>Consoles</sub>  | [MAME](./Launchers%20-%20Consoles/FM%20Towns%20Marty%20-%20MAME%20(Linux).xml) |
 | <sub>GCE Vectrex</sub>                 | <sub>Consoles</sub>  | [Retroarch](./Launchers%20-%20Consoles/GCE%20Vectrex%20-%20Retroarch%20(Linux).xml) |
 | <sub>Magnavox Odyssey 2</sub>          | <sub>Consoles</sub>  | [Retroarch](./Launchers%20-%20Consoles/Magnavox%20Odyssey%202%20-%20Retroarch%20(Linux).xml) |
 | <sub>Mattel Intellivision</sub>        | <sub>Consoles</sub>  | [MAME](./Launchers%20-%20Consoles/Mattel%20Intellivision%20-%20MAME%20(Linux).xml) |
@@ -180,12 +180,13 @@ The XML files with emulator configurations are located in the [Launchers XML Lin
 ### Linux wrapper ###
 
 These configurations use a wrapper script to close Kodi on launching and reopen it again when launched app finishes.
-This wrapper script works OK in general Linux distros like Kodibuntu, Ubuntu or Debian.
+The wrapper script works OK in general Linux distros like Kodibuntu, Ubuntu or Debian. Note that you sould
+activate the **non blocking** launcher option, otherwise Kodi will not shut down properly.
 
 ### Linux LibreELECT ###
 
 These configurations user a wrapper script that closes Kodi on launching and reopens it again when the launched app finishes.
-This wrapper scripts works OK in LibreELECT.
+This wrapper script works OK in LibreELECT.
 
 ### Windows ###
 
