@@ -9,7 +9,7 @@
   <args>-L /home/kodi/bin/libretro/ppsspp_libretro.so -f -v &quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/sony-psp/</ROM_path>
   <ROM_ext>cue|iso</ROM_ext>
-  <ROM_asset_path>/home/kodi/AEL-assets/sony-psp</ROM_asset_path>
+  <ROM_asset_path>/home/kodi/AEL-assets/sony-psp/</ROM_asset_path>
   <Asset_Prefix>../Launcher assets SONY/PSP</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

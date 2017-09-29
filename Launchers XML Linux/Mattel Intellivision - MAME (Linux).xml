@@ -3,16 +3,13 @@
 <launcher>
   <name>Mattel Intellivision (MAME)</name>
   <category>Consoles</category>
-  <year>1980</year>
-  <genre>Second generation console</genre>
-  <developer>Mattel Electronics</developer>
-  <plot>The Intellivision is a home video game console released by Mattel Electronics in 1979. The name Intellivision is a portmanteau of "intelligent television". Development of the console began in 1977, the same year as the introduction of its main competitor, the Atari 2600. In 1984 Mattel sold the Intellivision business to a former Mattel Electronics executive and investors that would become INTV Corporation. Games development started in 1978 and continued until 1990 when the Intellivision was discontinued. From 1980 to 1983 over 3 million Intellivision units were sold.</plot>
+  <Launcher_NFO>../Launcher assets Consoles/Mattel Intellivision.nfo</Launcher_NFO>
   <platform>Mattel Intellivision</platform>
   <application>/usr/games/bin/mame</application>
   <args>&quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/con-intellivision/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/con-intellivision/</ROM_asset_path>
-  <Asset_Prefix>Mattel Intellivision</Asset_Prefix>
+  <Asset_Prefix>../Launcher assets Consoles/Mattel Intellivision</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

@@ -3,13 +3,13 @@
 <launcher>
   <name>MAME 1980s</name>
   <category>Arcade (MAME)</category>
-  <Launcher_NFO>MAME.nfo</Launcher_NFO>
+  <Launcher_NFO>../Launcher assets Arcade/MAME.nfo</Launcher_NFO>
   <platform>MAME</platform>
   <application>/usr/games/mame</application>
   <args>&quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/mame-1980s/</ROM_path>
   <ROM_ext>zip|7z</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/mame-1980s/</ROM_asset_path>
-  <Asset_Prefix>MAME</Asset_Prefix>
+  <Asset_Prefix>../Launcher assets Arcade/MAME</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

@@ -3,11 +3,7 @@
 <launcher>
   <name>Game Boy Advance (Retroarch)</name>
   <category>Nintendo</category>
-  <year>2001</year>
-  <genre>Sixth generation console</genre>
-  <developer>Nintendo</developer>
-  <rating></rating>
-  <plot>The Game Boy Advance, often shortened to GBA, is a 32-bit handheld video game console developed, manufactured and marketed by Nintendo. It is the successor to the Game Boy Color. Nintendo's competitors in the handheld market were the Neo Geo Pocket Color, WonderSwan, GP32, Tapwave Zodiac, and the N-Gage. Despite the competitors' best efforts, Nintendo maintained a majority market share with the Game Boy Advance. As of June 30, 2010, the Game Boy Advance series has sold 81.51 million units worldwide. Its successor, the Nintendo DS, was released in November 2004.</plot>
+  <Launcher_NFO>../Launcher assets Nintendo/Game Boy Advance.nfo</Launcher_NFO>
   <platform>Nintendo GameBoy Advance</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/vbam_libretro.so -f -v &quot;$rom$&quot;</args>
@@ -15,7 +11,7 @@
   <args_extra>-L /home/kodi/bin/libretro/meteor_libretro.so -f -v &quot;$rom$&quot;</args_extra>
   <ROM_path>/home/kodi/AEL-ROMs/nintendo-gba/</ROM_path>
   <ROM_ext>zip</ROM_ext>
-  <ROM_asset_path>/home/kodi/AEL-assets/nintendo-gba</ROM_asset_path>
-  <Asset_Prefix>Game Boy Advance</Asset_Prefix>
+  <ROM_asset_path>/home/kodi/AEL-assets/nintendo-gba/</ROM_asset_path>
+  <Asset_Prefix>../Launcher assets Nintendo/Game Boy Advance</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

@@ -3,7 +3,7 @@
 <launcher>
   <name>Master System (MAME)</name>
   <category>SEGA</category>
-  <Launcher_NFO>Master System.nfo</Launcher_NFO>
+  <Launcher_NFO>../Launcher assets SEGA/Master System.nfo</Launcher_NFO>
   <platform>Sega Master System</platform>
   <application>/usr/games/mame</application>
   <args>sms -cart &quot;$rom$&quot;</args>
@@ -11,7 +11,7 @@
   <args_extra>smsj -cart &quot;$rom$&quot;</args_extra>
   <ROM_path>/home/kodi/AEL-ROMs/sega-sms/</ROM_path>
   <ROM_ext>zip</ROM_ext>
-  <ROM_asset_path>/home/kodi/AEL-assets/sega-sms</ROM_asset_path>
-  <Asset_Prefix>Master System</Asset_Prefix>
+  <ROM_asset_path>/home/kodi/AEL-assets/sega-sms/</ROM_asset_path>
+  <Asset_Prefix>../Launcher assets SEGA/Master System</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <category>SEGA</category>
   <name>Mega CD (Retroarch)</name>
-  <year>1991</year>
-  <genre>Fourth generation console</genre>
-  <developer>SEGA</developer>
-  <rating></rating>
-  <plot>The Sega CD, released as the Mega-CD in most regions outside North America, is a CD-ROM accessory for the Sega Genesis video game console designed and produced by Sega as part of the fourth generation of video game consoles. The add-on was released on December 12, 1991 in Japan, October 15, 1992 in North America, and 1993 in Europe. The Sega CD lets the user play CD-based games and adds extra hardware functionality, such as a faster central processing unit and graphic enhancements. It can also play audio CDs and CD+G discs.</plot>
+  <category>SEGA</category>
+  <Launcher_NFO>../Launcher assets SEGA/Mega CD.nfo</Launcher_NFO>
   <platform>Sega MegaCD</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/genesis_plus_gx_libretro.so -f -v &quot;$rom$&quot;</args>
   <args_extra>-L /home/kodi/bin/libretro/picodrive_libretro.so -f -v &quot;$rom$&quot;</args_extra>
   <ROM_path>/home/kodi/AEL-ROMs/sega-megacd/</ROM_path>
   <ROM_ext>cue|iso</ROM_ext>
-  <ROM_asset_path>/home/kodi/AEL-assets/sega-megacd</ROM_asset_path>
-  <Asset_Prefix>Mega CD</Asset_Prefix>
+  <ROM_asset_path>/home/kodi/AEL-assets/sega-megacd/</ROM_asset_path>
+  <Asset_Prefix>../Launcher assets SEGA/Mega CD</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

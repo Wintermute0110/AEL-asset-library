@@ -3,18 +3,14 @@
 <launcher>
   <name>NES (Retroarch)</name>
   <category>Nintendo</category>
-  <year>1983</year>
-  <genre>Third generation console</genre>
-  <developer>Nintendo</developer>
-  <rating></rating>
-  <plot>The Nintendo Entertainment System (also abbreviated as NES) is an 8-bit home video game console that was developed and manufactured by Nintendo. It was initially released in Japan as the Family Computer (also known by the portmanteau abbreviation Famicom and abbreviated as FC) on July 15, 1983, and was later released in North America during 1985, in Europe during 1986, and Australia in 1987. In South Korea, it was known as the Hyundai Comboy and was distributed by SK Hynix which then was known as Hyundai Electronics. It was succeeded by the Super Nintendo Entertainment System.</plot>  
+  <Launcher_NFO>../Launcher assets Nintendo/NES.nfo</Launcher_NFO>
   <platform>Nintendo NES</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/fceumm_libretro.so -f -v &quot;$rom$&quot;</args>
   <args_extra>-L /home/kodi/bin/libretro/nestopia_libretro.so -f -v &quot;$rom$&quot;</args_extra>
   <ROM_path>/home/kodi/AEL-ROMs/nintendo-nes/</ROM_path>
   <ROM_ext>zip</ROM_ext>
-  <ROM_asset_path>/home/kodi/AEL-assets/nintendo-nes</ROM_asset_path>
-  <Asset_Prefix>NES</Asset_Prefix>
+  <ROM_asset_path>/home/kodi/AEL-assets/nintendo-nes/</ROM_asset_path>
+  <Asset_Prefix>../Launcher assets Nintendo/NES</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

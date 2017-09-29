@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--
-  Launch AES ROMs ala MESS.
--->
+    Launch AES ROMs using MAME Neo Geo AES Software List.
+  -->
 <advanced_emulator_launcher_configuration>
 <launcher>
   <name>Neo Geo AES (MAME)</name>
   <category>SNK</category>
-  <year>1990</year>
-  <genre>Fourth generation console</genre>
-  <developer>SNK</developer>
-  <rating></rating>
-  <plot>A home console version of the MVS was also made, called AES (Advanced Entertainment System). It was originally launched as a rental console for video game stores in Japan (called Neo Geo Rental System), with its high price causing SNK not to release it for home use - this was later reversed due to high demand and it came into the market as a luxury console. The AES had the same raw specs as the MVS and had full compatibility, thus managed to bring a true arcade experience to home users. As of 2013 it was the most expensive home video game console ever released, costing US$1,125 adjusted for inflation.</plot>
+  <Launcher_NFO>../Launcher assets SNK/Neo Geo AES.nfo</Launcher_NFO>
   <platform>MAME</platform>
   <application>/usr/games/mame</application>
   <args>aes -cart &quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/mame-neogeo/</ROM_path>
   <ROM_ext>cue|chd</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/mame-neogeo/</ROM_asset_path>
-  <Asset_Prefix>Neo Geo AES</Asset_Prefix>
+  <Asset_Prefix>../Launcher assets SNK/Neo Geo AES</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

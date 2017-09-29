@@ -3,10 +3,7 @@
 <launcher>
   <name>Microsoft MSX (Retroarch)</name>
   <category>Computers</category>
-  <year>1983</year>
-  <genre>Personal computer</genre>
-  <developer>Microsoft</developer>
-  <plot>MSX is the name of a standardized home computer architecture, first announced by Microsoft on June 16, 1983. They were popular mostly in Japan, and several other countries. It is difficult to estimate how many MSX computers were sold worldwide, but eventually 5 million MSX-based units were sold in Japan alone. Despite Microsoft's involvement, the MSX-based machines were seldom released in the United States. MSX systems generally did not have a built-in disk drive, so games were published mainly on cartridge and cassette tape.</plot>
+  <Launcher_NFO>../Launcher assets Computers/Microsoft MSX.nfo</Launcher_NFO>
   <platform>Microsoft MSX</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/bluemsx_libretro.so -f -v &quot;$rom$&quot;</args>
@@ -14,6 +11,6 @@
   <ROM_path>/home/kodi/AEL-ROMs/com-msx/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/com-msx/</ROM_asset_path>
-  <Asset_Prefix>Microsoft MSX</Asset_Prefix>
+  <Asset_Prefix>../Launcher assets Computers/Microsoft MSX</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>
