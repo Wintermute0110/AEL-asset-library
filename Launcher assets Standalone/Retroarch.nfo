@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <launcher>
   <year>2012</year>
-  <publisher>Libretro team</publisher>
   <genre>Emulator</genre>
+  <developer>Libretro team</developer>
   <plot>RetroArch is an open source, multi-platform frontend for the libretro API. It is designed to be a fast, lightweight, and portable multi-system emulator.</plot>
 </launcher>
