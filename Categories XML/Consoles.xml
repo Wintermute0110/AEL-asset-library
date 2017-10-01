@@ -4,7 +4,8 @@
   <name>Consoles</name>
   <genre>Miscellaneous</genre>
   <rating></rating>
-  <plot>Several miscellaneous consoles of less well known brands.</plot>
+  <plot>Miscellaneous consoles of less well known brands.</plot>
   <Asset_Prefix>../Category assets/Consoles</Asset_Prefix>
 </category>
 </advanced_emulator_launcher_configuration>
+
