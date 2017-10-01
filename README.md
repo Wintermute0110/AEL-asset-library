@@ -26,10 +26,10 @@ The XML files in this library assume the following **ROM paths** and **asset dir
 |----------------------------------------|----------------------|-----------------------------------------------------|-------------------------------------------------------|
 | <sub>Capcom Play System</sub>          | <sub>Arcade</sub>    | <sub>`/home/kodi/AEL-ROMs/mame-cps/`</sub>          | <sub>`/home/kodi/AEL-assets/mame-cps/`</sub>          |
 | <sub>MAME</sub>                        | <sub>Arcade</sub>    | <sub>`/home/kodi/AEL-ROMs/mame/`</sub>              | <sub>`/home/kodi/AEL-assets/mame/`</sub>              |
-| <sub>MAME 1970s</sub>                  | <sub>Arcade</sub>    | <sub>`/home/kodi/AEL-ROMs/mame-1970s/`</sub>        | <sub>`/home/kodi/AEL-assets/mame-1970s/`</sub>        |
-| <sub>MAME 1980s</sub>                  | <sub>Arcade</sub>    | <sub>`/home/kodi/AEL-ROMs/mame-1980s/`</sub>        | <sub>`/home/kodi/AEL-assets/mame-1980s/`</sub>        |
-| <sub>MAME 1990s</sub>                  | <sub>Arcade</sub>    | <sub>`/home/kodi/AEL-ROMs/mame-1990s/`</sub>        | <sub>`/home/kodi/AEL-assets/mame-1990s/`</sub>        |
-| <sub>MAME 2000s</sub>                  | <sub>Arcade</sub>    | <sub>`/home/kodi/AEL-ROMs/mame-2000s/`</sub>        | <sub>`/home/kodi/AEL-assets/mame-2000s/`</sub>        |
+| <sub>MAME 1970s</sub>                  | <sub>Arcade</sub>    | <sub>`/home/kodi/AEL-ROMs/mame-main-1970s/`</sub>   | <sub>`/home/kodi/AEL-assets/mame-main-1970s/`</sub>   |
+| <sub>MAME 1980s</sub>                  | <sub>Arcade</sub>    | <sub>`/home/kodi/AEL-ROMs/mame-main-1980s/`</sub>   | <sub>`/home/kodi/AEL-assets/mame-main-1980s/`</sub>   |
+| <sub>MAME 1990s</sub>                  | <sub>Arcade</sub>    | <sub>`/home/kodi/AEL-ROMs/mame-main-1990s/`</sub>   | <sub>`/home/kodi/AEL-assets/mame-main-1990s/`</sub>   |
+| <sub>MAME 2000s</sub>                  | <sub>Arcade</sub>    | <sub>`/home/kodi/AEL-ROMs/mame-main-2000s/`</sub>   | <sub>`/home/kodi/AEL-assets/mame-main-2000s/`</sub>   |
 | <sub>Neo Geo MVS</sub>                 | <sub>Arcade</sub>    | <sub>`/home/kodi/AEL-ROMs/mame-neogeo/`</sub>       | <sub>`/home/kodi/AEL-assets/mame-neogeo/`</sub>       |
 | <sub>SEGA</sub>                        | <sub>Arcade</sub>    | <sub>`/home/kodi/AEL-ROMs/mame-sega/`</sub>         | <sub>`/home/kodi/AEL-assets/mame-sega/`</sub>         |
 | <sub>Atari 2600</sub>                  | <sub>Atari</sub>     | <sub>`/home/kodi/AEL-ROMs/atari-2600/`</sub>        | <sub>`/home/kodi/AEL-assets/atari-2600/`</sub>        |
