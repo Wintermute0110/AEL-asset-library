@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>Nintendo FDS (Retroarch)</name>
+  <name>Famicom Disk System (Retroarch)</name>
   <category>Nintendo</category>
   <Launcher_NFO>../Launcher assets Nintendo/Famicom Disk System.nfo</Launcher_NFO>
   <platform>Nintendo Famicom Disk System</platform>
@@ -14,3 +14,4 @@
   <Asset_Prefix>../Launcher assets Nintendo/Famicom Disk System</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>
+
