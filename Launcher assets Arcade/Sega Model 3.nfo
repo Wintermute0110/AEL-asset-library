@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <launcher>
   <year>1996</year>
-  <publisher>SEGA</publisher>
   <genre>Arcade board</genre>
-  <plot>The Sega Model 3 is an arcade system board released by Sega in 1996. It was the final culmination of Sega's partnership with Lockheed Martin, using the company's Real3D division to design the graphical hardware. Upon release, the Model 3 was easily the most powerful arcade system board in existence, capable of over one million quad polygons per second and over two million triangular polygons per second. The hardware went through several "steppings," which increased the clock speed of the CPU and the speed of the 3D engine, as well as minor changes to the board architecture. Step 1.0 and Step 1.5 released in 1996, Step 2.0 in 1997, and Step 2.1 in 1998.
-
-Well known Model 3 games include Virtua Fighter 3 (1996), Sega Super GT (1996), Harley-Davidson & L.A. Riders (1997), Sega Bass Fishing (1997), Daytona USA 2 (1998), Sega Rally 2 (1998), and The Ocean Hunter (1998), although it is the rarest of them. By 2000, the Sega Model 2 & 3 had sold over 200,000 arcade systems worldwide.</plot>
+  <developer>SEGA</developer>
+  <plot>The Sega Model 3 is an arcade system board released by Sega in 1996. It was the final culmination of Sega's partnership with Lockheed Martin, using the company's Real3D division to design the graphical hardware. Upon release, the Model 3 was easily the most powerful arcade system board in existence, capable of over one million quad polygons per second and over two million triangular polygons per second. The hardware went through several "steppings," which increased the clock speed of the CPU and the speed of the 3D engine, as well as minor changes to the board architecture. Step 1.0 and Step 1.5 released in 1996, Step 2.0 in 1997, and Step 2.1 in 1998. Well known Model 3 games include Virtua Fighter 3 (1996), Sega Super GT (1996), Harley-Davidson & L.A. Riders (1997), Sega Bass Fishing (1997), Daytona USA 2 (1998), Sega Rally 2 (1998), and The Ocean Hunter (1998), although it is the rarest of them. By 2000, the Sega Model 2 & 3 had sold over 200,000 arcade systems worldwide.</plot>
 </launcher>
+

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <launcher>
   <year>1993</year>
-  <publisher>SEGA</publisher>
   <genre>Arcade board</genre>
-  <plot>The Sega Model 2 is an arcade system board released by Sega in 1993. Like the Model 1, it was developed in cooperation with Martin Marietta, and was a further advancement of the earlier Model 1 system. The most noticeable improvement was texture mapping, which enabled polygons to be painted with bitmap images, as opposed to the limited monotone flat shading that Model 1 supported. The Model 2 also introduced the use of texture filtering and texture anti-aliasing.
-
-Despite its high pricetag, the Model 2 platform was very successful. It featured some of the highest grossing arcade games of all time: Daytona USA, Virtua Fighter 2, Cyber Troopers Virtual-On, The House of the Dead, and Dead or Alive, to name a few.</plot>
+  <developer>SEGA</developer>
+  <plot>The Sega Model 2 is an arcade system board released by Sega in 1993. Like the Model 1, it was developed in cooperation with Martin Marietta, and was a further advancement of the earlier Model 1 system. The most noticeable improvement was texture mapping, which enabled polygons to be painted with bitmap images, as opposed to the limited monotone flat shading that Model 1 supported. The Model 2 also introduced the use of texture filtering and texture anti-aliasing. Despite its high pricetag, the Model 2 platform was very successful. It featured some of the highest grossing arcade games of all time: Daytona USA, Virtua Fighter 2, Cyber Troopers Virtual-On, The House of the Dead, and Dead or Alive, to name a few.</plot>
 </launcher>
+
