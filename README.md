@@ -77,7 +77,7 @@ The XML files in this library assume the following **ROM paths** and **asset dir
 | <sub>Virtual Boy</sub>                 | <sub>Nintendo</sub>  | <sub>`/home/kodi/AEL-ROMs/nintendo-vb/`</sub>       | <sub>`/home/kodi/AEL-assets/nintendo-vb/`</sub>       |
 | <sub>Wii</sub>                         | <sub>Nintendo</sub>  | <sub>`/home/kodi/AEL-ROMs/nintendo-wii/`</sub>      | <sub>`/home/kodi/AEL-assets/nintendo-wii/`</sub>      |
 | <sub>32X</sub>                         | <sub>SEGA</sub>      | <sub>`/home/kodi/AEL-ROMs/sega-32x/`</sub>          | <sub>`/home/kodi/AEL-assets/sega-32x/`</sub>          |
-| <sub>Dreamcast</sub>                   | <sub>SEGA</sub>      | <sub>`/home/kodi/AEL-ROMs/sega-dreamcast/`</sub>    | <sub>`/home/kodi/AEL-assets/sega-dreamcast`</sub>     |
+| <sub>Dreamcast</sub>                   | <sub>SEGA</sub>      | <sub>`/home/kodi/AEL-ROMs/sega-dreamcast/`</sub>    | <sub>`/home/kodi/AEL-assets/sega-dreamcast/`</sub>    |
 | <sub>Game Gear</sub>                   | <sub>SEGA</sub>      | <sub>`/home/kodi/AEL-ROMs/sega-gg/`</sub>           | <sub>`/home/kodi/AEL-assets/sega-gg`</sub>            |
 | <sub>Master System</sub>               | <sub>SEGA</sub>      | <sub>`/home/kodi/AEL-ROMs/sega-sms/`</sub>          | <sub>`/home/kodi/AEL-assets/sega-sms`</sub>           |
 | <sub>Mega CD</sub>                     | <sub>SEGA</sub>      | <sub>`/home/kodi/AEL-ROMs/sega-megacd/`</sub>       | <sub>`/home/kodi/AEL-assets/sega-megacd`</sub>        |

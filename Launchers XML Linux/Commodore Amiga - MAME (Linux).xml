@@ -5,7 +5,7 @@
   <category>Computers</category>
   <Launcher_NFO>../Launcher assets Computers/Commodore Amiga.nfo</Launcher_NFO>
   <platform>Commodore Amiga</platform>
-  <application>/usr/games/bin/mame</application>
+  <application>/usr/games/mame</application>
   <args>&quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/com-amiga/</ROM_path>
   <ROM_ext>zip</ROM_ext>

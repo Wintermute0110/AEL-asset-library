@@ -5,7 +5,7 @@
   <category>Computers</category>
   <Launcher_NFO>../Launcher assets Computers/Commodore 64.nfo</Launcher_NFO>
   <platform>Commodore 64</platform>
-  <application>/usr/games/bin/mame</application>
+  <application>/usr/games/mame</application>
   <args>&quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/com-c64/</ROM_path>
   <ROM_ext>zip</ROM_ext>

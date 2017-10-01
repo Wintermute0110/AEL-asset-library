@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>FM Towns Marty (Retroarch)</name>
+  <name>Fujitsu FM Towns Marty (Retroarch)</name>
   <category>Consoles</category>
   <Launcher_NFO>../Launcher assets Consoles/Fujitsu FM Towns Marty.nfo</Launcher_NFO>
   <platform>Fujitsu FM Towns Marty</platform>
-  <application>/usr/games/bin/mame</application>
+  <application>/usr/games/mame</application>
   <args>&quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/con-fmtmarty/</ROM_path>
   <ROM_ext>iso</ROM_ext>
