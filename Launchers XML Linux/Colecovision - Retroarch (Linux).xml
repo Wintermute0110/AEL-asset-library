@@ -3,13 +3,14 @@
 <launcher>
   <name>Colecovision (Retroarch)</name>
   <category>Consoles</category>
-  <Launcher_NFO>../Launcher assets Consoles/ColecoVision.nfo</Launcher_NFO>
+  <Launcher_NFO>../Launcher assets Consoles/Colecovision.nfo</Launcher_NFO>
   <platform>Colecovision</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/bluemsx_libretro.so -f -v &quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/con-coleco/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/con-coleco/</ROM_asset_path>
-  <Asset_Prefix>../Launcher assets Consoles/ColecoVision</Asset_Prefix>
+  <Asset_Prefix>../Launcher assets Consoles/Colecovision</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>
+
