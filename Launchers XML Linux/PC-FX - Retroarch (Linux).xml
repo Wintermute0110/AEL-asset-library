@@ -3,8 +3,8 @@
 <launcher>
   <name>PC-FX (Retroarch)</name>
   <category>NEC</category>
-  <Launcher_NFO>../Launcher assets NEC/32X.nfo</Launcher_NFO>
-  <platform>NEC PC Engine/TurboGrafx 16</platform>
+  <Launcher_NFO>../Launcher assets NEC/PC-FX.nfo</Launcher_NFO>
+  <platform>NEC PC Engine</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_pcfx_libretro.so -f -v &quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/nec-pcfx/</ROM_path>
@@ -13,3 +13,4 @@
   <Asset_Prefix>../Launcher assets NEC/PC-FX</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>
+
