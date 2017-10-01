@@ -3,7 +3,7 @@
 #
 RETROARCH="/home/kodi/bin/retroarch"
 LIBRETRO_PATH="/home/kodi/bin/libretro/"
-LOG_FILE="/home/kodi/bin/run_retroarch.log"
+LOG_FILE="/home/kodi/bin/run_retroarch_LibreELEC.log"
 LOG_RETROARCH="/home/kodi/bin/retroarch.log"
 
 kodi_rpc()

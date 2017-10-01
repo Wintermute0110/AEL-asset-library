@@ -183,10 +183,10 @@ These configurations use a wrapper script to close Kodi on launching and reopen 
 The wrapper script works OK in general Linux distros like Kodibuntu, Ubuntu or Debian. Note that you sould
 activate the **non blocking** launcher option, otherwise Kodi will not shut down properly.
 
-### Linux LibreELECT ###
+### Linux LibreELEC ###
 
 These configurations user a wrapper script that closes Kodi on launching and reopens it again when the launched app finishes.
-This wrapper script works OK in LibreELECT.
+This wrapper script works OK in LibreELEC.
 
 ### Windows ###
 
