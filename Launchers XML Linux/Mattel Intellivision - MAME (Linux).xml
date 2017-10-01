@@ -5,7 +5,7 @@
   <category>Consoles</category>
   <Launcher_NFO>../Launcher assets Consoles/Mattel Intellivision.nfo</Launcher_NFO>
   <platform>Mattel Intellivision</platform>
-  <application>/usr/games/bin/mame</application>
+  <application>/usr/games/mame</application>
   <args>&quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/con-intellivision/</ROM_path>
   <ROM_ext>zip</ROM_ext>
