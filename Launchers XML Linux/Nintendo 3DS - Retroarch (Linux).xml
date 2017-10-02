@@ -8,7 +8,7 @@
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/citra_libretro.so -f -v &quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/nintendo-3ds/</ROM_path>
-  <ROM_ext>3ds</ROM_ext>
+  <ROM_ext>3ds|cia</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/nintendo-3ds/</ROM_asset_path>
   <Asset_Prefix>../Launcher assets Nintendo/Nintendo 3DS</Asset_Prefix>
 </launcher>
