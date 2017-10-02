@@ -4,7 +4,7 @@
   <name>Nintendo DS (Retroarch)</name>
   <category>Nintendo</category>
   <Launcher_NFO>../Launcher assets Nintendo/Nintendo DS.nfo</Launcher_NFO>
-  <platform>DS</platform>
+  <platform>Nintendo DS</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/desmume_libretro.so -f -v &quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/nintendo-ds/</ROM_path>
