@@ -4,7 +4,7 @@
   <name>Philips Videopac+ G7400 (Retroarch)</name>
   <category>Consoles</category>
   <Launcher_NFO>../Launcher assets Consoles/Philips Videopac Plus G7400.nfo</Launcher_NFO>
-  <platform>Philips Videopac+ G7400</platform>
+  <platform>Philips Videopac Plus G7400</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/o2em_libretro.so -f -v &quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/con-g7400/</ROM_path>

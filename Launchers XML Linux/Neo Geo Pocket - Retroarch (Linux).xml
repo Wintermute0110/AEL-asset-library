@@ -4,7 +4,7 @@
   <name>Neo Geo Pocket (Retroarch)</name>
   <category>SNK</category>
   <Launcher_NFO>../Launcher assets SNK/Neo Geo Pocket.nfo</Launcher_NFO>
-  <platform>SNK Neo Geo Pocket</platform>
+  <platform>SNK Neo-Geo Pocket</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_ngp_libretro.so -f -v &quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/snk-ngp/</ROM_path>

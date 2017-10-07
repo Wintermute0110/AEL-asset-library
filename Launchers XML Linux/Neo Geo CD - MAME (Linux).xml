@@ -7,7 +7,7 @@
   <name>Neo Geo CD (MAME)</name>
   <category>SNK</category>
   <Launcher_NFO>../Launcher assets SNK/Neo Geo CD.nfo</Launcher_NFO>
-  <platform>SNK Neo Geo CD</platform>
+  <platform>SNK Neo-Geo CD</platform>
   <application>/usr/games/mame</application>
   <args>neocdz -cdrom &quot;$rom$&quot;</args>
   <args_extra>neocdzj -cdrom &quot;$rom$&quot;</args_extra>

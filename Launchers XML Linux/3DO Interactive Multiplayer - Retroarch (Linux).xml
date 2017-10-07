@@ -4,7 +4,7 @@
   <name>3DO Interactive Multiplayer (Retroarch)</name>
   <category>Consoles</category>
   <Launcher_NFO>../Launcher assets Consoles/3DO Interactive Multiplayer.nfo</Launcher_NFO>
-  <platform>3DO</platform>
+  <platform>3DO Interactive Multiplayer</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/4do_libretro.so -f -v &quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/con-3do/</ROM_path>

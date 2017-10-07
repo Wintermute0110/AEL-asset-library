@@ -7,7 +7,7 @@
   <name>Neo Geo AES (MAME)</name>
   <category>SNK</category>
   <Launcher_NFO>../Launcher assets SNK/Neo Geo AES.nfo</Launcher_NFO>
-  <platform>MAME</platform>
+  <platform>SNK Neo-Geo AES</platform>
   <application>/usr/games/mame</application>
   <args>aes -cart &quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/mame-neogeo/</ROM_path>
