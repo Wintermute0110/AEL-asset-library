@@ -7,7 +7,7 @@
   <Launcher_NFO>../Launcher assets Games/Final Doom Evilution.nfo</Launcher_NFO>
   <platform>Unknown</platform>
   <application>/home/kodi/bin/retroarch</application>
-  <args>-L /home/kodi/bin/libretro/prboom_libretro.so -v -f /home/kodi/Games/doom/tnt.wad</args>
+  <args>-L /home/kodi/bin/libretro/prboom_libretro.so -v -f /home/kodi/Games/doom/tnt/tnt.wad</args>
   <Asset_Prefix>../Launcher assets Games/Final Doom Evilution</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>
