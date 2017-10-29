@@ -37,6 +37,8 @@ The XML files in this library assume the following **ROM paths** and **asset dir
 | <sub>Atari 7800</sub>                  | <sub>Atari</sub>     | <sub>`/home/kodi/AEL-ROMs/atari-7800/`</sub>        | <sub>`/home/kodi/AEL-assets/atari-7800/`</sub>        |
 | <sub>Atari Jaguar</sub>                | <sub>Atari</sub>     | <sub>`/home/kodi/AEL-ROMs/atari-jaguar/`</sub>      | <sub>`/home/kodi/AEL-assets/atari-jaguar/`</sub>      |
 | <sub>Atari Lynx</sub>                  | <sub>Atari</sub>     | <sub>`/home/kodi/AEL-ROMs/atari-lynx/`</sub>        | <sub>`/home/kodi/AEL-assets/atari-lynx/`</sub>        |
+| <sub>Atari 8-bit</sub>                 | <sub>Computers</sub> | <sub>`/home/kodi/AEL-ROMs/com-atari-8bit/`</sub>    | <sub>`/home/kodi/AEL-assets/com-atari-8bit/`</sub>    |
+| <sub>Atari ST</sub>                    | <sub>Computers</sub> | <sub>`/home/kodi/AEL-ROMs/com-atari-st/`</sub>      | <sub>`/home/kodi/AEL-assets/com-atari-st/`</sub>      |
 | <sub>Amstrad CPC</sub>                 | <sub>Computers</sub> | <sub>`/home/kodi/AEL-ROMs/com-amstrad-cpc/`</sub>   | <sub>`/home/kodi/AEL-assets/com-amstrad-cpc/`</sub>   |
 | <sub>Commodore 64</sub>                | <sub>Computers</sub> | <sub>`/home/kodi/AEL-ROMs/com-c64/`</sub>           | <sub>`/home/kodi/AEL-assets/com-c64/`</sub>           |
 | <sub>Commodore Amiga</sub>             | <sub>Computers</sub> | <sub>`/home/kodi/AEL-ROMs/com-amiga/`</sub>         | <sub>`/home/kodi/AEL-assets/com-amiga/`</sub>         |
@@ -48,11 +50,15 @@ The XML files in this library assume the following **ROM paths** and **asset dir
 | <sub>Bandai WonderSwan</sub>           | <sub>Consoles</sub>  | <sub>`/home/kodi/AEL-ROMs/con-wswan/`</sub>         | <sub>`/home/kodi/AEL-assets/con-wswan/`</sub>         |
 | <sub>Bandai WonderSwan Color</sub>     | <sub>Consoles</sub>  | <sub>`/home/kodi/AEL-ROMs/con-wswancolor/`</sub>    | <sub>`/home/kodi/AEL-assets/con-wswancolor/`</sub>    |
 | <sub>Colecovision</sub>                | <sub>Consoles</sub>  | <sub>`/home/kodi/AEL-ROMs/con-coleco/`</sub>        | <sub>`/home/kodi/AEL-assets/con-coleco/`</sub>        |
+| <sub>Emerson Arcadia 2001</sub>        | <sub>Consoles</sub>  | <sub>`/home/kodi/AEL-ROMs/con-arcadia/`</sub>       | <sub>`/home/kodi/AEL-assets/con-arcadia/`</sub>       |
+| <sub>Fairchild Channel F</sub>         | <sub>Consoles</sub>  | <sub>`/home/kodi/AEL-ROMs/con-channelf/`</sub>      | <sub>`/home/kodi/AEL-assets/con-channelf/`</sub>      |
 | <sub>Fujitsu FM Towns Marty</sub>      | <sub>Consoles</sub>  | <sub>`/home/kodi/AEL-ROMs/con-fmtmarty/`</sub>      | <sub>`/home/kodi/AEL-assets/con-fmtmarty/`</sub>      |
 | <sub>GCE Vectrex</sub>                 | <sub>Consoles</sub>  | <sub>`/home/kodi/AEL-ROMs/con-vectrex/`</sub>       | <sub>`/home/kodi/AEL-assets/con-vectrex/`</sub>       |
 | <sub>Magnavox Odyssey 2</sub>          | <sub>Consoles</sub>  | <sub>`/home/kodi/AEL-ROMs/con-odyssey2/`</sub>      | <sub>`/home/kodi/AEL-assets/con-odyssey2/`</sub>      |
 | <sub>Mattel Intellivision</sub>        | <sub>Consoles</sub>  | <sub>`/home/kodi/AEL-ROMs/con-intellivision/`</sub> | <sub>`/home/kodi/AEL-assets/con-intellivision/`</sub> |
 | <sub>Philips Videopac+ G7400</sub>     | <sub>Consoles</sub>  | <sub>`/home/kodi/AEL-ROMs/con-g7400/`</sub>         | <sub>`/home/kodi/AEL-assets/con-g7400/`</sub>         |
+| <sub>RCA Studio II</sub>               | <sub>Consoles</sub>  | <sub>`/home/kodi/AEL-ROMs/con-studio2/`</sub>       | <sub>`/home/kodi/AEL-assets/con-studio2/`</sub>       |
+| <sub>Watara Supervision</sub>          | <sub>Consoles</sub>  | <sub>`/home/kodi/AEL-ROMs/con-watara/`</sub>        | <sub>`/home/kodi/AEL-assets/con-watara/`</sub>        |
 | <sub>Doom</sub>                        | <sub>Games</sub>     | <sub>`/home/kodi/Games/doom/doom.wad`</sub>         | <sub>Not applicable</sub>                             |
 | <sub>Doom II: Hell on Earth</sub>      | <sub>Games</sub>     | <sub>`/home/kodi/Games/doom/doom2.wad`</sub>        | <sub>Not applicable</sub>                             |
 | <sub>The Plutonia Experiment</sub>     | <sub>Games</sub>     | <sub>`/home/kodi/Games/doom/plutonia.wad`</sub>     | <sub>Not applicable</sub>                             |
@@ -64,14 +70,16 @@ The XML files in this library assume the following **ROM paths** and **asset dir
 | <sub>PC Engine CD-ROM2</sub>           | <sub>NEC</sub>       | <sub>`/home/kodi/AEL-ROMs/nec-pcecd/`</sub>         | <sub>`/home/kodi/AEL-assets/nec-pcecd/`</sub>         |
 | <sub>PC-FX</sub>                       | <sub>NEC</sub>       | <sub>`/home/kodi/AEL-ROMs/nec-pcfx/`</sub>          | <sub>`/home/kodi/AEL-assets/nec-pcfx/`</sub>          |
 | <sub>SuperGrafx</sub>                  | <sub>NEC</sub>       | <sub>`/home/kodi/AEL-ROMs/nec-sgx/`</sub>           | <sub>`/home/kodi/AEL-assets/nec-sgx/`</sub>           |
-| <sub>Nintendo DS</sub>                 | <sub>Nintendo</sub>  | <sub>`/home/kodi/AEL-ROMs/nintendo-ds/`</sub>       | <sub>`/home/kodi/AEL-assets/nintendo-ds/`</sub>       |
 | <sub>Famicom Disk System</sub>         | <sub>Nintendo</sub>  | <sub>`/home/kodi/AEL-ROMs/nintendo-fds/`</sub>      | <sub>`/home/kodi/AEL-assets/nintendo-fds/`</sub>      |
 | <sub>Game Boy</sub>                    | <sub>Nintendo</sub>  | <sub>`/home/kodi/AEL-ROMs/nintendo-gb/`</sub>       | <sub>`/home/kodi/AEL-assets/nintendo-gb/`</sub>       |
 | <sub>Game Boy Advance</sub>            | <sub>Nintendo</sub>  | <sub>`/home/kodi/AEL-ROMs/nintendo-gba/`</sub>      | <sub>`/home/kodi/AEL-assets/nintendo-gba/`</sub>      |
-| <sub>Game Boy Color</sub>              | <sub>Nintendo</sub>  | <sub>`/home/kodi/AEL-ROMs/nintendo-gbc/`</sub>      | <sub>`/home/kodi/AEL-assets/nintendo-gbc/`</sub>      |
+| <sub>Game Boy Color</sub>              | <sub>Nintendo</sub>  | <sub>`/home/kodi/AEL-ROMs/nintendo-gbcolor/`</sub>  | <sub>`/home/kodi/AEL-assets/nintendo-gbcolor/`</sub>  |
 | <sub>GameCube</sub>                    | <sub>Nintendo</sub>  | <sub>`/home/kodi/AEL-ROMs/nintendo-gamecube/`</sub> | <sub>`/home/kodi/AEL-assets/nintendo-gamecube/`</sub> |
 | <sub>NES</sub>                         | <sub>Nintendo</sub>  | <sub>`/home/kodi/AEL-ROMs/nintendo-nes/`</sub>      | <sub>`/home/kodi/AEL-assets/nintendo-nes/`</sub>      |
+| <sub>Nintendo 3DS</sub>                | <sub>Nintendo</sub>  | <sub>`/home/kodi/AEL-ROMs/nintendo-3ds/`</sub>      | <sub>`/home/kodi/AEL-assets/nintendo-3ds/`</sub>      |
 | <sub>Nintendo 64</sub>                 | <sub>Nintendo</sub>  | <sub>`/home/kodi/AEL-ROMs/nintendo-n64/`</sub>      | <sub>`/home/kodi/AEL-assets/nintendo-n64/`</sub>      |
+| <sub>Nintendo 64 DD</sub>              | <sub>Nintendo</sub>  | <sub>`/home/kodi/AEL-ROMs/nintendo-n64dd/`</sub>    | <sub>`/home/kodi/AEL-assets/nintendo-n64dd/`</sub>    |
+| <sub>Nintendo DS</sub>                 | <sub>Nintendo</sub>  | <sub>`/home/kodi/AEL-ROMs/nintendo-ds/`</sub>       | <sub>`/home/kodi/AEL-assets/nintendo-ds/`</sub>       |
 | <sub>Pokemon Mini</sub>                | <sub>Nintendo</sub>  | <sub>`/home/kodi/AEL-ROMs/nintendo-pokemini/`</sub> | <sub>`/home/kodi/AEL-assets/nintendo-pokemini/`</sub> |
 | <sub>SNES</sub>                        | <sub>Nintendo</sub>  | <sub>`/home/kodi/AEL-ROMs/nintendo-snes/`</sub>     | <sub>`/home/kodi/AEL-assets/nintendo-snes/`</sub>     |
 | <sub>Virtual Boy</sub>                 | <sub>Nintendo</sub>  | <sub>`/home/kodi/AEL-ROMs/nintendo-vb/`</sub>       | <sub>`/home/kodi/AEL-assets/nintendo-vb/`</sub>       |
