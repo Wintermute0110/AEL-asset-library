@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+    MAME Fairchild Channel F machines:
+
+    channelf  cartridge  .bin .chf
+-->
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <name>Fairchild Channel F (MAME)</name>
+  <category>Consoles</category>
+  <Launcher_NFO>../Launcher assets Consoles/Fairchild Channel F.nfo</Launcher_NFO>
+  <platform>Fairchild Channel F</platform>
+  <application>/usr/games/mame</application>
+  <args>arcadia -cartridge &quot;$rom$&quot;</args>
+  <ROM_path>/home/kodi/AEL-ROMs/con-channelf/</ROM_path>
+  <ROM_ext>zip</ROM_ext>
+  <ROM_asset_path>/home/kodi/AEL-assets/con-channelf/</ROM_asset_path>
+  <Asset_Prefix>../Launcher assets Consoles/Fairchild Channel F</Asset_Prefix>
+</launcher>
+</advanced_emulator_launcher_configuration>

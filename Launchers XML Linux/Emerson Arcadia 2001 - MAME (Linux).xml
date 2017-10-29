@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+    MAME Emerson Arcadia 2001 machines:
+
+    arcadia  cartridge  .bin
+-->
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <name>Emerson Arcadia 2001 (MAME)</name>
+  <category>Consoles</category>
+  <Launcher_NFO>../Launcher assets Consoles/Emerson Arcadia 2001.nfo</Launcher_NFO>
+  <platform>Emerson Arcadia 2001</platform>
+  <application>/usr/games/mame</application>
+  <args>arcadia -cartridge &quot;$rom$&quot;</args>
+  <ROM_path>/home/kodi/AEL-ROMs/con-arcadia/</ROM_path>
+  <ROM_ext>zip</ROM_ext>
+  <ROM_asset_path>/home/kodi/AEL-assets/con-arcadia/</ROM_asset_path>
+  <Asset_Prefix>../Launcher assets Consoles/Emerson Arcadia 2001</Asset_Prefix>
+</launcher>
+</advanced_emulator_launcher_configuration>

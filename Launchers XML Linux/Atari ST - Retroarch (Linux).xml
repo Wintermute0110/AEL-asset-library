@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <name>Atari ST (Retroarch)</name>
+  <category>Computers</category>
+  <Launcher_NFO>../Launcher assets Computers/Atari ST.nfo</Launcher_NFO>
+  <platform>Atari ST</platform>
+  <application>/home/kodi/bin/retroarch</application>
+  <args>-L /home/kodi/bin/libretro/hatari_libretro.so -f -v &quot;$rom$&quot;</args>
+  <ROM_path>/home/kodi/AEL-ROMs/com-atari-st/</ROM_path>
+  <ROM_ext>zip</ROM_ext>
+  <ROM_asset_path>/home/kodi/AEL-assets/com-atari-st/</ROM_asset_path>
+  <Asset_Prefix>../Launcher assets Computers/Atari ST</Asset_Prefix>
+</launcher>
+</advanced_emulator_launcher_configuration>
