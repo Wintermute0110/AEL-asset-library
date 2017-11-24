@@ -230,6 +230,7 @@ Artwork has been taken from many sources including:
   * [Advanced Launcher console thumbnails] by Middle, phear, BarryAllen, aNILEator and Digital Vortex.
   * [Sega Retro].
   * [Gamestarter theme] by Tronkyfran.
+  * [TheGamesDB].
 
 If you are the author of some of the assets and want to be credited here contact me opening 
 an issue in Github.
@@ -241,4 +242,4 @@ an issue in Github.
 [Advanced Launcher console thumbnails]: http://forum.kodi.tv/showthread.php?tid=106921
 [Sega Retro]: https://segaretro.org/
 [Gamestarter theme]: https://retropie.org.uk/forum/user/tronkyfran
-
+[TheGamesDB]: http://thegamesdb.net/
