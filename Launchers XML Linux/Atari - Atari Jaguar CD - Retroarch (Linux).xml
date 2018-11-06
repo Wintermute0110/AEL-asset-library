@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <name>Atari Jaguar CD (Retroarch)</name>
+  <category>Atari</category>
+  <Launcher_NFO>../Launcher assets Atari/Atari Jaguar.nfo</Launcher_NFO>
+  <platform>Atari Jaguar</platform>
+  <application>/home/kodi/bin/retroarch</application>
+  <args>-L /home/kodi/bin/libretro/virtualjaguar_libretro.so -f -v &quot;$rom$&quot;</args>
+  <ROM_path>/home/kodi/AEL-ROMs/atari-jaguarcd/</ROM_path>
+  <ROM_ext>zip</ROM_ext>
+  <ROM_asset_path>/home/kodi/AEL-assets/atari-jaguarcd/</ROM_asset_path>
+  <Asset_Prefix>../Launcher assets Atari/Atari Jaguar</Asset_Prefix>
+</launcher>
+</advanced_emulator_launcher_configuration>
