@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<!-- Standalone launcher for Doom using Retroarch -->
+<!--
+    Standalone launcher for Doom using Retroarch
+    
+    Place prboom.wad in /home/kodi/AEL-ROMs/game-doom/
+    
+    Place the MP3s in /home/kodi/AEL-ROMs/game-doom/
+  -->
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>Doom (Retroarch)</name>
-  <category>Games</category>
-  <Launcher_NFO>../Launcher assets Games/Doom.nfo</Launcher_NFO>
-  <platform>Unknown</platform>
-  <application>/home/kodi/bin/retroarch</application>
-  <args>-L /home/kodi/bin/libretro/prboom_libretro.so -v -f /home/kodi/Games/doom/doom/doom.wad</args>
-  <Asset_Prefix>../Launcher assets Games/Doom</Asset_Prefix>
+    <name>Doom (Retroarch)</name>
+    <category>Games</category>
+    <Launcher_NFO>../Launcher assets Games/Doom.nfo</Launcher_NFO>
+    <Asset_Prefix>../Launcher assets Games/Doom</Asset_Prefix>
+    <platform>Unknown</platform>
+    <application>/home/kodi/bin/retroarch</application>
+    <args>-L /home/kodi/bin/libretro/prboom_libretro.so -v -f /home/kodi/AEL-ROMs/game-doom/doom.wad</args>
 </launcher>
 </advanced_emulator_launcher_configuration>
-
