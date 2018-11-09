@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+    ROM Launcher for Game and Watch electronic games using Retroarch.
+    
+    Download and uncompress the games from http://bot.libretro.com/assets/cores/HandheldElectronicGame/
+  -->
+<advanced_emulator_launcher_configuration>
+<launcher>
+    <name>Game and Watch (Retroarch)</name>
+    <category>Games</category>
+    <Launcher_NFO>../Launcher assets Games/Game and Watch.nfo</Launcher_NFO>
+    <Asset_Prefix>../Launcher assets Games/Game and Watch</Asset_Prefix>
+    <platform>Unknown</platform>
+    <application>/home/kodi/bin/retroarch</application>
+    <args>-L /home/kodi/bin/libretro/gw_libretro.so -v -f &quot;$rom$&quot;</args>
+    <ROM_path>/home/kodi/AEL-ROMs/games-gw/</ROM_path>
+    <ROM_ext>mgw</ROM_ext>
+    <ROM_asset_path>/home/kodi/AEL-assets/games-gw/</ROM_asset_path>
+</launcher>
+</advanced_emulator_launcher_configuration>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+    Standalone Launcher for Cave Story (NX Engine) using Retroarch.
+    
+    You need to download the file "Cave Story (EN).zip" and uncompress the game data from
+    http://bot.libretro.com/assets/cores/NXEngine/
+  -->
+<advanced_emulator_launcher_configuration>
+<launcher>
+    <name>Cave Story (NX Engine) (Retroarch)</name>
+    <category>Games</category>
+    <Launcher_NFO>../Launcher assets Games/Cave Story.nfo</Launcher_NFO>
+    <Asset_Prefix>../Launcher assets Games/Cave Story</Asset_Prefix>
+    <platform>Unknown</platform>
+    <application>/home/kodi/bin/retroarch</application>
+    <args>-L /home/kodi/bin/libretro/nxengine_libretro.so -v -f /home/kodi/AEL-ROMs/games-nxengine/Cave Story (en)/Doukutsu.exe</args>
+</launcher>
+</advanced_emulator_launcher_configuration>
