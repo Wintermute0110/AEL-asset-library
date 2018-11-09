@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <launcher>
-  <year>1994</year>
-  <genre>Video game</genre>
-  <developer>id software</developer>
-  <plot>Doom II: Hell on Earth is a first-person shooter video game, the second title of id Software's Doom franchise. It was originally released for MS-DOS computers in 1994 and Macintosh computers in 1995. Unlike Doom, which was initially only available through shareware and mail order, Doom II was a commercial release sold in stores. Master Levels for Doom II, an expansion pack that includes 21 new levels, was released on December 26, 1995 by id Software.</plot>
+    <year>1994</year>
+    <genre>Video game</genre>
+    <developer>id software</developer>
+    <plot>Doom II: Hell on Earth is a first-person shooter video game, the second title of id Software's Doom franchise. It was originally released for MS-DOS computers in 1994 and Macintosh computers in 1995. Unlike Doom, which was initially only available through shareware and mail order, Doom II was a commercial release sold in stores. Master Levels for Doom II, an expansion pack that includes 21 new levels, was released on December 26, 1995 by id Software.</plot>
 </launcher>
