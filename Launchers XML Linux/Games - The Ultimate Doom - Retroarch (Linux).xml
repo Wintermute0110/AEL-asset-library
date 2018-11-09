@@ -2,13 +2,12 @@
 <!-- Standalone launcher for Doom using Retroarch -->
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>The Ultimate Doom (Retroarch)</name>
-  <category>Games</category>
-  <Launcher_NFO>../Launcher assets Games/The Ultimate Doom.nfo</Launcher_NFO>
-  <platform>Unknown</platform>
-  <application>/home/kodi/bin/retroarch</application>
-  <args>-L /home/kodi/bin/libretro/prboom_libretro.so -v -f /home/kodi/Games/doom/doomu/doomu.wad</args>
-  <Asset_Prefix>../Launcher assets Games/The Ultimate Doom</Asset_Prefix>
+    <name>The Ultimate Doom (Retroarch)</name>
+    <category>Games</category>
+    <Launcher_NFO>../Launcher assets Games/The Ultimate Doom.nfo</Launcher_NFO>
+    <Asset_Prefix>../Launcher assets Games/The Ultimate Doom</Asset_Prefix>
+    <platform>Unknown</platform>
+    <application>/home/kodi/bin/retroarch</application>
+    <args>-L /home/kodi/bin/libretro/prboom_libretro.so -v -f /home/kodi/AEL-ROMs/games-doomu/doomu.wad</args>
 </launcher>
 </advanced_emulator_launcher_configuration>
-

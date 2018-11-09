@@ -2,12 +2,12 @@
 <!-- Standalone launcher for Doom using Retroarch -->
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>Final Doom - TNT: Evilution (Retroarch)</name>
-  <category>Games</category>
-  <Launcher_NFO>../Launcher assets Games/Final Doom Evilution.nfo</Launcher_NFO>
-  <platform>Unknown</platform>
-  <application>/home/kodi/bin/retroarch</application>
-  <args>-L /home/kodi/bin/libretro/prboom_libretro.so -v -f /home/kodi/Games/doom/tnt/tnt.wad</args>
-  <Asset_Prefix>../Launcher assets Games/Final Doom Evilution</Asset_Prefix>
+    <name>Final Doom - TNT: Evilution (Retroarch)</name>
+    <category>Games</category>
+    <Launcher_NFO>../Launcher assets Games/Final Doom Evilution.nfo</Launcher_NFO>
+    <Asset_Prefix>../Launcher assets Games/Final Doom Evilution</Asset_Prefix>
+    <platform>Unknown</platform>
+    <application>/home/kodi/bin/retroarch</application>
+    <args>-L /home/kodi/bin/libretro/prboom_libretro.so -v -f /home/kodi/AEL-ROMs/games-tnt/tnt.wad</args>
 </launcher>
 </advanced_emulator_launcher_configuration>

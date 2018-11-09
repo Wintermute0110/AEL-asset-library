@@ -14,6 +14,6 @@
     <Asset_Prefix>../Launcher assets Games/Doom</Asset_Prefix>
     <platform>Unknown</platform>
     <application>/home/kodi/bin/retroarch</application>
-    <args>-L /home/kodi/bin/libretro/prboom_libretro.so -v -f /home/kodi/AEL-ROMs/game-doom/doom.wad</args>
+    <args>-L /home/kodi/bin/libretro/prboom_libretro.so -v -f /home/kodi/AEL-ROMs/games-doom/doom.wad</args>
 </launcher>
 </advanced_emulator_launcher_configuration>

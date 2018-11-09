@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<!-- Standalone launcher for Doom using Retroarch -->
+<!-- Standalone launcher for Doom 2 using Retroarch -->
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>Doom II: Hell on Earth (Retroarch)</name>
-  <category>Games</category>
-  <Launcher_NFO>../Launcher assets Games/Doom 2.nfo</Launcher_NFO>
-  <platform>Unknown</platform>
-  <application>/home/kodi/bin/retroarch</application>
-  <args>-L /home/kodi/bin/libretro/prboom_libretro.so -v -f /home/kodi/Games/doom/doom2/doom2.wad</args>
-  <Asset_Prefix>../Launcher assets Games/Doom 2</Asset_Prefix>
+    <name>Doom II: Hell on Earth (Retroarch)</name>
+    <category>Games</category>
+    <Launcher_NFO>../Launcher assets Games/Doom 2.nfo</Launcher_NFO>
+    <Asset_Prefix>../Launcher assets Games/Doom 2</Asset_Prefix>
+    <platform>Unknown</platform>
+    <application>/home/kodi/bin/retroarch</application>
+    <args>-L /home/kodi/bin/libretro/prboom_libretro.so -v -f /home/kodi/AEL-ROMs/games-doom2/doom2.wad</args>
 </launcher>
 </advanced_emulator_launcher_configuration>
