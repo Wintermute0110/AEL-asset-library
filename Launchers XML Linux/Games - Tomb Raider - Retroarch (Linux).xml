@@ -11,8 +11,8 @@
 <launcher>
     <name>Tomb Raider (Open Lara) (Retroarch)</name>
     <category>Games</category>
-    <Launcher_NFO>../Launcher assets Games/Open Lara.nfo</Launcher_NFO>
-    <Asset_Prefix>../Launcher assets Games/Open Lara</Asset_Prefix>
+    <Launcher_NFO>../Launcher assets Games/Tomb Raider.nfo</Launcher_NFO>
+    <Asset_Prefix>../Launcher assets Games/Tomb Raider</Asset_Prefix>
     <platform>Unknown</platform>
     <application>/home/kodi/bin/retroarch</application>
     <args>-L /home/kodi/bin/libretro/openlara_libretro.so -f &quot;$rom$&quot;</args>
