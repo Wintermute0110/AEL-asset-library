@@ -1,22 +1,61 @@
 # Advanced Emulator Launcher asset library #
 
-Advanced Emulator Launcher repository of metadata and assets containing:
+The Advanced Emulator Launcher asset library contains the following:
 
  * Category and launcher metadata in NFO format.
  
- * Category metadata/artwork in XML format.
+ * Category and launcher assets, including Icons, Fanarts, Banners, Posters and Controllers.
  
- * Launcher (emulator) metadata/artwork in XML format for Linux, Windows and Android.
+ * Launcher (emulator) configuration in XML for Linux, Windows and Android platforms.
 
-More information, tutorials and screenshots about AEL can be found in 
-the [Advanced Emulator Launcher thread] in the Kodi forum.
+There are two ways to use this library:
 
-[Advanced Emulator Launcher thread]: https://forum.kodi.tv/showthread.php?tid=287826
+ * Configure you categories and launchers using the **AEL category/launcher creation wizard**
+   in the addon context menu. Then, use the context menu to load the metadata NFO file
+   and the assets (Icon, Fanart, etc.).
+
+ * Use the XML configuration files to import into AEL any category or launcher. For categories,
+   the XML file defines the metadata and assets. For Launchers, the XML file defines the
+   metadata, the assets and the emulator parameters (aka the arguments).
+
+Alternatively, you can configure your launchers using the **launcher creation wizard** and have
+a look at the XML files to learn about the arguments you must introduce in the wizard.
+
+After importing an XML configuration file, if you discover some mistake or want to change
+you mind about something, edit the XML configuration file, reimport, and when asked about
+overwriting the category/launcher say **yes**. You can reimport categories/launchers as many
+times as you want until you are totally satistied with your setup.
+
+Having a set of XML files with your emulator configuration and assets will serve as
+a backup in the event you have to rebuild your mediacenter setup for some reason 
+(addon updgrade, Kodi upgrade, hard disk crash, etc.).
+
+
+## The Category and Launcher metadata/assets ##
+
+
+## The AEL Category and Launcher XML configurations ##
+
+The XML files to setup categories in AEL are located in the directory xxxxx.
+These XML files for categories use the assets located in the xxxx directory.
+
+
+The XML launcher configuration files are organised in different directories for Linux, 
+Windows and Android platforms. These XML configuration files use the metadata NFO files
+and assets located in the directories xxxx
+
+## Structure of an XML configuration file ##
+
+
 
 ## Path configurations ##
 
-If you want to change the **ROM path** or **asset path** from the defaults to fit your setup you can edit the 
-XML configuration files. In Windows it is recommended to use the `Notepad++` editor to edit XML UTF-8 encoded files.
+It is recommended that you keep your game library organised and that you use short names
+for the ROMs and artwork directories. Short names means smaller databases and smaller
+databases load faster, particularly with huge collections.
+
+If you want to change the **ROM path** or **asset path** from the defaults to fit your
+setup you can edit the XML configuration files and then reload them in AEL.
 
 ### Linux ###
 
@@ -103,6 +142,7 @@ The XML files in this library assume the following **ROM paths** and **asset dir
 
 ### Windows ###
 
+In Windows it is recommended to use the `Notepad++` editor to edit the XML files encoded in UTF-8.
 
 ### Android ###
 
@@ -112,12 +152,14 @@ The XML files in this library assume the following **ROM paths** and **asset dir
 ### Linux ###
 
  * Retroarch executable is located in `/home/kodi/bin/retroarch`.
- * Retroarch cores are located in `/home/kodi/bin/libretro/`.
- * MAME exectuable is located in `/usr/games/mame`. Remember to edit your `mame.ini` to include
-   the **ROM path**. Otherwise MAME will not find the ROMs.
 
-The XML files with emulator configurations are located in the [Launchers XML Linux](./Launchers%20XML%20Linux)
-directory.
+ * Retroarch cores are located in `/home/kodi/bin/libretro/`.
+
+ * MAME exectuable is located in `/usr/games/mame`. Remember to edit your `mame.ini`
+   to include the **ROM path**. Otherwise MAME will not find the ROMs.
+
+The XML files with emulator configurations are located in the 
+[Launchers XML Linux](./Launchers%20XML%20Linux) directory.
 
 | Category             | System                                 | Emulators                                                                                    |
 |----------------------|----------------------------------------|----------------------------------------------------------------------------------------------|
@@ -198,18 +240,24 @@ These configurations use a wrapper script to close Kodi on launching and reopen 
 The wrapper script works OK in general Linux distros like Kodibuntu, Ubuntu or Debian. Note that you sould
 activate the **non blocking** launcher option, otherwise Kodi will not shut down properly.
 
-
 ### Linux LibreELEC ###
 
 These configurations user a wrapper script that closes Kodi on launching and reopens it again when the launched app finishes.
 This wrapper script works OK in LibreELEC.
 
-
 ### Windows ###
 
+The XML files with emulator configurations are located in the 
+[Launchers XML Windows](./Launchers%20XML%20Windows) directory.
 
 ### Android ###
 
+The XML files with emulator configurations are located in the 
+[Launchers XML Android](./Launchers%20XML%20Android) directory.
+
+## Useful links ##
+
+[Advanced Emulator Launcher thread in Kodi forum](https://forum.kodi.tv/showthread.php?tid=287826)
 
 ## Image sizes ##
 
@@ -227,7 +275,6 @@ OK. [Kodi Forum, Poster art size question]
 [Kodi Wiki, Add on structure Fanart]: http://kodi.wiki/view/Add-on_structure#fanart.jpg
 [Kodi Wiki, Wide banner icons]: http://kodi.wiki/view/Wide_banner_icons
 [Kodi Forum, Poster art size question]: http://forum.kodi.tv/showthread.php?tid=155258
-
 
 ## Credits ##
 
