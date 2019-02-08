@@ -21,10 +21,10 @@ There are two ways to use the library:
    metadata, the assets and the emulator parameters (aka the arguments).
 
 Alternatively, you can configure your launchers using the **launcher creation wizard** and have
-a look at the XML files to learn about the arguments you must introduce in the wizard.
+a look at the XML files to learn about the app/emulator arguments you must introduce in the wizard.
 
 After importing an XML configuration file, if you discover some mistake or want to change
-you mind about something, edit the XML configuration file, reimport, and when asked about
+something, simply edit the XML configuration file, reimport the XML in AEL, and when asked about
 overwriting the category/launcher say **yes**. You can reimport categories/launchers as many
 times as you want until you are totally satisfied with your setup.
 
