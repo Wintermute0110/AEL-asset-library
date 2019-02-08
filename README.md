@@ -27,7 +27,6 @@ The XML files in this library assume the following **ROM paths** and **asset dir
 |                      | <sub>Kodi Retroplayer</sub>            | <sub>`/home/kodi/AEL-ROMs/retroplayer/`</sub>                  | <sub>`/home/kodi/AEL-assets/retroplayer/`</sub>       |
 | <sub>Arcade</sub>    | <sub>Capcom Play System</sub>          | <sub>`/home/kodi/AEL-ROMs/mame-cps/`</sub>                     | <sub>`/home/kodi/AEL-assets/mame-cps/`</sub>          |
 | <sub>Arcade</sub>    | <sub>MAME</sub>                        | <sub>`/home/kodi/AEL-ROMs/mame/`</sub>                         | <sub>`/home/kodi/AEL-assets/mame/`</sub>              |
-| <sub>Arcade</sub>    | <sub>Neo Geo MVS</sub>                 | <sub>`/home/kodi/AEL-ROMs/mame-neogeo/`</sub>                  | <sub>`/home/kodi/AEL-assets/mame-neogeo/`</sub>       |
 | <sub>Arcade</sub>    | <sub>SEGA</sub>                        | <sub>`/home/kodi/AEL-ROMs/mame-sega/`</sub>                    | <sub>`/home/kodi/AEL-assets/mame-sega/`</sub>         |
 | <sub>Atari</sub>     | <sub>Atari 2600</sub>                  | <sub>`/home/kodi/AEL-ROMs/atari-2600/`</sub>                   | <sub>`/home/kodi/AEL-assets/atari-2600/`</sub>        |
 | <sub>Atari</sub>     | <sub>Atari 5200</sub>                  | <sub>`/home/kodi/AEL-ROMs/atari-5200/`</sub>                   | <sub>`/home/kodi/AEL-assets/atari-5200/`</sub>        |
@@ -93,7 +92,7 @@ The XML files in this library assume the following **ROM paths** and **asset dir
 | <sub>SEGA</sub>      | <sub>PICO</sub>                        | <sub>`/home/kodi/AEL-ROMs/sega-pico/`</sub>                    | <sub>`/home/kodi/AEL-assets/sega-pico`</sub>          |
 | <sub>SEGA</sub>      | <sub>Saturn</sub>                      | <sub>`/home/kodi/AEL-ROMs/sega-saturn/`</sub>                  | <sub>`/home/kodi/AEL-assets/sega-saturn`</sub>        |
 | <sub>SEGA</sub>      | <sub>SG-1000</sub>                     | <sub>`/home/kodi/AEL-ROMs/sega-sg1000/`</sub>                  | <sub>`/home/kodi/AEL-assets/sega-sg1000`</sub>        |
-| <sub>SNK</sub>       | <sub>Neo Geo AES</sub>                 | <sub>`/home/kodi/AEL-ROMs/mame-neogeo/`</sub>                  | <sub>`/home/kodi/AEL-assets/mame-neogeo/`</sub>       |
+| <sub>SNK</sub>       | <sub>Neo Geo AES</sub>                 | <sub>`/home/kodi/AEL-ROMs/mame-neogeo/`</sub>                  | <sub>`/home/kodi/AEL-assets/snk-neoaes/`</sub>        |
 | <sub>SNK</sub>       | <sub>Neo Geo CD</sub>                  | <sub>`/home/kodi/AEL-ROMs/snk-neocd/`</sub>                    | <sub>`/home/kodi/AEL-assets/snk-neocd/`</sub>         |
 | <sub>SNK</sub>       | <sub>Neo Geo Pocket</sub>              | <sub>`/home/kodi/AEL-ROMs/snk-ngp/`</sub>                      | <sub>`/home/kodi/AEL-assets/snk-ngp/`</sub>           |
 | <sub>SNK</sub>       | <sub>Neo Geo Pocket Color</sub>        | <sub>`/home/kodi/AEL-ROMs/snk-ngpc/`</sub>                     | <sub>`/home/kodi/AEL-assets/snk-ngpc/`</sub>          |
@@ -125,7 +124,6 @@ directory.
 |                      | <sub>Retroarch</sub>                   | [Retroarch](./Launchers%20XML%20Linux/No%20category%20-%20Retroarch%20(Linux).xml) |
 | <sub>Arcade</sub>    | <sub>Capcom Play System</sub>          | [MAME](./Launchers%20XML%20Linux/Arcade%20(MAME)%20-%20Capcom%20Play%20System%20-%20MAME%20(Linux).xml) |
 | <sub>Arcade</sub>    | <sub>MAME</sub>                        | [MAME](./Launchers%20XML%20Linux/Arcade%20(MAME)%20-%20MAME%20(Linux).xml) |
-| <sub>Arcade</sub>    | <sub>Neo Geo MVS</sub>                 | [MAME](./Launchers%20XML%20Linux/Arcade%20(MAME)%20-%20Neo%20Geo%20MVS%20-%20MAME%20(Linux).xml) |
 | <sub>Arcade</sub>    | <sub>SEGA</sub>                        | [MAME](./Launchers%20XML%20Linux/Arcade%20(MAME)%20-%20SEGA%20-%20MAME%20(Linux).xml) |
 | <sub>Atari</sub>     | <sub>Atari 2600</sub>                  | [Retroarch](./Launchers%20XML%20Linux/Atari%20-%20Atari%202600%20-%20Retroarch%20(Linux).xml) |
 | <sub>Atari</sub>     | <sub>Atari 5200</sub>                  | [Retroarch](./Launchers%20XML%20Linux/Atari%20-%20Atari%205200%20-%20Retroarch%20(Linux).xml) |
@@ -186,8 +184,8 @@ directory.
 | <sub>SEGA</sub>      | <sub>PICO</sub>                        | [Retroarch](./Launchers%20XML%20Linux/SEGA%20-%20PICO%20-%20Retroarch%20(Linux).xml) |
 | <sub>SEGA</sub>      | <sub>Saturn</sub>                      | [Retroarch](./Launchers%20XML%20Linux/SEGA%20-%20Saturn%20-%20Retroarch%20(Linux).xml) |
 | <sub>SEGA</sub>      | <sub>SG-1000</sub>                     | [Retroarch](./Launchers%20XML%20Linux/SEGA%20-%20SG-1000%20-%20Retroarch%20(Linux).xml) |
-| <sub>SNK</sub>       | <sub>Neo Geo AES</sub>                 | [MAME](./Launchers%20XML%20Linux/SNK%20-%20Neo%20Geo%20AES%20-%20Retroarch%20(MAME).xml) |
-| <sub>SNK</sub>       | <sub>Neo Geo CD</sub>                  | [MAME](./Launchers%20XML%20Linux/SNK%20-%20Neo%20Geo%20CD%20-%20Retroarch%20(MAME).xml) |
+| <sub>SNK</sub>       | <sub>Neo Geo AES</sub>                 | [MAME](./Launchers%20XML%20Linux/SNK%20-%20Neo%20Geo%20AES%20-%20MAME%20(Linux).xml) |
+| <sub>SNK</sub>       | <sub>Neo Geo CD</sub>                  | [MAME](./Launchers%20XML%20Linux/SNK%20-%20Neo%20Geo%20CD%20-%20MAME%20(Linux).xml) |
 | <sub>SNK</sub>       | <sub>Neo Geo Pocket</sub>              | [Retroarch](./Launchers%20XML%20Linux/SNK%20-%20Neo%20Geo%20Pocket%20-%20Retroarch%20(Linux).xml) |
 | <sub>SNK</sub>       | <sub>Neo Geo Pocket Color</sub>        | [Retroarch](./Launchers%20XML%20Linux/SNK%20-%20Neo%20Geo%20Pocket%20Color%20-%20Retroarch%20(Linux).xml) |
 | <sub>SONY</sub>      | <sub>PlayStation</sub>                 | [Retroarch](./Launchers%20XML%20Linux/SONY%20-%20PlayStation%20-%20Retroarch%20(Linux).xml) |
