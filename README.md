@@ -26,16 +26,16 @@ a look at the XML files to learn about the arguments you must introduce in the w
 After importing an XML configuration file, if you discover some mistake or want to change
 you mind about something, edit the XML configuration file, reimport, and when asked about
 overwriting the category/launcher say **yes**. You can reimport categories/launchers as many
-times as you want until you are totally satistied with your setup.
+times as you want until you are totally satisfied with your setup.
 
-Having a set of XML files with your emulator configuration and assets will serve as
+Having a set of XML files with your emulator configuration and asset files will serve as
 a backup in the event you have to rebuild your mediacenter setup for some reason 
-(addon updgrade, Kodi upgrade, hard disk crash, etc.).
+(emulator upgrade, AEL addon updgrade, Kodi upgrade, hard disk crash, etc.).
 
 
 ## The Category and Launcher NFO files ##
 
-The metadata for launchers and assets is stored in NFO files. NFO files are small
+The metadata for Launchers and assets is stored in **NFO files**. NFO files are small
 XML files that containt all the metadata AEL is able to display.
 
 A Category NFO file looks like this:
