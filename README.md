@@ -20,6 +20,11 @@ There are two ways to use the library:
    the XML file defines the metadata and assets. For Launchers, the XML file defines the
    metadata, the assets and the emulator parameters (aka the arguments).
 
+   To import and XML file, go to AEL addon settins, then go to "IO" tab, then
+   select "Import configuration". Remember to change the ROM path, assets path and
+   application path in the XML before importing (or you can change later after importing using
+   the "Edit Launcher" context menu).
+
 Alternatively, you can configure your launchers using the **launcher creation wizard** and have
 a look at the XML files to learn about the app/emulator arguments you must introduce in the wizard.
 
@@ -32,6 +37,7 @@ Having a set of XML files with your emulator configuration and asset files will 
 a backup in the event you have to rebuild your mediacenter setup for some reason 
 (emulator upgrade, AEL addon updgrade, Kodi upgrade, hard disk crash, etc.).
 
+Contributions to the AEL Asset Library repository are welcomed and encouraged.
 
 ## The Category and Launcher NFO files ##
 
