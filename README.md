@@ -117,76 +117,81 @@ The XML files in this library assume the following **ROM paths** and **asset dir
  * MAME exectuable is located in `/usr/games/mame`. Remember to edit your `mame.ini` to include
    the **ROM path**. Otherwise MAME will not find the ROMs.
 
-The XML files with emulator configurations are located in the [Launchers XML Linux](./Launchers%20XML%20Linux) directory.
+The XML files with emulator configurations are located in the [Launchers XML Linux](./Launchers%20XML%20Linux)
+directory.
 
 | Category             | System                                 | Emulators                                                                                    |
 |----------------------|----------------------------------------|----------------------------------------------------------------------------------------------|
-|                      | <sub>Kodi Retroplayer</sub>            | [Kodi Retroplayer](./Launchers%20-%20Arcade/Capcom%20Play%20System%20-%20MAME%20(Linux).xml) |
-|                      | <sub>Retroarch</sub>                   | [Retroarch](./Launchers%20-%20Arcade/Capcom%20Play%20System%20-%20MAME%20(Linux).xml) |
-| <sub>Arcade</sub>    | <sub>Capcom Play System</sub>          | [MAME](./Launchers%20-%20Arcade/Capcom%20Play%20System%20-%20MAME%20(Linux).xml) |
-| <sub>Arcade</sub>    | <sub>MAME</sub>                        | [MAME](./Launchers%20-%20Arcade/MAME%20-%20MAME%20(Linux).xml) |
-| <sub>Arcade</sub>    | <sub>Neo Geo MVS</sub>                 | [MAME](./Launchers%20-%20Arcade/Neo%20Geo%20MVS%20-%20MAME%20(Linux).xml) |
-| <sub>Arcade</sub>    | <sub>SEGA</sub>                        | [MAME](./Launchers%20-%20Arcade/SEGA%20-%20MAME%20(Linux).xml) |
-| <sub>Atari</sub>     | <sub>Atari 2600</sub>                  | [Retroarch](./Launchers%20-%20Atari/Atari%202600%20-%20Retroarch%20(Linux).xml) |
-| <sub>Atari</sub>     | <sub>Atari 5200</sub>                  | [Retroarch](./Launchers%20-%20Atari/Atari%205200%20-%20Retroarch%20(Linux).xml) |
-| <sub>Atari</sub>     | <sub>Atari 7800</sub>                  | [Retroarch](./Launchers%20-%20Atari/Atari%207800%20-%20Retroarch%20(Linux).xml) |
-| <sub>Atari</sub>     | <sub>Atari Jaguar</sub>                | [Retroarch](./Launchers%20-%20Atari/Atari%20Jaguar%20-%20Retroarch%20(Linux).xml) |
-| <sub>Atari</sub>     | <sub>Atari Lynx</sub>                  | [Retroarch](./Launchers%20-%20Atari/Atari%20Lynx%20-%20Retroarch%20(Linux).xml) |
-| <sub>Computers</sub> | <sub>Amstrad CPC</sub>                 | [Retroarch](./Launchers%20-%20Computers/Amstrad%20CPC%20-%20Retroarch%20(Linux).xml) |
-| <sub>Computers</sub> | <sub>Commodore 64</sub>                | [MAME](./Launchers%20-%20Computers/Commodore%2064%20-%20MAME%20(Linux).xml) |
-| <sub>Computers</sub> | <sub>Commodore Amiga</sub>             | [MAME](./Launchers%20-%20Computers/Commodore%20Amiga%20-%20MAME%20(Linux).xml) |
-| <sub>Computers</sub> | <sub>Microsoft MSX</sub>               | [Retroarch](./Launchers%20-%20Computers/Microsoft%20MSX%20-%20Retroarch%20(Linux).xml) |
-| <sub>Computers</sub> | <sub>Microsoft MSX2</sub>              | [Retroarch](./Launchers%20-%20Computers/Microsoft%20MSX2%20-%20Retroarch%20(Linux).xml)|
-| <sub>Computers</sub> | <sub>Sinclair ZX Spectrum</sub>        | [Retroarch](./Launchers%20-%20Computers/Sinclair%20ZX%20Spectrum%20-%20Retroarch%20(Linux).xml)|
-| <sub>Consoles</sub>  | <sub>3DO Interactive Multiplayer</sub> | [Retroarch](./Launchers%20-%20Consoles/3DO%20Interactive%20Multiplayer%20-%20Retroarch%20(Linux).xml) |
-| <sub>Consoles</sub>  | <sub>Amiga CD32</sub>                  | [MAME](./Launchers%20-%20Consoles/Amiga%20CD32%20-%20MAME%20(Linux).xml) |
-| <sub>Consoles</sub>  | <sub>Bandai WonderSwan</sub>           | [Retroarch](./Launchers%20-%20Consoles/Bandai%20WonderSwan%20-%20Retroarch%20(Linux).xml) |
-| <sub>Consoles</sub>  | <sub>Bandai WonderSwan Color</sub>     | [Retroarch](./Launchers%20-%20Consoles/Bandai%20WonderSwan%20Color%20-%20Retroarch%20(Linux).xml) |
-| <sub>Consoles</sub>  | <sub>Colecovision</sub>                | [Retroarch](./Launchers%20-%20Consoles/Colecovision%20-%20Retroarch%20(Linux).xml) [MAME](./Launchers%20-%20Consoles/Colecovision%20-%20Retroarch%20(MAME).xml) |
-| <sub>Consoles</sub>  | <sub>Fujitsu FM Towns Marty</sub>      | [MAME](./Launchers%20-%20Consoles/FM%20Towns%20Marty%20-%20MAME%20(Linux).xml) |
-| <sub>Consoles</sub>  | <sub>GCE Vectrex</sub>                 | [Retroarch](./Launchers%20-%20Consoles/GCE%20Vectrex%20-%20Retroarch%20(Linux).xml) |
-| <sub>Consoles</sub>  | <sub>Magnavox Odyssey 2</sub>          | [Retroarch](./Launchers%20-%20Consoles/Magnavox%20Odyssey%202%20-%20Retroarch%20(Linux).xml) |
-| <sub>Consoles</sub>  | <sub>Mattel Intellivision</sub>        | [MAME](./Launchers%20-%20Consoles/Mattel%20Intellivision%20-%20MAME%20(Linux).xml) |
-| <sub>Consoles</sub>  | <sub>Philips Videopac+ G7400</sub>     | [Retroarch](./Launchers%20-%20Consoles/Philips%20Videopac%20Plus%20G7400%20-%20Retroarch%20(Linux).xml) |
-| <sub>Games</sub>     | <sub>Doom</sub>                        | [Retroarch](./Launchers%20-%20Games/Doom%20-%20Retroarch%20(Linux).xml) |
-| <sub>Games</sub>     | <sub>Doom II: Hell on Earth</sub>      | [Retroarch](./Launchers%20-%20Games/Doom%202%20-%20Retroarch%20(Linux).xml) |
-| <sub>Games</sub>     | <sub>The Plutonia Experiment</sub>     | [Retroarch](./Launchers%20-%20Games/Final%20Doom%20-%20The%20Plutonia%20Experiment%20-%20Retroarch%20(Linux).xml) |
-| <sub>Games</sub>     | <sub>TNT: Evilution</sub>              | [Retroarch](./Launchers%20-%20Games/Final%20Doom%20-%20TNT%20Evilution%20-%20Retroarch%20(Linux).xml) |
-| <sub>Games</sub>     | <sub>The Ultimate Doom</sub>           | [Retroarch](./Launchers%20-%20Games/The%20Ultimate%20Doom%20-%20Retroarch%20(Linux).xml) |
-| <sub>Games</sub>     | <sub>ScummVM</sub>                     | [Retroarch](./Launchers%20-%20Games/ScummVM%20-%20Retroarch%20(Linux).xml) |
-| <sub>Microsoft</sub> | <sub>MS-DOS</sub>                      | [Retroarch](./Launchers%20-%20Microsoft/MS-DOS%20-%20Retroarch%20(Linux).xml) |
-| <sub>NEC</sub>       | <sub>PC Engine</sub>                   | [Retroarch](./Launchers%20-%20NEC/PC%20Engine%20-%20Retroarch%20(Linux).xml) |
-| <sub>NEC</sub>       | <sub>PC Engine CD-ROM2</sub>           | [Retroarch](./Launchers%20-%20NEC/PC%20Engine%20CD-ROM2%20-%20Retroarch%20(Linux).xml) |
-| <sub>NEC</sub>       | <sub>PC-FX</sub>                       | [Retroarch](./Launchers%20-%20NEC/PC-FX%20-%20Retroarch%20(Linux).xml) |
-| <sub>NEC</sub>       | <sub>SuperGrafx</sub>                  | [Retroarch](./Launchers%20-%20NEC/SuperGrafx%20-%20Retroarch%20(Linux).xml) |
-| <sub>Nintendo</sub>  | <sub>Nintendo DS</sub>                 | [Retroarch](./Launchers%20-%20Nintendo/DS%20-%20Retroarch%20(Linux).xml) |
-| <sub>Nintendo</sub>  | <sub>Famicom Disk System</sub>         | [Retroarch](./Launchers%20-%20Nintendo/Famicom%20Disk%20Sytem%20-%20Retroarch%20(Linux).xml) |
-| <sub>Nintendo</sub>  | <sub>Game Boy</sub>                    | [Retroarch](./Launchers%20-%20Nintendo/Game%20Boy%20-%20Retroarch%20(Linux).xml) |
-| <sub>Nintendo</sub>  | <sub>Game Boy Advance</sub>            | [Retroarch](./Launchers%20-%20Nintendo/Game%20Boy%20Advance%20-%20Retroarch%20(Linux).xml) |
-| <sub>Nintendo</sub>  | <sub>Game Boy Color</sub>              | [Retroarch](./Launchers%20-%20Nintendo/Game%20Boy%20Color%20-%20Retroarch%20(Linux).xml) |
-| <sub>Nintendo</sub>  | <sub>GameCube</sub>                    | [Retroarch](./Launchers%20-%20Nintendo/GameCube%20-%20Retroarch%20(Linux).xml) |
-| <sub>Nintendo</sub>  | <sub>NES</sub>                         | [Retroarch](./Launchers%20-%20Nintendo/NES%20-%20Retroarch%20(Linux).xml) |
-| <sub>Nintendo</sub>  | <sub>Nintendo 64</sub>                 | [Retroarch](./Launchers%20-%20Nintendo/Nintendo%2064%20-%20Retroarch%20(Linux).xml) |
-| <sub>Nintendo</sub>  | <sub>Pokemon Mini</sub>                | [Retroarch](./Launchers%20-%20Nintendo/Pokemon%20Mini%20-%20Retroarch%20(Linux).xml) |
-| <sub>Nintendo</sub>  | <sub>SNES</sub>                        | [Retroarch](./Launchers%20-%20Nintendo/SNES%20-%20Retroarch%20(Linux).xml) |
-| <sub>Nintendo</sub>  | <sub>Virtual Boy</sub>                 | [Retroarch](./Launchers%20-%20Nintendo/Virtual%20Boy-%20Retroarch%20(Linux).xml) |
-| <sub>Nintendo</sub>  | <sub>Wii</sub>                         | [Retroarch](./Launchers%20-%20Nintendo/Wii%20-%20Retroarch%20(Linux).xml) |
-| <sub>SEGA</sub>      | <sub>32X</sub>                         | [Retroarch](./Launchers%20-%20SEGA/32X%20-%20Retroarch%20(Linux).xml) |
-| <sub>SEGA</sub>      | <sub>Dreamcast</sub>                   | [Retroarch](./Launchers%20-%20SEGA/Dreamcast%20-%20Retroarch%20(Linux).xml) |
-| <sub>SEGA</sub>      | <sub>Game Gear</sub>                   | [Retroarch](./Launchers%20-%20SEGA/Game%20Gear%20-%20Retroarch%20(Linux).xml) |
-| <sub>SEGA</sub>      | <sub>Master System</sub>               | [Retroarch](./Launchers%20-%20SEGA/Master%20System%20-%20Retroarch%20(Linux).xml) [MAME](./Launchers%20-%20SEGA/Master%20System%20-%20MAME%20(Linux).xml) |
-| <sub>SEGA</sub>      | <sub>Mega CD</sub>                     | [Retroarch](./Launchers%20-%20SEGA/Mega%20CD%20-%20Retroarch%20(Linux).xml) |
-| <sub>SEGA</sub>      | <sub>Mega Drive</sub>                  | [Retroarch](./Launchers%20-%20SEGA/Mega%20Drive%20-%20Retroarch%20(Linux).xml) |
-| <sub>SEGA</sub>      | <sub>PICO</sub>                        | [Retroarch](./Launchers%20-%20SEGA/PICO%20-%20Retroarch%20(Linux).xml) |
-| <sub>SEGA</sub>      | <sub>Saturn</sub>                      | [Retroarch](./Launchers%20-%20SEGA/Saturn%20-%20Retroarch%20(Linux).xml) |
-| <sub>SEGA</sub>      | <sub>SG-1000</sub>                     | [Retroarch](./Launchers%20-%20SEGA/SG-1000%20-%20Retroarch%20(Linux).xml) |
-| <sub>SNK</sub>       | <sub>Neo Geo AES</sub>                 | [MAME](./Launchers%20-%20SNK/Neo%20Geo%20AES%20-%20Retroarch%20(MAME).xml) |
-| <sub>SNK</sub>       | <sub>Neo Geo CD</sub>                  | [MAME](./Launchers%20-%20SNK/Neo%20Geo%20CD%20-%20Retroarch%20(MAME).xml) |
-| <sub>SNK</sub>       | <sub>Neo Geo Pocket</sub>              | [Retroarch](./Launchers%20-%20SNK/Neo%20Geo%20Pocket%20-%20Retroarch%20(Linux).xml) |
-| <sub>SNK</sub>       | <sub>Neo Geo Pocket Color</sub>        | [Retroarch](./Launchers%20-%20SNK/Neo%20Geo%20Pocket%20Color%20-%20Retroarch%20(Linux).xml) |
-| <sub>SONY</sub>      | <sub>PlayStation</sub>                 | [Retroarch](./Launchers%20-%20SONY/PlayStation%20-%20Retroarch%20(Linux).xml) |
-| <sub>SONY</sub>      | <sub>PlayStation 2</sub>               | [PCSX2](./Launchers%20-%20SONY/PlayStation%20-%20Retroarch%20(Linux).xml) |
-| <sub>SONY</sub>      | <sub>PSP</sub>                         | [Retroarch](./Launchers%20-%20SONY/PSP%20-%20Retroarch%20(Linux).xml) |
+|                      | <sub>Retroarch</sub>                   | [Retroarch](./Launchers%20XML%20Linux/No%20category%20-%20Retroarch%20(Linux).xml) |
+| <sub>Arcade</sub>    | <sub>Capcom Play System</sub>          | [MAME](./Launchers%20XML%20Linux/Arcade%20(MAME)%20-%20Capcom%20Play%20System%20-%20MAME%20(Linux).xml) |
+| <sub>Arcade</sub>    | <sub>MAME</sub>                        | [MAME](./Launchers%20XML%20Linux/Arcade%20(MAME)%20-%20MAME%20(Linux).xml) |
+| <sub>Arcade</sub>    | <sub>Neo Geo MVS</sub>                 | [MAME](./Launchers%20XML%20Linux/Arcade%20(MAME)%20-%20Neo%20Geo%20MVS%20-%20MAME%20(Linux).xml) |
+| <sub>Arcade</sub>    | <sub>SEGA</sub>                        | [MAME](./Launchers%20XML%20Linux/Arcade%20(MAME)%20-%20SEGA%20-%20MAME%20(Linux).xml) |
+| <sub>Atari</sub>     | <sub>Atari 2600</sub>                  | [Retroarch](./Launchers%20XML%20Linux/Atari%20-%20Atari%202600%20-%20Retroarch%20(Linux).xml) |
+| <sub>Atari</sub>     | <sub>Atari 5200</sub>                  | [Retroarch](./Launchers%20XML%20Linux/Atari%20-%20Atari%205200%20-%20Retroarch%20(Linux).xml) |
+| <sub>Atari</sub>     | <sub>Atari 7800</sub>                  | [Retroarch](./Launchers%20XML%20Linux/Atari%20-%20Atari%207800%20-%20Retroarch%20(Linux).xml) |
+| <sub>Atari</sub>     | <sub>Atari Jaguar</sub>                | [Retroarch](./Launchers%20XML%20Linux/Atari%20-%20Atari%20Jaguar%20-%20Retroarch%20(Linux).xml) |
+| <sub>Atari</sub>     | <sub>Atari Lynx</sub>                  | [Retroarch](./Launchers%20XML%20Linux/Atari%20-%20Atari%20Lynx%20-%20Retroarch%20(Linux).xml) |
+| <sub>Computers</sub> | <sub>Amstrad CPC</sub>                 | [Retroarch](./Launchers%20XML%20Linux/Computers%20-%20Amstrad%20CPC%20-%20Retroarch%20(Linux).xml) |
+| <sub>Computers</sub> | <sub>Commodore 64</sub>                | [MAME](./Launchers%20XML%20Linux/Computers%20-%20Commodore%2064%20-%20MAME%20(Linux).xml) |
+| <sub>Computers</sub> | <sub>Commodore Amiga</sub>             | [MAME](./Launchers%20XML%20Linux/Computers%20-%20Commodore%20Amiga%20-%20MAME%20(Linux).xml) |
+| <sub>Computers</sub> | <sub>Microsoft MSX</sub>               | [Retroarch](./Launchers%20XML%20Linux/Computers%20-%20Microsoft%20MSX%20-%20Retroarch%20(Linux).xml) |
+| <sub>Computers</sub> | <sub>Microsoft MSX2</sub>              | [Retroarch](./Launchers%20XML%20Linux/Computers%20-%20Microsoft%20MSX2%20-%20Retroarch%20(Linux).xml)|
+| <sub>Computers</sub> | <sub>Sinclair ZX Spectrum</sub>        | [Retroarch](./Launchers%20XML%20Linux/Computers%20-%20Sinclair%20ZX%20Spectrum%20-%20Retroarch%20(Linux).xml)|
+| <sub>Consoles</sub>  | <sub>3DO Interactive Multiplayer</sub> | [Retroarch](./Launchers%20XML%20Linux/Consoles%20-%203DO%20Interactive%20Multiplayer%20-%20Retroarch%20(Linux).xml) |
+| <sub>Consoles</sub>  | <sub>Amiga CD32</sub>                  | [MAME](./Launchers%20XML%20Linux/Consoles%20-%20Amiga%20CD32%20-%20MAME%20(Linux).xml) |
+| <sub>Consoles</sub>  | <sub>Bandai WonderSwan</sub>           | [Retroarch](./Launchers%20XML%20Linux/Consoles%20-%20Bandai%20WonderSwan%20-%20Retroarch%20(Linux).xml) |
+| <sub>Consoles</sub>  | <sub>Bandai WonderSwan Color</sub>     | [Retroarch](./Launchers%20XML%20Linux/Consoles%20-%20Bandai%20WonderSwan%20Color%20-%20Retroarch%20(Linux).xml) |
+| <sub>Consoles</sub>  | <sub>Colecovision</sub>                | [Retroarch](./Launchers%20XML%20Linux/Consoles%20-%20Colecovision%20-%20Retroarch%20(Linux).xml) [MAME](./Launchers%20-%20Consoles/Colecovision%20-%20Retroarch%20(MAME).xml) |
+| <sub>Consoles</sub>  | <sub>Fujitsu FM Towns Marty</sub>      | [MAME](./Launchers%20XML%20Linux/Consoles%20-%20FM%20Towns%20Marty%20-%20MAME%20(Linux).xml) |
+| <sub>Consoles</sub>  | <sub>GCE Vectrex</sub>                 | [Retroarch](./Launchers%20XML%20Linux/Consoles%20-%20GCE%20Vectrex%20-%20Retroarch%20(Linux).xml) |
+| <sub>Consoles</sub>  | <sub>Magnavox Odyssey 2</sub>          | [Retroarch](./Launchers%20XML%20Linux/Consoles%20-%20Magnavox%20Odyssey%202%20-%20Retroarch%20(Linux).xml) |
+| <sub>Consoles</sub>  | <sub>Mattel Intellivision</sub>        | [MAME](./Launchers%20XML%20Linux/Consoles%20-%20Mattel%20Intellivision%20-%20MAME%20(Linux).xml) |
+| <sub>Consoles</sub>  | <sub>Philips Videopac+ G7400</sub>     | [Retroarch](./Launchers%20XML%20Linux/Consoles%20-%20Philips%20Videopac%20Plus%20G7400%20-%20Retroarch%20(Linux).xml) |
+| <sub>Games</sub>     | <sub>Cave Story</sub>                  | [Retroarch](./Launchers%20XML%20Linux/Games%20-%20Cave%20Story%20-%20Retroarch%20(Linux).xml) |
+| <sub>Games</sub>     | <sub>Doom</sub>                        | [Retroarch](./Launchers%20XML%20Linux/Games%20-%20Doom%20-%20Retroarch%20(Linux).xml) |
+| <sub>Games</sub>     | <sub>Doom II: Hell on Earth</sub>      | [Retroarch](./Launchers%20XML%20Linux/Games%20-%20Doom%202%20-%20Retroarch%20(Linux).xml) |
+| <sub>Games</sub>     | <sub>The Plutonia Experiment</sub>     | [Retroarch](./Launchers%20XML%20Linux/Games%20-%20Final%20Doom%20-%20The%20Plutonia%20Experiment%20-%20Retroarch%20(Linux).xml) |
+| <sub>Games</sub>     | <sub>TNT: Evilution</sub>              | [Retroarch](./Launchers%20XML%20Linux/Games%20-%20Final%20Doom%20-%20TNT%20Evilution%20-%20Retroarch%20(Linux).xml) |
+| <sub>Games</sub>     | <sub>Game and Watch</sub>              | [Retroarch](./Launchers%20XML%20Linux/Games%20-%20Game%20and%20Watch%20-%20Retroarch%20(Linux).xml) |
+| <sub>Games</sub>     | <sub>ScummVM</sub>                     | [Retroarch](./Launchers%20XML%20Linux/Games%20-%20ScummVM%20-%20Retroarch%20(Linux).xml) |
+| <sub>Games</sub>     | <sub>The Ultimate Doom</sub>           | [Retroarch](./Launchers%20XML%20Linux/Games%20-%20The%20Ultimate%20Doom%20-%20Retroarch%20(Linux).xml) |
+| <sub>Games</sub>     | <sub>Tomb Raider (Open Lara)</sub>     | [Retroarch](./Launchers%20XML%20Linux/Games%20-%20Tomb%20Raider%20-%20Retroarch%20(Linux).xml) |
+| <sub>Microsoft</sub> | <sub>MS-DOS</sub>                      | [Retroarch](./Launchers%20XML%20Linux/Microsoft%20-%20MS-DOS%20-%20Retroarch%20(Linux).xml) |
+| <sub>NEC</sub>       | <sub>PC Engine</sub>                   | [Retroarch](./Launchers%20XML%20Linux/NEC%20-%20PC%20Engine%20-%20Retroarch%20(Linux).xml) |
+| <sub>NEC</sub>       | <sub>PC Engine CD-ROM2</sub>           | [Retroarch](./Launchers%20XML%20Linux/NEC%20-%20PC%20Engine%20CD-ROM2%20-%20Retroarch%20(Linux).xml) |
+| <sub>NEC</sub>       | <sub>PC-FX</sub>                       | [Retroarch](./Launchers%20XML%20Linux/NEC%20-%20PC-FX%20-%20Retroarch%20(Linux).xml) |
+| <sub>NEC</sub>       | <sub>SuperGrafx</sub>                  | [Retroarch](./Launchers%20XML%20Linux/NEC%20-%20SuperGrafx%20-%20Retroarch%20(Linux).xml) |
+| <sub>Nintendo</sub>  | <sub>Famicom Disk System</sub>         | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20Famicom%20Disk%20Sytem%20-%20Retroarch%20(Linux).xml) |
+| <sub>Nintendo</sub>  | <sub>Game Boy Advance</sub>            | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20Game%20Boy%20Advance%20-%20Retroarch%20(Linux).xml) |
+| <sub>Nintendo</sub>  | <sub>Game Boy Color</sub>              | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20Game%20Boy%20Color%20-%20Retroarch%20(Linux).xml) |
+| <sub>Nintendo</sub>  | <sub>Game Boy</sub>                    | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20Game%20Boy%20-%20Retroarch%20(Linux).xml) |
+| <sub>Nintendo</sub>  | <sub>GameCube</sub>                    | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20GameCube%20-%20Retroarch%20(Linux).xml) |
+| <sub>Nintendo</sub>  | <sub>NES</sub>                         | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20NES%20-%20Retroarch%20(Linux).xml) |
+| <sub>Nintendo</sub>  | <sub>Nintendo 3DS</sub>                | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20Nintendo%203DS%20-%20Retroarch%20(Linux).xml) |
+| <sub>Nintendo</sub>  | <sub>Nintendo 64 Disk Drive</sub>      | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20Nintendo%2064%20Disk%20Drive%20-%20Retroarch%20(Linux).xml) |
+| <sub>Nintendo</sub>  | <sub>Nintendo 64</sub>                 | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20Nintendo%2064%20-%20Retroarch%20(Linux).xml) |
+| <sub>Nintendo</sub>  | <sub>Nintendo DS</sub>                 | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20Nintendo%20DS%20-%20Retroarch%20(Linux).xml) |
+| <sub>Nintendo</sub>  | <sub>Pokemon Mini</sub>                | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20Pokemon%20Mini%20-%20Retroarch%20(Linux).xml) |
+| <sub>Nintendo</sub>  | <sub>SNES</sub>                        | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20SNES%20-%20Retroarch%20(Linux).xml) |
+| <sub>Nintendo</sub>  | <sub>Virtual Boy</sub>                 | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20Virtual%20Boy-%20Retroarch%20(Linux).xml) |
+| <sub>Nintendo</sub>  | <sub>Wii</sub>                         | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20Wii%20-%20Retroarch%20(Linux).xml) |
+| <sub>SEGA</sub>      | <sub>32X</sub>                         | [Retroarch](./Launchers%20XML%20Linux/SEGA%20-%2032X%20-%20Retroarch%20(Linux).xml) |
+| <sub>SEGA</sub>      | <sub>Dreamcast</sub>                   | [Retroarch](./Launchers%20XML%20Linux/SEGA%20-%20Dreamcast%20-%20Retroarch%20(Linux).xml) |
+| <sub>SEGA</sub>      | <sub>Game Gear</sub>                   | [Retroarch](./Launchers%20XML%20Linux/SEGA%20-%20Game%20Gear%20-%20Retroarch%20(Linux).xml) |
+| <sub>SEGA</sub>      | <sub>Game Gear</sub>                   | [Retroarch](./Launchers%20XML%20Linux/SEGA%20-%20Genesis%20-%20Retroarch%20(Linux).xml) |
+| <sub>SEGA</sub>      | <sub>Master System</sub>               | [Retroarch](./Launchers%20XML%20Linux/SEGA%20-%20Master%20System%20-%20Retroarch%20(Linux).xml) [MAME](./Launchers%20XML%20Linux/SEGA%20-%20Master%20System%20-%20MAME%20(Linux).xml) |
+| <sub>SEGA</sub>      | <sub>Mega CD</sub>                     | [Retroarch](./Launchers%20XML%20Linux/SEGA%20-%20Mega%20CD%20-%20Retroarch%20(Linux).xml) |
+| <sub>SEGA</sub>      | <sub>Mega Drive</sub>                  | [Retroarch](./Launchers%20XML%20Linux/SEGA%20-%20Mega%20Drive%20-%20Retroarch%20(Linux).xml) |
+| <sub>SEGA</sub>      | <sub>PICO</sub>                        | [Retroarch](./Launchers%20XML%20Linux/SEGA%20-%20PICO%20-%20Retroarch%20(Linux).xml) |
+| <sub>SEGA</sub>      | <sub>Saturn</sub>                      | [Retroarch](./Launchers%20XML%20Linux/SEGA%20-%20Saturn%20-%20Retroarch%20(Linux).xml) |
+| <sub>SEGA</sub>      | <sub>SG-1000</sub>                     | [Retroarch](./Launchers%20XML%20Linux/SEGA%20-%20SG-1000%20-%20Retroarch%20(Linux).xml) |
+| <sub>SNK</sub>       | <sub>Neo Geo AES</sub>                 | [MAME](./Launchers%20XML%20Linux/SNK%20-%20Neo%20Geo%20AES%20-%20Retroarch%20(MAME).xml) |
+| <sub>SNK</sub>       | <sub>Neo Geo CD</sub>                  | [MAME](./Launchers%20XML%20Linux/SNK%20-%20Neo%20Geo%20CD%20-%20Retroarch%20(MAME).xml) |
+| <sub>SNK</sub>       | <sub>Neo Geo Pocket</sub>              | [Retroarch](./Launchers%20XML%20Linux/SNK%20-%20Neo%20Geo%20Pocket%20-%20Retroarch%20(Linux).xml) |
+| <sub>SNK</sub>       | <sub>Neo Geo Pocket Color</sub>        | [Retroarch](./Launchers%20XML%20Linux/SNK%20-%20Neo%20Geo%20Pocket%20Color%20-%20Retroarch%20(Linux).xml) |
+| <sub>SONY</sub>      | <sub>PlayStation</sub>                 | [Retroarch](./Launchers%20XML%20Linux/SONY%20-%20PlayStation%20-%20Retroarch%20(Linux).xml) |
+| <sub>SONY</sub>      | <sub>PSP</sub>                         | [Retroarch](./Launchers%20XML%20Linux/SONY%20-%20PSP%20-%20Retroarch%20(Linux).xml) |
 
 
 ### Linux wrapper ###
