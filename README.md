@@ -1,6 +1,8 @@
 # Advanced Emulator Launcher asset library #
 
-The Advanced Emulator Launcher asset library contains the following:
+The Advanced Emulator Launcher asset library has been designed to help you
+in the process of setting up your Kodi retrogaming library and contains the
+following items:
 
  * Category and launcher metadata in NFO format.
  
@@ -8,7 +10,7 @@ The Advanced Emulator Launcher asset library contains the following:
  
  * Launcher (emulator) configuration in XML for Linux, Windows and Android platforms.
 
-There are two ways to use this library:
+There are two ways to use the library:
 
  * Configure you categories and launchers using the **AEL category/launcher creation wizard**
    in the addon context menu. Then, use the context menu to load the metadata NFO file
@@ -31,21 +33,47 @@ a backup in the event you have to rebuild your mediacenter setup for some reason
 (addon updgrade, Kodi upgrade, hard disk crash, etc.).
 
 
-## The Category and Launcher metadata/assets ##
+## The Category and Launcher NFO files ##
 
+The metadata for launchers and assets is stored in NFO files. NFO files are small
+XML files that containt all the metadata AEL is able to display.
 
-## The AEL Category and Launcher XML configurations ##
+A Category NFO file looks like this:
+```
+asdfg
+```
+
+A Launcher NFO file looks like this:
+```
+asdfg
+```
+
+## The Category and Launcher assets ##
+
+The assets for categories are stored in the [xxxx directory]().
+
+The assets for launchers are stored in directories sorted by category. For example,
+the assets for SEGA launchers are stored in [xxxxxx]().
+
+## AEL Category XML configuration files ##
 
 The XML files to setup categories in AEL are located in the directory xxxxx.
 These XML files for categories use the assets located in the xxxx directory.
 
+A Category XML configuration file looks like this:
+```
+xxx yyy zzz
+```
+
+The most up-to-date documentation for Category XML files is
+[in this example](./Launchers%20XML%20Examples/SONY%20-%20Category%20assets.xml).
+
+
+## AEL Launcher XML configuration files ##
 
 The XML launcher configuration files are organised in different directories for Linux, 
 Windows and Android platforms. These XML configuration files use the metadata NFO files
 and assets located in the directories xxxx
-
-## Structure of an XML configuration file ##
-
 
 
 ## Path configurations ##
