@@ -98,6 +98,7 @@ The XML files in this library assume the following **ROM paths** and **asset dir
 | Category             | System                                 | ROM path or data files                                         | Assets path                                           |
 |----------------------|----------------------------------------|----------------------------------------------------------------|-------------------------------------------------------|
 |                      | <sub>Kodi Retroplayer</sub>            | <sub>`/home/kodi/AEL-ROMs/retroplayer/`</sub>                  | <sub>`/home/kodi/AEL-assets/retroplayer/`</sub>       |
+|                      | <sub>Retroarch</sub>                   | <sub>Not applicable</sub>                                      | <sub>Not applicable</sub>                             |
 | <sub>Arcade</sub>    | <sub>Capcom Play System</sub>          | <sub>`/home/kodi/AEL-ROMs/mame-cps/`</sub>                     | <sub>`/home/kodi/AEL-assets/mame-cps/`</sub>          |
 | <sub>Arcade</sub>    | <sub>MAME</sub>                        | <sub>`/home/kodi/AEL-ROMs/mame/`</sub>                         | <sub>`/home/kodi/AEL-assets/mame/`</sub>              |
 | <sub>Arcade</sub>    | <sub>SEGA</sub>                        | <sub>`/home/kodi/AEL-ROMs/mame-sega/`</sub>                    | <sub>`/home/kodi/AEL-assets/mame-sega/`</sub>         |
@@ -105,10 +106,11 @@ The XML files in this library assume the following **ROM paths** and **asset dir
 | <sub>Atari</sub>     | <sub>Atari 5200</sub>                  | <sub>`/home/kodi/AEL-ROMs/atari-5200/`</sub>                   | <sub>`/home/kodi/AEL-assets/atari-5200/`</sub>        |
 | <sub>Atari</sub>     | <sub>Atari 7800</sub>                  | <sub>`/home/kodi/AEL-ROMs/atari-7800/`</sub>                   | <sub>`/home/kodi/AEL-assets/atari-7800/`</sub>        |
 | <sub>Atari</sub>     | <sub>Atari Jaguar</sub>                | <sub>`/home/kodi/AEL-ROMs/atari-jaguar/`</sub>                 | <sub>`/home/kodi/AEL-assets/atari-jaguar/`</sub>      |
+| <sub>Atari</sub>     | <sub>Atari Jaguar CD</sub>             | <sub>`/home/kodi/AEL-ROMs/atari-jaguarcd/`</sub>               | <sub>`/home/kodi/AEL-assets/atari-jaguarcd/`</sub>    |
 | <sub>Atari</sub>     | <sub>Atari Lynx</sub>                  | <sub>`/home/kodi/AEL-ROMs/atari-lynx/`</sub>                   | <sub>`/home/kodi/AEL-assets/atari-lynx/`</sub>        |
+| <sub>Computers</sub> | <sub>Amstrad CPC</sub>                 | <sub>`/home/kodi/AEL-ROMs/com-amstrad-cpc/`</sub>              | <sub>`/home/kodi/AEL-assets/com-amstrad-cpc/`</sub>   |
 | <sub>Computers</sub> | <sub>Atari 8-bit</sub>                 | <sub>`/home/kodi/AEL-ROMs/com-atari-8bit/`</sub>               | <sub>`/home/kodi/AEL-assets/com-atari-8bit/`</sub>    |
 | <sub>Computers</sub> | <sub>Atari ST</sub>                    | <sub>`/home/kodi/AEL-ROMs/com-atari-st/`</sub>                 | <sub>`/home/kodi/AEL-assets/com-atari-st/`</sub>      |
-| <sub>Computers</sub> | <sub>Amstrad CPC</sub>                 | <sub>`/home/kodi/AEL-ROMs/com-amstrad-cpc/`</sub>              | <sub>`/home/kodi/AEL-assets/com-amstrad-cpc/`</sub>   |
 | <sub>Computers</sub> | <sub>Commodore 64</sub>                | <sub>`/home/kodi/AEL-ROMs/com-c64/`</sub>                      | <sub>`/home/kodi/AEL-assets/com-c64/`</sub>           |
 | <sub>Computers</sub> | <sub>Commodore Amiga</sub>             | <sub>`/home/kodi/AEL-ROMs/com-amiga/`</sub>                    | <sub>`/home/kodi/AEL-assets/com-amiga/`</sub>         |
 | <sub>Computers</sub> | <sub>Microsoft MSX</sub>               | <sub>`/home/kodi/AEL-ROMs/com-msx/`</sub>                      | <sub>`/home/kodi/AEL-assets/com-msx/`</sub>           |
@@ -131,10 +133,10 @@ The XML files in this library assume the following **ROM paths** and **asset dir
 | <sub>Games</sub>     | <sub>Cave Story (NX Engine)</sub>      | <sub>`/home/kodi/AEL-ROMs/games-nxengine/Cave Story EN/`</sub> | <sub>Not applicable</sub>                             |
 | <sub>Games</sub>     | <sub>Doom</sub>                        | <sub>`/home/kodi/AEL-ROMs/games-doom/doom.wad`</sub>           | <sub>Not applicable</sub>                             |
 | <sub>Games</sub>     | <sub>Doom II: Hell on Earth</sub>      | <sub>`/home/kodi/AEL-ROMs/games-doom2/doom2.wad`</sub>         | <sub>Not applicable</sub>                             |
-| <sub>Games</sub>     | <sub>Game and Watch</sub>              | <sub>`/home/kodi/AEL-ROMs/games-gw/`</sub>                     | <sub>`/home/kodi/AEL-assets/games-gw/`</sub>          |
-| <sub>Games</sub>     | <sub>ScummVM</sub>                     | <sub>`/home/kodi/AEL-ROMs/games-scummvm/`</sub>                | <sub>`/home/kodi/AEL-assets/games-scummvm/`</sub>     |
 | <sub>Games</sub>     | <sub>The Plutonia Experiment</sub>     | <sub>`/home/kodi/AEL-ROMs/games-plutonia/plutonia.wad`</sub>   | <sub>Not applicable</sub>                             |
 | <sub>Games</sub>     | <sub>TNT: Evilution</sub>              | <sub>`/home/kodi/AEL-ROMs/games-tnt/tnt.wad`</sub>             | <sub>Not applicable</sub>                             |
+| <sub>Games</sub>     | <sub>Game and Watch</sub>              | <sub>`/home/kodi/AEL-ROMs/games-gw/`</sub>                     | <sub>`/home/kodi/AEL-assets/games-gw/`</sub>          |
+| <sub>Games</sub>     | <sub>ScummVM</sub>                     | <sub>`/home/kodi/AEL-ROMs/games-scummvm/`</sub>                | <sub>`/home/kodi/AEL-assets/games-scummvm/`</sub>     |
 | <sub>Games</sub>     | <sub>The Ultimate Doom</sub>           | <sub>`/home/kodi/AEL-ROMs/games-doomu/doomu.wad`</sub>         | <sub>Not applicable</sub>                             |
 | <sub>Games</sub>     | <sub>Tomb Raider (Open Lara)</sub>     | <sub>`/home/kodi/AEL-ROMs/games-tombr/`</sub>                  | <sub>`/home/kodi/AEL-assets/games-tombr/`</sub>       |
 | <sub>Microsoft</sub> | <sub>MS-DOS</sub>                      | <sub>`/home/kodi/AEL-ROMs/msdos/`</sub>                        | <sub>`/home/kodi/AEL-assets/msdos/`</sub>             |
@@ -144,13 +146,13 @@ The XML files in this library assume the following **ROM paths** and **asset dir
 | <sub>NEC</sub>       | <sub>SuperGrafx</sub>                  | <sub>`/home/kodi/AEL-ROMs/nec-sgx/`</sub>                      | <sub>`/home/kodi/AEL-assets/nec-sgx/`</sub>           |
 | <sub>Nintendo</sub>  | <sub>Famicom Disk System</sub>         | <sub>`/home/kodi/AEL-ROMs/nintendo-fds/`</sub>                 | <sub>`/home/kodi/AEL-assets/nintendo-fds/`</sub>      |
 | <sub>Nintendo</sub>  | <sub>Game Boy</sub>                    | <sub>`/home/kodi/AEL-ROMs/nintendo-gb/`</sub>                  | <sub>`/home/kodi/AEL-assets/nintendo-gb/`</sub>       |
-| <sub>Nintendo</sub>  | <sub>Game Boy Advance</sub>            | <sub>`/home/kodi/AEL-ROMs/nintendo-gba/`</sub>                 | <sub>`/home/kodi/AEL-assets/nintendo-gba/`</sub>      |
 | <sub>Nintendo</sub>  | <sub>Game Boy Color</sub>              | <sub>`/home/kodi/AEL-ROMs/nintendo-gbcolor/`</sub>             | <sub>`/home/kodi/AEL-assets/nintendo-gbcolor/`</sub>  |
+| <sub>Nintendo</sub>  | <sub>Game Boy Advance</sub>            | <sub>`/home/kodi/AEL-ROMs/nintendo-gba/`</sub>                 | <sub>`/home/kodi/AEL-assets/nintendo-gba/`</sub>      |
 | <sub>Nintendo</sub>  | <sub>GameCube</sub>                    | <sub>`/home/kodi/AEL-ROMs/nintendo-gamecube/`</sub>            | <sub>`/home/kodi/AEL-assets/nintendo-gamecube/`</sub> |
 | <sub>Nintendo</sub>  | <sub>NES</sub>                         | <sub>`/home/kodi/AEL-ROMs/nintendo-nes/`</sub>                 | <sub>`/home/kodi/AEL-assets/nintendo-nes/`</sub>      |
 | <sub>Nintendo</sub>  | <sub>Nintendo 3DS</sub>                | <sub>`/home/kodi/AEL-ROMs/nintendo-3ds/`</sub>                 | <sub>`/home/kodi/AEL-assets/nintendo-3ds/`</sub>      |
 | <sub>Nintendo</sub>  | <sub>Nintendo 64</sub>                 | <sub>`/home/kodi/AEL-ROMs/nintendo-n64/`</sub>                 | <sub>`/home/kodi/AEL-assets/nintendo-n64/`</sub>      |
-| <sub>Nintendo</sub>  | <sub>Nintendo 64 DD</sub>              | <sub>`/home/kodi/AEL-ROMs/nintendo-n64dd/`</sub>               | <sub>`/home/kodi/AEL-assets/nintendo-n64dd/`</sub>    |
+| <sub>Nintendo</sub>  | <sub>Nintendo 64 Disk Drive</sub>      | <sub>`/home/kodi/AEL-ROMs/nintendo-n64dd/`</sub>               | <sub>`/home/kodi/AEL-assets/nintendo-n64dd/`</sub>    |
 | <sub>Nintendo</sub>  | <sub>Nintendo DS</sub>                 | <sub>`/home/kodi/AEL-ROMs/nintendo-ds/`</sub>                  | <sub>`/home/kodi/AEL-assets/nintendo-ds/`</sub>       |
 | <sub>Nintendo</sub>  | <sub>Pokemon Mini</sub>                | <sub>`/home/kodi/AEL-ROMs/nintendo-pokemini/`</sub>            | <sub>`/home/kodi/AEL-assets/nintendo-pokemini/`</sub> |
 | <sub>Nintendo</sub>  | <sub>SNES</sub>                        | <sub>`/home/kodi/AEL-ROMs/nintendo-snes/`</sub>                | <sub>`/home/kodi/AEL-assets/nintendo-snes/`</sub>     |
@@ -159,6 +161,7 @@ The XML files in this library assume the following **ROM paths** and **asset dir
 | <sub>SEGA</sub>      | <sub>32X</sub>                         | <sub>`/home/kodi/AEL-ROMs/sega-32x/`</sub>                     | <sub>`/home/kodi/AEL-assets/sega-32x/`</sub>          |
 | <sub>SEGA</sub>      | <sub>Dreamcast</sub>                   | <sub>`/home/kodi/AEL-ROMs/sega-dreamcast/`</sub>               | <sub>`/home/kodi/AEL-assets/sega-dreamcast/`</sub>    |
 | <sub>SEGA</sub>      | <sub>Game Gear</sub>                   | <sub>`/home/kodi/AEL-ROMs/sega-gg/`</sub>                      | <sub>`/home/kodi/AEL-assets/sega-gg`</sub>            |
+| <sub>SEGA</sub>      | <sub>Genesis</sub>                     | <sub>`/home/kodi/AEL-ROMs/sega-genesis/`</sub>                 | <sub>`/home/kodi/AEL-assets/sega-genesis`</sub>           |
 | <sub>SEGA</sub>      | <sub>Master System</sub>               | <sub>`/home/kodi/AEL-ROMs/sega-sms/`</sub>                     | <sub>`/home/kodi/AEL-assets/sega-sms`</sub>           |
 | <sub>SEGA</sub>      | <sub>Mega CD</sub>                     | <sub>`/home/kodi/AEL-ROMs/sega-megacd/`</sub>                  | <sub>`/home/kodi/AEL-assets/sega-megacd`</sub>        |
 | <sub>SEGA</sub>      | <sub>Mega Drive</sub>                  | <sub>`/home/kodi/AEL-ROMs/sega-genesis/`</sub>                 | <sub>`/home/kodi/AEL-assets/sega-genesis`</sub>       |
@@ -197,6 +200,7 @@ The XML files with emulator configurations are located in the
 
 | Category             | System                                 | Emulators                                                                                    |
 |----------------------|----------------------------------------|----------------------------------------------------------------------------------------------|
+|                      | <sub>Kodi Retroplayer</sub>            | [Retroarch](./Launchers%20XML%20Linux/No%20category%20-%20Retroplayer%20(Linux).xml) |
 |                      | <sub>Retroarch</sub>                   | [Retroarch](./Launchers%20XML%20Linux/No%20category%20-%20Retroarch%20(Linux).xml) |
 | <sub>Arcade</sub>    | <sub>Capcom Play System</sub>          | [MAME](./Launchers%20XML%20Linux/Arcade%20(MAME)%20-%20Capcom%20Play%20System%20-%20MAME%20(Linux).xml) |
 | <sub>Arcade</sub>    | <sub>MAME</sub>                        | [MAME](./Launchers%20XML%20Linux/Arcade%20(MAME)%20-%20MAME%20(Linux).xml) |
@@ -205,8 +209,11 @@ The XML files with emulator configurations are located in the
 | <sub>Atari</sub>     | <sub>Atari 5200</sub>                  | [Retroarch](./Launchers%20XML%20Linux/Atari%20-%20Atari%205200%20-%20Retroarch%20(Linux).xml) |
 | <sub>Atari</sub>     | <sub>Atari 7800</sub>                  | [Retroarch](./Launchers%20XML%20Linux/Atari%20-%20Atari%207800%20-%20Retroarch%20(Linux).xml) |
 | <sub>Atari</sub>     | <sub>Atari Jaguar</sub>                | [Retroarch](./Launchers%20XML%20Linux/Atari%20-%20Atari%20Jaguar%20-%20Retroarch%20(Linux).xml) |
+| <sub>Atari</sub>     | <sub>Atari Jaguar CD</sub>             | [MAME](./Launchers%20XML%20Linux/Atari%20-%20Atari%20Jaguar%20CD%20-%20Retroarch%20(MAME).xml) |
 | <sub>Atari</sub>     | <sub>Atari Lynx</sub>                  | [Retroarch](./Launchers%20XML%20Linux/Atari%20-%20Atari%20Lynx%20-%20Retroarch%20(Linux).xml) |
 | <sub>Computers</sub> | <sub>Amstrad CPC</sub>                 | [Retroarch](./Launchers%20XML%20Linux/Computers%20-%20Amstrad%20CPC%20-%20Retroarch%20(Linux).xml) |
+| <sub>Computers</sub> | <sub>Atari 8-bit</sub>                 | WIP |
+| <sub>Computers</sub> | <sub>Atari ST</sub>                    | [Retroarch](./Launchers%20XML%20Linux/Computers%20-%20Atari%20ST%20-%20Retroarch%20(Linux).xml) |
 | <sub>Computers</sub> | <sub>Commodore 64</sub>                | [MAME](./Launchers%20XML%20Linux/Computers%20-%20Commodore%2064%20-%20MAME%20(Linux).xml) |
 | <sub>Computers</sub> | <sub>Commodore Amiga</sub>             | [MAME](./Launchers%20XML%20Linux/Computers%20-%20Commodore%20Amiga%20-%20MAME%20(Linux).xml) |
 | <sub>Computers</sub> | <sub>Microsoft MSX</sub>               | [Retroarch](./Launchers%20XML%20Linux/Computers%20-%20Microsoft%20MSX%20-%20Retroarch%20(Linux).xml) |
@@ -216,12 +223,16 @@ The XML files with emulator configurations are located in the
 | <sub>Consoles</sub>  | <sub>Amiga CD32</sub>                  | [MAME](./Launchers%20XML%20Linux/Consoles%20-%20Amiga%20CD32%20-%20MAME%20(Linux).xml) |
 | <sub>Consoles</sub>  | <sub>Bandai WonderSwan</sub>           | [Retroarch](./Launchers%20XML%20Linux/Consoles%20-%20Bandai%20WonderSwan%20-%20Retroarch%20(Linux).xml) |
 | <sub>Consoles</sub>  | <sub>Bandai WonderSwan Color</sub>     | [Retroarch](./Launchers%20XML%20Linux/Consoles%20-%20Bandai%20WonderSwan%20Color%20-%20Retroarch%20(Linux).xml) |
-| <sub>Consoles</sub>  | <sub>Colecovision</sub>                | [Retroarch](./Launchers%20XML%20Linux/Consoles%20-%20Colecovision%20-%20Retroarch%20(Linux).xml) [MAME](./Launchers%20-%20Consoles/Colecovision%20-%20Retroarch%20(MAME).xml) |
+| <sub>Consoles</sub>  | <sub>Colecovision</sub>                | [Retroarch](./Launchers%20XML%20Linux/Consoles%20-%20Colecovision%20-%20Retroarch%20(Linux).xml) [MAME](./Launchers%20/Consoles%20-%20Colecovision%20-%20Retroarch%20(MAME).xml) |
+| <sub>Consoles</sub>  | <sub>Emerson Arcadia 2001</sub>        | [MAME](./Launchers%20XML%20Linux/Consoles%20-%20Emerson%20Arcadia%202001%20-%20Retroarch%20(MAME).xml) |
+| <sub>Consoles</sub>  | <sub>Farichild Channel F</sub>         | [MAME](./Launchers%20XML%20Linux/Consoles%20-%20Farichild%20Channel%20F%20-%20Retroarch%20(MAME).xml) |
 | <sub>Consoles</sub>  | <sub>Fujitsu FM Towns Marty</sub>      | [MAME](./Launchers%20XML%20Linux/Consoles%20-%20FM%20Towns%20Marty%20-%20MAME%20(Linux).xml) |
 | <sub>Consoles</sub>  | <sub>GCE Vectrex</sub>                 | [Retroarch](./Launchers%20XML%20Linux/Consoles%20-%20GCE%20Vectrex%20-%20Retroarch%20(Linux).xml) |
 | <sub>Consoles</sub>  | <sub>Magnavox Odyssey 2</sub>          | [Retroarch](./Launchers%20XML%20Linux/Consoles%20-%20Magnavox%20Odyssey%202%20-%20Retroarch%20(Linux).xml) |
 | <sub>Consoles</sub>  | <sub>Mattel Intellivision</sub>        | [MAME](./Launchers%20XML%20Linux/Consoles%20-%20Mattel%20Intellivision%20-%20MAME%20(Linux).xml) |
 | <sub>Consoles</sub>  | <sub>Philips Videopac+ G7400</sub>     | [Retroarch](./Launchers%20XML%20Linux/Consoles%20-%20Philips%20Videopac%20Plus%20G7400%20-%20Retroarch%20(Linux).xml) |
+| <sub>Consoles</sub>  | <sub>RCA Studio II</sub>               | [MAME](./Launchers%20XML%20Linux/Consoles%20-%20RCA%20Studio%20II%20-%20MAME%20(Linux).xml) |
+| <sub>Consoles</sub>  | <sub>Watara Supervision</sub>          | [MAME](./Launchers%20XML%20Linux/Consoles%20-%20Watara%20Supervision%20-%20MAME%20(Linux).xml) |
 | <sub>Games</sub>     | <sub>Cave Story</sub>                  | [Retroarch](./Launchers%20XML%20Linux/Games%20-%20Cave%20Story%20-%20Retroarch%20(Linux).xml) |
 | <sub>Games</sub>     | <sub>Doom</sub>                        | [Retroarch](./Launchers%20XML%20Linux/Games%20-%20Doom%20-%20Retroarch%20(Linux).xml) |
 | <sub>Games</sub>     | <sub>Doom II: Hell on Earth</sub>      | [Retroarch](./Launchers%20XML%20Linux/Games%20-%20Doom%202%20-%20Retroarch%20(Linux).xml) |
@@ -237,14 +248,14 @@ The XML files with emulator configurations are located in the
 | <sub>NEC</sub>       | <sub>PC-FX</sub>                       | [Retroarch](./Launchers%20XML%20Linux/NEC%20-%20PC-FX%20-%20Retroarch%20(Linux).xml) |
 | <sub>NEC</sub>       | <sub>SuperGrafx</sub>                  | [Retroarch](./Launchers%20XML%20Linux/NEC%20-%20SuperGrafx%20-%20Retroarch%20(Linux).xml) |
 | <sub>Nintendo</sub>  | <sub>Famicom Disk System</sub>         | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20Famicom%20Disk%20Sytem%20-%20Retroarch%20(Linux).xml) |
-| <sub>Nintendo</sub>  | <sub>Game Boy Advance</sub>            | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20Game%20Boy%20Advance%20-%20Retroarch%20(Linux).xml) |
-| <sub>Nintendo</sub>  | <sub>Game Boy Color</sub>              | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20Game%20Boy%20Color%20-%20Retroarch%20(Linux).xml) |
 | <sub>Nintendo</sub>  | <sub>Game Boy</sub>                    | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20Game%20Boy%20-%20Retroarch%20(Linux).xml) |
+| <sub>Nintendo</sub>  | <sub>Game Boy Color</sub>              | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20Game%20Boy%20Color%20-%20Retroarch%20(Linux).xml) |
+| <sub>Nintendo</sub>  | <sub>Game Boy Advance</sub>            | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20Game%20Boy%20Advance%20-%20Retroarch%20(Linux).xml) |
 | <sub>Nintendo</sub>  | <sub>GameCube</sub>                    | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20GameCube%20-%20Retroarch%20(Linux).xml) |
 | <sub>Nintendo</sub>  | <sub>NES</sub>                         | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20NES%20-%20Retroarch%20(Linux).xml) |
 | <sub>Nintendo</sub>  | <sub>Nintendo 3DS</sub>                | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20Nintendo%203DS%20-%20Retroarch%20(Linux).xml) |
-| <sub>Nintendo</sub>  | <sub>Nintendo 64 Disk Drive</sub>      | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20Nintendo%2064%20Disk%20Drive%20-%20Retroarch%20(Linux).xml) |
 | <sub>Nintendo</sub>  | <sub>Nintendo 64</sub>                 | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20Nintendo%2064%20-%20Retroarch%20(Linux).xml) |
+| <sub>Nintendo</sub>  | <sub>Nintendo 64 Disk Drive</sub>      | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20Nintendo%2064%20Disk%20Drive%20-%20Retroarch%20(Linux).xml) |
 | <sub>Nintendo</sub>  | <sub>Nintendo DS</sub>                 | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20Nintendo%20DS%20-%20Retroarch%20(Linux).xml) |
 | <sub>Nintendo</sub>  | <sub>Pokemon Mini</sub>                | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20Pokemon%20Mini%20-%20Retroarch%20(Linux).xml) |
 | <sub>Nintendo</sub>  | <sub>SNES</sub>                        | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20SNES%20-%20Retroarch%20(Linux).xml) |
@@ -253,7 +264,7 @@ The XML files with emulator configurations are located in the
 | <sub>SEGA</sub>      | <sub>32X</sub>                         | [Retroarch](./Launchers%20XML%20Linux/SEGA%20-%2032X%20-%20Retroarch%20(Linux).xml) |
 | <sub>SEGA</sub>      | <sub>Dreamcast</sub>                   | [Retroarch](./Launchers%20XML%20Linux/SEGA%20-%20Dreamcast%20-%20Retroarch%20(Linux).xml) |
 | <sub>SEGA</sub>      | <sub>Game Gear</sub>                   | [Retroarch](./Launchers%20XML%20Linux/SEGA%20-%20Game%20Gear%20-%20Retroarch%20(Linux).xml) |
-| <sub>SEGA</sub>      | <sub>Game Gear</sub>                   | [Retroarch](./Launchers%20XML%20Linux/SEGA%20-%20Genesis%20-%20Retroarch%20(Linux).xml) |
+| <sub>SEGA</sub>      | <sub>Genesis</sub>                     | [Retroarch](./Launchers%20XML%20Linux/SEGA%20-%20Genesis%20-%20Retroarch%20(Linux).xml) |
 | <sub>SEGA</sub>      | <sub>Master System</sub>               | [Retroarch](./Launchers%20XML%20Linux/SEGA%20-%20Master%20System%20-%20Retroarch%20(Linux).xml) [MAME](./Launchers%20XML%20Linux/SEGA%20-%20Master%20System%20-%20MAME%20(Linux).xml) |
 | <sub>SEGA</sub>      | <sub>Mega CD</sub>                     | [Retroarch](./Launchers%20XML%20Linux/SEGA%20-%20Mega%20CD%20-%20Retroarch%20(Linux).xml) |
 | <sub>SEGA</sub>      | <sub>Mega Drive</sub>                  | [Retroarch](./Launchers%20XML%20Linux/SEGA%20-%20Mega%20Drive%20-%20Retroarch%20(Linux).xml) |
@@ -265,6 +276,7 @@ The XML files with emulator configurations are located in the
 | <sub>SNK</sub>       | <sub>Neo Geo Pocket</sub>              | [Retroarch](./Launchers%20XML%20Linux/SNK%20-%20Neo%20Geo%20Pocket%20-%20Retroarch%20(Linux).xml) |
 | <sub>SNK</sub>       | <sub>Neo Geo Pocket Color</sub>        | [Retroarch](./Launchers%20XML%20Linux/SNK%20-%20Neo%20Geo%20Pocket%20Color%20-%20Retroarch%20(Linux).xml) |
 | <sub>SONY</sub>      | <sub>PlayStation</sub>                 | [Retroarch](./Launchers%20XML%20Linux/SONY%20-%20PlayStation%20-%20Retroarch%20(Linux).xml) |
+| <sub>SONY</sub>      | <sub>PlayStation 2</sub>               | WIP |
 | <sub>SONY</sub>      | <sub>PSP</sub>                         | [Retroarch](./Launchers%20XML%20Linux/SONY%20-%20PSP%20-%20Retroarch%20(Linux).xml) |
 
 
