@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>Retroarch</name>
-  <Launcher_NFO>../Launcher assets Standalone/Retroarch.nfo</Launcher_NFO>
-  <application>/home/kodi/bin/retroarch</application>
-  <Asset_Prefix>../Launcher assets Standalone/Retroarch</Asset_Prefix>
+    <name>Kodi Retroplayer</name>
+    <Launcher_NFO>../Launcher assets Standalone/Retroarch.nfo</Launcher_NFO>
+    <platform>Unknown</platform>
+    <application>retroplayer_launcher_app</application>
+    <ROM_path>/home/kodi/AEL-ROMs/retroplayer/</ROM_path>
+    <ROM_ext>32x|chd|iso|wad|sms|md|sfc|nes</ROM_ext>
+    <ROM_asset_path>/home/kodi/AEL-assets/retroplayer/</ROM_asset_path>
+    <Asset_Prefix>../Launcher assets Standalone/Retroarch</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>
-
