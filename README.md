@@ -336,6 +336,7 @@ Artwork has been taken from many sources including:
   * [Sega Retro].
   * [Gamestarter theme] by Tronkyfran.
   * [TheGamesDB].
+  * [RetroPie Docs].
 
 If you are the author of some of the assets and want to be credited here contact me opening 
 an issue in Github.
@@ -348,3 +349,4 @@ an issue in Github.
 [Sega Retro]: https://segaretro.org/
 [Gamestarter theme]: https://retropie.org.uk/forum/user/tronkyfran
 [TheGamesDB]: http://thegamesdb.net/
+[RetroPie Docs]: https://retropie.org.uk/docs
