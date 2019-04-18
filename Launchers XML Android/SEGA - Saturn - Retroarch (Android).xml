@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <name>Saturn (Retroarch)</name>
+  <category>SEGA</category>
+  <Launcher_NFO>../Launcher assets SEGA/Saturn.nfo</Launcher_NFO>
+  <platform>Sega Saturn</platform>
+  <application>/system/bin/am</application>
+  <args> start --user 0 -n org.uoyabause.android/org.uoyabause.android.Yabause -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -e org.uoyabause.android.FileNameEx "%rom%"</args>
+  <ROM_path>/sdcard/roms/games/sega-saturn/</ROM_path>
+  <ROM_ext>cue|nrg|mdf|bin|img</ROM_ext>
+  <ROM_asset_path>/sdcard/roms/assets/sega-saturn/</ROM_asset_path>
+  <Asset_Prefix>../Launcher assets SEGA/Saturn</Asset_Prefix>
+</launcher>
+</advanced_emulator_launcher_configuration>

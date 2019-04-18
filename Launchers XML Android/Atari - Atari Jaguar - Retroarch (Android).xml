@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+  <launcher>
+    <name>Atari Jaguar (Retroarch)</name>
+    <category>Atari</category>
+    <Launcher_NFO>../Launcher assets Atari/Atari Jaguar.nfo</Launcher_NFO>
+    <platform>Atari Jaguar</platform>
+    <application>/system/bin/am</application>
+    <args>start --user 0 -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -e ROM "%rom%" -e LIBRETRO /data/data/com.retroarch/cores/virtualjaguar_libretro_android.so -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg -e IME com.android.inputmethod.latin/.LatinIME -e REFRESH 60 -n com.retroarch/.browser.retroactivity.RetroActivityFuture</args>
+    <ROM_path>/sdcard/roms/games/atari-jaguar/</ROM_path>
+    <ROM_ext>j64</ROM_ext>
+    <ROM_asset_path>/sdcard/roms/assets/atari-jaguar/</ROM_asset_path>
+    <Asset_Prefix>../Launcher assets Atari/Atari Jaguar</Asset_Prefix>
+  </launcher>
+</advanced_emulator_launcher_configuration>

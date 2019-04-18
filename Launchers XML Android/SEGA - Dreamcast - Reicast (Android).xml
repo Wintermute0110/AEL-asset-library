@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<launcher>
+    <name>Dreamcast (Retroarch)</name>
+    <category>SEGA</category>
+    <Launcher_NFO>../Launcher assets SEGA/Dreamcast.nfo</Launcher_NFO>
+    <platform>Sega Dreamcast</platform>
+    <application>/system/bin/am</application>
+    <args>start --user 0 -a android.intent.action.VIEW -n com.reicast.emulator/.MainActivity -eu Uri %rom%"</args>
+    <ROM_path>/sdcard/roms/games/sega-dreamcast/</ROM_path>
+    <ROM_ext>cdi|gdi|chd|cue</ROM_ext>
+    <ROM_asset_path>/sdcard/roms/assets/sega-dreamcast</ROM_asset_path>
+    <Asset_Prefix>../Launcher assets SEGA/Dreamcast</Asset_Prefix>
+</launcher>
+</advanced_emulator_launcher_configuration>
