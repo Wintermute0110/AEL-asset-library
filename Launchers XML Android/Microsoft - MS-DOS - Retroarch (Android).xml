@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+  <launcher>
+    <name>MS-DOS (Retroarch)</name>
+    <category>Microsoft</category>
+    <Launcher_NFO>../Launcher assets Microsoft/MS-DOS.nfo</Launcher_NFO>
+    <platform>Microsoft MS-DOS</platform>
+    <application>/system/bin/am</application>
+    <args>start --user 0 -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -e ROM "%rom%" -e LIBRETRO /data/data/com.retroarch/cores/dosbox_libretro_android.so -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg -e IME com.android.inputmethod.latin/.LatinIME -e REFRESH 60 -n com.retroarch/.browser.retroactivity.RetroActivityFuture</args>
+    <ROM_path>/sdcard/roms/games/dosbox/</ROM_path>
+    <ROM_ext>conf</ROM_ext>
+    <ROM_asset_path>/sdcard/roms/assets/dosbox/</ROM_asset_path>
+    <Asset_Prefix>../Launcher assets Microsoft/MS-DOS</Asset_Prefix>
+  </launcher>
+</advanced_emulator_launcher_configuration>
