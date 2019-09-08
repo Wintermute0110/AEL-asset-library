@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>Master System (Retroarch)</name>
+  <name>Master System (RA)</name>
   <category>SEGA</category>
   <Launcher_NFO>../Launcher assets SEGA/Master System.nfo</Launcher_NFO>
   <platform>Sega Master System</platform>
   <application>/home/kodi/bin/retroarch</application>
-  <args>-L /home/kodi/bin/libretro/genesis_plus_gx_libretro.so -f -v &quot;$rom$&quot;</args>
-  <args_extra>-L /home/kodi/bin/libretro/picodrive_libretro.so -f -v &quot;$rom$&quot;</args_extra>
+  <args>-L /home/kodi/bin/libretro/genesis_plus_gx_libretro.so &quot;$rom$&quot;</args>
+  <args_extra>-L /home/kodi/bin/libretro/picodrive_libretro.so &quot;$rom$&quot;</args_extra>
+  <args_extra>-L /home/kodi/bin/libretro/gearsystem_libretro.so &quot;$rom$&quot;</args_extra>
   <ROM_path>/home/kodi/AEL-ROMs/sega-sms/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/sega-sms/</ROM_asset_path>

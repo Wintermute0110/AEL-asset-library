@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>Mega CD (Retroarch)</name>
+  <name>Mega CD (RA)</name>
   <category>SEGA</category>
   <Launcher_NFO>../Launcher assets SEGA/Mega CD.nfo</Launcher_NFO>
   <platform>Sega MegaCD</platform>
@@ -9,7 +9,7 @@
   <args>-L /home/kodi/bin/libretro/genesis_plus_gx_libretro.so -f -v &quot;$rom$&quot;</args>
   <args_extra>-L /home/kodi/bin/libretro/picodrive_libretro.so -f -v &quot;$rom$&quot;</args_extra>
   <ROM_path>/home/kodi/AEL-ROMs/sega-megacd/</ROM_path>
-  <ROM_ext>cue|iso</ROM_ext>
+  <ROM_ext>chd</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/sega-megacd/</ROM_asset_path>
   <Asset_Prefix>../Launcher assets SEGA/Mega CD</Asset_Prefix>
 </launcher>

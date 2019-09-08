@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-    <name>PC Engine CD-ROM2 (Retroarch)</name>
+    <name>PC Engine CD-ROM2 (RA)</name>
     <category>NEC</category>
     <Launcher_NFO>../Launcher assets NEC/PC Engine CD-ROM2.nfo</Launcher_NFO>
     <platform>NEC PC Engine CDROM2</platform>
     <application>/home/kodi/bin/retroarch</application>
-    <args>-L /home/kodi/bin/libretro/mednafen_pce_fast_libretro.so -f -v &quot;$rom$&quot;</args>
+    <args>-L /home/kodi/bin/libretro/mednafen_pce_fast_libretro.so &quot;$rom$&quot;</args>
     <ROM_path>/home/kodi/AEL-ROMs/nec-pcecd/</ROM_path>
-    <ROM_ext>chd|iso|cue</ROM_ext>
+    <ROM_ext>chd|iso</ROM_ext>
     <ROM_asset_path>/home/kodi/AEL-assets/nec-pcecd/</ROM_asset_path>
     <Asset_Prefix>../Launcher assets NEC/PC Engine CD-ROM2</Asset_Prefix>
 </launcher>

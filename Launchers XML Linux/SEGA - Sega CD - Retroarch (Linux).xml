@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<launcher>
+  <name>Sega CD (RA)</name>
+  <category>SEGA</category>
+  <Launcher_NFO>../Launcher assets SEGA/Mega CD.nfo</Launcher_NFO>
+  <platform>Sega SegaCD</platform>
+  <application>/home/kodi/bin/retroarch</application>
+  <args>-L /home/kodi/bin/libretro/genesis_plus_gx_libretro.so &quot;$rom$&quot;</args>
+  <args_extra>-L /home/kodi/bin/libretro/picodrive_libretro.so &quot;$rom$&quot;</args_extra>
+  <ROM_path>/home/kodi/AEL-ROMs/sega-segacd/</ROM_path>
+  <ROM_ext>chd</ROM_ext>
+  <ROM_asset_path>/home/kodi/AEL-assets/sega-segacd/</ROM_asset_path>
+  <Asset_Prefix>../Launcher assets SEGA/Sega CD</Asset_Prefix>
+</launcher>
+</advanced_emulator_launcher_configuration>

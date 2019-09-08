@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-    <name>Nintendo DS (Retroarch)</name>
+    <name>Nintendo DS (RA)</name>
     <category>Nintendo</category>
     <Launcher_NFO>../Launcher assets Nintendo/Nintendo DS.nfo</Launcher_NFO>
     <platform>Nintendo DS</platform>
