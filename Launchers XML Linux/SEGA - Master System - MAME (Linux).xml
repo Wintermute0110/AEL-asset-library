@@ -5,7 +5,7 @@
   <category>SEGA</category>
   <Launcher_NFO>../Launcher assets SEGA/Master System.nfo</Launcher_NFO>
   <platform>Sega Master System</platform>
-  <application>/usr/games/mame</application>
+  <application>/home/kodi/bin/mame64</application>
   <args>sms -cart &quot;$rom$&quot;</args>
   <args_extra>smspal -cart &quot;$rom$&quot;</args_extra>
   <args_extra>smsj -cart &quot;$rom$&quot;</args_extra>

@@ -6,9 +6,9 @@
   <Launcher_NFO>../Launcher assets Nintendo/Game Boy Advance.nfo</Launcher_NFO>
   <platform>Nintendo GameBoy Advance</platform>
   <application>/home/kodi/bin/retroarch</application>
-  <args>-L /home/kodi/bin/libretro/vbam_libretro.so -f -v &quot;$rom$&quot;</args>
-  <args_extra>-L /home/kodi/bin/libretro/vba_next_libretro.so -f -v &quot;$rom$&quot;</args_extra>
-  <args_extra>-L /home/kodi/bin/libretro/meteor_libretro.so -f -v &quot;$rom$&quot;</args_extra>
+  <args>-L /home/kodi/bin/libretro/mgba_libretro.so &quot;$rom$&quot;</args>
+  <args>-L /home/kodi/bin/libretro/vba_next_libretro.so &quot;$rom$&quot;</args>
+  <args>-L /home/kodi/bin/libretro/vbam_libretro.so &quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/nintendo-gba/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/nintendo-gba/</ROM_asset_path>
