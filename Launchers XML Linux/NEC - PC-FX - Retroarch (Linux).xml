@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-    <name>PC-FX (Retroarch)</name>
+    <name>PC-FX (RA)</name>
     <category>NEC</category>
     <Launcher_NFO>../Launcher assets NEC/PC-FX.nfo</Launcher_NFO>
     <platform>NEC PC Engine</platform>
     <application>/home/kodi/bin/retroarch</application>
-    <args>-L /home/kodi/bin/libretro/mednafen_pcfx_libretro.so -f -v &quot;$rom$&quot;</args>
+    <args>-L /home/kodi/bin/libretro/mednafen_pcfx_libretro.so &quot;$rom$&quot;</args>
     <ROM_path>/home/kodi/AEL-ROMs/nec-pcfx/</ROM_path>
     <ROM_ext>cue|iso</ROM_ext>
     <ROM_asset_path>/home/kodi/AEL-assets/nec-pcfx/</ROM_asset_path>

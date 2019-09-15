@@ -7,6 +7,7 @@
   <platform>NEC PC Engine</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/mednafen_supegrafx_libretro.so &quot;$rom$&quot;</args>
+  <args>-L /home/kodi/bin/libretro/mednafen_pce_libretro.so &quot;$rom$&quot;</args>
   <ROM_path>/home/kodi/AEL-ROMs/nec-sgx/</ROM_path>
   <ROM_ext>zip</ROM_ext>
   <ROM_asset_path>/home/kodi/AEL-assets/nec-sgx/</ROM_asset_path>
