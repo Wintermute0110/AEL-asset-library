@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>Game Boy Advance (Retroarch)</name>
+  <name>Game Boy Advance (RA)</name>
   <category>Nintendo</category>
   <Launcher_NFO>../Launcher assets Nintendo/Game Boy Advance.nfo</Launcher_NFO>
   <platform>Nintendo GameBoy Advance</platform>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>Game Boy Color (Retroarch)</name>
+  <name>Game Boy Color (RA)</name>
   <category>Nintendo</category>
   <Launcher_NFO>../Launcher assets Nintendo/Game Boy Color.nfo</Launcher_NFO>
   <platform>Nintendo GameBoy Color</platform>
