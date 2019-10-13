@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--
     ROM Launcher for Tomb Raider levels (Open Lara) using Retroarch.
-    
     Only individual levels can played at the moment, not the complete games.
-    
     You can download a couple of levels here http://bot.libretro.com/assets/cores/Tomb%20Raider/
     Uncompress the file "Tom Raide (Demo).zip" and place the contents in <ROM_path>.
   -->
@@ -15,7 +13,7 @@
     <Asset_Prefix>../Launcher assets Games/Tomb Raider</Asset_Prefix>
     <platform>Unknown</platform>
     <application>/home/kodi/bin/retroarch</application>
-    <args>-L /home/kodi/bin/libretro/openlara_libretro.so -f &quot;$rom$&quot;</args>
+    <args>-L /home/kodi/bin/libretro/openlara_libretro.so &quot;$rom$&quot;</args>
     <ROM_path>/home/kodi/AEL-ROMs/games-tombr/</ROM_path>
     <ROM_ext>PHD|PSX</ROM_ext>
     <ROM_asset_path>/home/kodi/AEL-assets/games-tombr/</ROM_asset_path>

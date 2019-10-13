@@ -15,7 +15,7 @@
     <Asset_Prefix>../Launcher assets Games/ScummVM</Asset_Prefix>
     <platform>ScummVM</platform>
     <application>/home/kodi/bin/retroarch</application>
-    <args>-L /home/kodi/bin/libretro/scummvm_libretro.so -f -v &quot;$rom$&quot;</args>
+    <args>-L /home/kodi/bin/libretro/scummvm_libretro.so &quot;$rom$&quot;</args>
     <ROM_path>/home/kodi/AEL-ROMs/games-scummvm/</ROM_path>
     <ROM_ext>scummvm</ROM_ext>
     <ROM_asset_path>/home/kodi/AEL-assets/games-scummvm/</ROM_asset_path>
