@@ -2,7 +2,7 @@
 <advanced_emulator_launcher_configuration>
 <launcher>
   <name>Bandai WonderSwan Color (RA)</name>
-  <category>Consoles</category>
+  <category>Bandai</category>
   <Launcher_NFO>../Launcher assets Consoles/Bandai WonderSwan Color.nfo</Launcher_NFO>
   <platform>Bandai WonderSwan Color</platform>
   <application>/home/kodi/bin/retroarch</application>

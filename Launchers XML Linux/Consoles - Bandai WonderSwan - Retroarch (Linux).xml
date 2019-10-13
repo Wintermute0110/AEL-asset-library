@@ -2,7 +2,7 @@
 <advanced_emulator_launcher_configuration>
 <launcher>
   <name>Bandai WonderSwan (RA)</name>
-  <category>Consoles</category>
+  <category>Bandai</category>
   <Launcher_NFO>../Launcher assets Consoles/Bandai WonderSwan.nfo</Launcher_NFO>
   <platform>Bandai WonderSwan</platform>
   <application>/home/kodi/bin/retroarch</application>
