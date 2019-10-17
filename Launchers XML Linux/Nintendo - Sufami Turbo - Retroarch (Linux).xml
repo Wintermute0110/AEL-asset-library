@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>Satellaview (RA)</name>
+  <name>Sufami Turbo (RA)</name>
   <category>Nintendo</category>
   <Launcher_NFO>../Launcher assets Nintendo/SNES.nfo</Launcher_NFO>
   <platform>Nintendo SNES</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/bsnes_balanced_libretro.so &quot;$rom$&quot;</args>
-  <ROM_path>/home/kodi/AEL-ROMs/nintendo-satellaview/</ROM_path>
+  <ROM_path>/home/kodi/AEL-ROMs/nintendo-sufami/</ROM_path>
   <ROM_ext>zip</ROM_ext>
-  <ROM_asset_path>/home/kodi/AEL-assets/nintendo-satellaview/</ROM_asset_path>
+  <ROM_asset_path>/home/kodi/AEL-assets/nintendo-sufami/</ROM_asset_path>
   <Asset_Prefix>../Launcher assets Nintendo/SNES</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>
