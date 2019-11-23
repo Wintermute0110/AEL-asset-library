@@ -7,6 +7,8 @@
     <platform>Sony PlayStation</platform>
     <application>/home/kodi/bin/retroarch</application>
     <args>-L /home/kodi/bin/libretro/mednafen_psx_libretro.so &quot;$rom$&quot;</args>
+    <args_extra>-L /home/kodi/bin/libretro/mednafen_psx_hw_libretro.so &quot;$rom$&quot;</args_extra>
+    <args_extra>-L /home/kodi/bin/libretro/pcsx_rearmed_libretro.so &quot;$rom$&quot;</args_extra>
     <ROM_path>/home/kodi/AEL-ROMs/sony-psx/</ROM_path>
     <ROM_ext>chd</ROM_ext>
     <ROM_asset_path>/home/kodi/AEL-assets/sony-psx</ROM_asset_path>
