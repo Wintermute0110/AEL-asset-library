@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>Famicom Disk System (RA)</name>
-  <category>Nintendo</category>
-  <Launcher_NFO>../Launcher assets Nintendo/Famicom Disk System.nfo</Launcher_NFO>
-  <platform>Nintendo Famicom Disk System</platform>
-  <application>/home/kodi/bin/retroarch</application>
-  <args>-L /home/kodi/bin/libretro/nestopia_libretro.so &quot;$rom$&quot;</args>
-  <args>-L /home/kodi/bin/libretro/fceumm_libretro.so &quot;$rom$&quot;</args>
-  <ROM_path>/home/kodi/AEL-ROMs/nintendo-fds/</ROM_path>
-  <ROM_ext>zip</ROM_ext>
-  <ROM_asset_path>/home/kodi/AEL-assets/nintendo-fds/</ROM_asset_path>
-  <Asset_Prefix>../Launcher assets Nintendo/Famicom Disk System</Asset_Prefix>
+    <name>Famicom Disk System (RA)</name>
+    <category>Nintendo</category>
+    <Launcher_NFO>../Launcher assets Nintendo/Famicom Disk System.nfo</Launcher_NFO>
+    <platform>Nintendo Famicon Disk System</platform>
+    <application>/home/kodi/bin/retroarch</application>
+    <args>-L /home/kodi/bin/libretro/mesen_libretro.so &quot;$rom$&quot;</args>
+    <args>-L /home/kodi/bin/libretro/nestopia_libretro.so &quot;$rom$&quot;</args>
+    <args>-L /home/kodi/bin/libretro/fceumm_libretro.so &quot;$rom$&quot;</args>
+    <ROM_path>/home/kodi/AEL-ROMs/nintendo-fds/</ROM_path>
+    <ROM_ext>zip</ROM_ext>
+    <ROM_asset_path>/home/kodi/AEL-assets/nintendo-fds/</ROM_asset_path>
+    <Asset_Prefix>../Launcher assets Nintendo/Famicom Disk System</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>
