@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-    <name>Doom (Retroarch)</name>
+    <name>Doom (RA)</name>
     <category>Games</category>
     <Launcher_NFO>../Launcher assets Games/Doom.nfo</Launcher_NFO>
     <Asset_Prefix>../Launcher assets Games/Doom</Asset_Prefix>

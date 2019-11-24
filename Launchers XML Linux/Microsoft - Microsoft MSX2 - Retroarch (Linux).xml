@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-    <name>Microsoft MSX2 (Retroarch)</name>
+    <name>Microsoft MSX2 (RA)</name>
     <category>Microsoft</category>
     <Launcher_NFO>../Launcher assets Computers/Microsoft MSX2.nfo</Launcher_NFO>
     <platform>Microsoft MSX2</platform>
