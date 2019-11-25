@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<!--
-    MAME RCA Studio II machines:
-
+<!-- MAME RCA Studio II machines:
     studio2  cartridge  .st2 .bin .rom
 -->
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>RCA Studio II (MAME)</name>
-  <category>Consoles</category>
-  <Launcher_NFO>../Launcher assets Consoles/RCA Studio II.nfo</Launcher_NFO>
-  <platform>RCA Studio II</platform>
-  <application>/usr/games/mame</application>
-  <args>studio2 -cartridge &quot;$rom$&quot;</args>
-  <ROM_path>/home/kodi/AEL-ROMs/con-studio2/</ROM_path>
-  <ROM_ext>zip</ROM_ext>
-  <ROM_asset_path>/home/kodi/AEL-assets/con-studio2/</ROM_asset_path>
-  <Asset_Prefix>../Launcher assets Consoles/RCA Studio II</Asset_Prefix>
+    <name>RCA Studio II (MAME)</name>
+    <category>Consoles</category>
+    <Launcher_NFO>../Launcher assets Consoles/RCA Studio II.nfo</Launcher_NFO>
+    <platform>RCA Studio II</platform>
+    <application>/usr/games/mame</application>
+    <args>studio2 -cartridge &quot;$rom$&quot;</args>
+    <ROM_path>/home/kodi/AEL-ROMs/console-studio2/</ROM_path>
+    <ROM_ext>zip</ROM_ext>
+    <ROM_asset_path>/home/kodi/AEL-assets/console-studio2/</ROM_asset_path>
+    <Asset_Prefix>../Launcher assets Consoles/RCA Studio II</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>Mattel Intellivision (MAME)</name>
-  <category>Consoles</category>
-  <Launcher_NFO>../Launcher assets Consoles/Mattel Intellivision.nfo</Launcher_NFO>
-  <platform>Mattel Intellivision</platform>
-  <application>/usr/games/mame</application>
-  <args>&quot;$rom$&quot;</args>
-  <ROM_path>/home/kodi/AEL-ROMs/con-intellivision/</ROM_path>
-  <ROM_ext>zip</ROM_ext>
-  <ROM_asset_path>/home/kodi/AEL-assets/con-intellivision/</ROM_asset_path>
-  <Asset_Prefix>../Launcher assets Consoles/Mattel Intellivision</Asset_Prefix>
+    <name>Mattel Intellivision (MAME)</name>
+    <category>Consoles</category>
+    <Launcher_NFO>../Launcher assets Consoles/Mattel Intellivision.nfo</Launcher_NFO>
+    <platform>Mattel Intellivision</platform>
+    <application>/usr/games/mame</application>
+    <args>&quot;$rom$&quot;</args>
+    <ROM_path>/home/kodi/AEL-ROMs/console-ivision/</ROM_path>
+    <ROM_ext>zip</ROM_ext>
+    <ROM_asset_path>/home/kodi/AEL-assets/console-ivision/</ROM_asset_path>
+    <Asset_Prefix>../Launcher assets Consoles/Mattel Intellivision</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

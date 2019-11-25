@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>3DO Interactive Multiplayer (RA)</name>
-  <category>Consoles</category>
-  <Launcher_NFO>../Launcher assets Consoles/3DO Interactive Multiplayer.nfo</Launcher_NFO>
-  <platform>3DO Interactive Multiplayer</platform>
-  <application>/home/kodi/bin/retroarch</application>
-  <args>-L /home/kodi/bin/libretro/4do_libretro.so &quot;$rom$&quot;</args>
-  <ROM_path>/home/kodi/AEL-ROMs/con-3do/</ROM_path>
-  <ROM_ext>iso</ROM_ext>
-  <ROM_asset_path>/home/kodi/AEL-assets/con-3do/</ROM_asset_path>
-  <Asset_Prefix>../Launcher assets Consoles/3DO Interactive Multiplayer</Asset_Prefix>
+    <name>3DO Interactive Multiplayer (RA)</name>
+    <category>Consoles</category>
+    <Launcher_NFO>../Launcher assets Consoles/3DO Interactive Multiplayer.nfo</Launcher_NFO>
+    <platform>3DO Interactive Multiplayer</platform>
+    <application>/home/kodi/bin/retroarch</application>
+    <args>-L /home/kodi/bin/libretro/4do_libretro.so &quot;$rom$&quot;</args>
+    <ROM_path>/home/kodi/AEL-ROMs/console-3do/</ROM_path>
+    <ROM_ext>iso</ROM_ext>
+    <ROM_asset_path>/home/kodi/AEL-assets/console-3do/</ROM_asset_path>
+    <Asset_Prefix>../Launcher assets Consoles/3DO Interactive Multiplayer</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

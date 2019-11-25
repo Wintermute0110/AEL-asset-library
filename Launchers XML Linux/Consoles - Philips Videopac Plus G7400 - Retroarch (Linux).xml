@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>Philips Videopac+ G7400 (Retroarch)</name>
-  <category>Consoles</category>
-  <Launcher_NFO>../Launcher assets Consoles/Philips Videopac Plus G7400.nfo</Launcher_NFO>
-  <platform>Philips Videopac Plus G7400</platform>
-  <application>/home/kodi/bin/retroarch</application>
-  <args>-L /home/kodi/bin/libretro/o2em_libretro.so -f -v &quot;$rom$&quot;</args>
-  <ROM_path>/home/kodi/AEL-ROMs/con-g7400/</ROM_path>
-  <ROM_ext>zip</ROM_ext>
-  <ROM_asset_path>/home/kodi/AEL-assets/con-g7400/</ROM_asset_path>
-  <Asset_Prefix>../Launcher assets Consoles/Philips Videopac Plus G7400</Asset_Prefix>
+    <name>Philips Videopac+ G7400 (Retroarch)</name>
+    <category>Consoles</category>
+    <Launcher_NFO>../Launcher assets Consoles/Philips Videopac Plus G7400.nfo</Launcher_NFO>
+    <platform>Philips Videopac Plus G7400</platform>
+    <application>/home/kodi/bin/retroarch</application>
+    <args>-L /home/kodi/bin/libretro/o2em_libretro.so &quot;$rom$&quot;</args>
+    <ROM_path>/home/kodi/AEL-ROMs/console-g7400/</ROM_path>
+    <ROM_ext>zip</ROM_ext>
+    <ROM_asset_path>/home/kodi/AEL-assets/console-g7400/</ROM_asset_path>
+    <Asset_Prefix>../Launcher assets Consoles/Philips Videopac Plus G7400</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<!--
-    MAME Amiga CD32 machines
-
+<!-- MAME Amiga CD32 machines
     Amiga CD32 (PAL)   cd32   floppydisk, cdrom, printout
     Amiga CD32 (NTSC)  cd32n  floppydisk, cdrom, printout
 -->
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>Amiga CD32 (MAME)</name>
-  <category>Consoles</category>
-  <Launcher_NFO>../Launcher assets Consoles/Amiga CD32.nfo</Launcher_NFO>
-  <platform>Commodore Amiga CD32</platform>
-  <application>/usr/games/mame</application>
-  <args>cd32 -cdrom &quot;$rom$&quot;</args>
-  <ROM_path>/home/kodi/AEL-ROMs/con-cd32/</ROM_path>
-  <ROM_ext>chd|iso</ROM_ext>
-  <ROM_asset_path>/home/kodi/AEL-assets/con-cd32/</ROM_asset_path>
-  <Asset_Prefix>../Launcher assets Consoles/Amiga CD32</Asset_Prefix>
+    <name>Amiga CD32 (MAME)</name>
+    <category>Consoles</category>
+    <Launcher_NFO>../Launcher assets Consoles/Amiga CD32.nfo</Launcher_NFO>
+    <platform>Commodore Amiga CD32</platform>
+    <application>/usr/games/mame</application>
+    <args>cd32 -cdrom &quot;$rom$&quot;</args>
+    <ROM_path>/home/kodi/AEL-ROMs/console-cd32/</ROM_path>
+    <ROM_ext>chd|iso</ROM_ext>
+    <ROM_asset_path>/home/kodi/AEL-assets/console-cd32/</ROM_asset_path>
+    <Asset_Prefix>../Launcher assets Consoles/Amiga CD32</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>
-

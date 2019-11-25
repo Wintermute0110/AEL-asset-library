@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<!--
-    MAME Watara Supervision machines:
-
+<!-- MAME Watara Supervision machines:
     svision  "Super Vision"                                 cartridge  .bin .ws .sv
     svisionn "Super Vision (NTSC TV Link Colored)"          cartridge  .bin .ws .sv
     svisionp "Super Vision (PAL TV Link Colored)"           cartridge  .bin .ws .sv
@@ -10,17 +8,17 @@
 -->
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>Watara Supervision (MAME)</name>
-  <category>Consoles</category>
-  <Launcher_NFO>../Launcher assets Consoles/Watara Supervision.nfo</Launcher_NFO>
-  <platform>Watara Supervision</platform>
-  <application>/usr/games/mame</application>
-  <args>svision -cartridge &quot;$rom$&quot;</args>
-  <args_extra>svisionn -cartridge &quot;$rom$&quot;</args_extra>
-  <args_extra>svisionp -cartridge &quot;$rom$&quot;</args_extra>
-  <ROM_path>/home/kodi/AEL-ROMs/con-watara/</ROM_path>
-  <ROM_ext>zip</ROM_ext>
-  <ROM_asset_path>/home/kodi/AEL-assets/con-watara/</ROM_asset_path>
-  <Asset_Prefix>../Launcher assets Consoles/Watara Supervision</Asset_Prefix>
+    <name>Watara Supervision (MAME)</name>
+    <category>Consoles</category>
+    <Launcher_NFO>../Launcher assets Consoles/Watara Supervision.nfo</Launcher_NFO>
+    <platform>Watara Supervision</platform>
+    <application>/usr/games/mame</application>
+    <args>svision -cartridge &quot;$rom$&quot;</args>
+    <args_extra>svisionn -cartridge &quot;$rom$&quot;</args_extra>
+    <args_extra>svisionp -cartridge &quot;$rom$&quot;</args_extra>
+    <ROM_path>/home/kodi/AEL-ROMs/console-supervision/</ROM_path>
+    <ROM_ext>zip</ROM_ext>
+    <ROM_asset_path>/home/kodi/AEL-assets/console-supervision/</ROM_asset_path>
+    <Asset_Prefix>../Launcher assets Consoles/Watara Supervision</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>
