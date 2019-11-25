@@ -8,7 +8,7 @@
     <category>Consoles</category>
     <Launcher_NFO>../Launcher assets Consoles/Fairchild Channel F.nfo</Launcher_NFO>
     <platform>Fairchild Channel F</platform>
-    <application>/usr/games/mame</application>
+    <application>/home/kodi/bin/mame64</application>
     <args>arcadia -cartridge &quot;$rom$&quot;</args>
     <ROM_path>/home/kodi/AEL-ROMs/console-channelf/</ROM_path>
     <ROM_ext>zip</ROM_ext>

@@ -8,7 +8,7 @@
     <category>Consoles</category>
     <Launcher_NFO>../Launcher assets Consoles/Emerson Arcadia 2001.nfo</Launcher_NFO>
     <platform>Emerson Arcadia 2001</platform>
-    <application>/usr/games/mame</application>
+    <application>/home/kodi/bin/mame64</application>
     <args>arcadia -cartridge &quot;$rom$&quot;</args>
     <ROM_path>/home/kodi/AEL-ROMs/console-arcadia2001/</ROM_path>
     <ROM_ext>zip</ROM_ext>

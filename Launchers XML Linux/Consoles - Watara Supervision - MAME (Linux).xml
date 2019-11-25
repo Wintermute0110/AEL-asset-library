@@ -12,7 +12,7 @@
     <category>Consoles</category>
     <Launcher_NFO>../Launcher assets Consoles/Watara Supervision.nfo</Launcher_NFO>
     <platform>Watara Supervision</platform>
-    <application>/usr/games/mame</application>
+    <application>/home/kodi/bin/mame64</application>
     <args>svision -cartridge &quot;$rom$&quot;</args>
     <args_extra>svisionn -cartridge &quot;$rom$&quot;</args_extra>
     <args_extra>svisionp -cartridge &quot;$rom$&quot;</args_extra>

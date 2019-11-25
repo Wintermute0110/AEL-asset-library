@@ -9,7 +9,7 @@
     <category>Consoles</category>
     <Launcher_NFO>../Launcher assets Consoles/Amiga CD32.nfo</Launcher_NFO>
     <platform>Commodore Amiga CD32</platform>
-    <application>/usr/games/mame</application>
+    <application>/home/kodi/bin/mame64</application>
     <args>cd32 -cdrom &quot;$rom$&quot;</args>
     <ROM_path>/home/kodi/AEL-ROMs/console-cd32/</ROM_path>
     <ROM_ext>chd|iso</ROM_ext>

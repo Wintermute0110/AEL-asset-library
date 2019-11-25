@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-    <name>Magnavox Odyssey 2 (Retroarch)</name>
+    <name>Magnavox Odyssey 2 (RA)</name>
     <category>Consoles</category>
     <Launcher_NFO>../Launcher assets Consoles/Magnavox Odyssey 2.nfo</Launcher_NFO>
     <platform>Magnavox Odyssey2</platform>

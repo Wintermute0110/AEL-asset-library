@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-    <name>Colecovision (Retroarch)</name>
+    <name>Colecovision (RA)</name>
     <category>Consoles</category>
     <Launcher_NFO>../Launcher assets Consoles/Colecovision.nfo</Launcher_NFO>
-    <platform>Colecovision</platform>
+    <platform>Coleco Colecovision</platform>
     <application>/home/kodi/bin/retroarch</application>
     <args>-L /home/kodi/bin/libretro/bluemsx_libretro.so -f -v &quot;$rom$&quot;</args>
     <ROM_path>/home/kodi/AEL-ROMs/console-cvision/</ROM_path>

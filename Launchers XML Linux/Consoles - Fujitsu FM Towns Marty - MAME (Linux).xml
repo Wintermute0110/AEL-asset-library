@@ -6,11 +6,11 @@
 -->
 <advanced_emulator_launcher_configuration>
 <launcher>
-    <name>Fujitsu FM Towns Marty (Retroarch)</name>
+    <name>Fujitsu FM Towns Marty (MAME)</name>
     <category>Consoles</category>
     <Launcher_NFO>../Launcher assets Consoles/Fujitsu FM Towns Marty.nfo</Launcher_NFO>
     <platform>Fujitsu FM Towns Marty</platform>
-    <application>/usr/games/mame</application>
+    <application>/home/kodi/bin/mame64</application>
     <args>fmtmarty -cdrom &quot;$rom$&quot;</args>
     <ROM_path>/home/kodi/AEL-ROMs/console-fmtmarty/</ROM_path>
     <ROM_ext>chd|iso</ROM_ext>

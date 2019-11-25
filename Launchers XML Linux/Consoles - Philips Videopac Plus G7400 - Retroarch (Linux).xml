@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-    <name>Philips Videopac+ G7400 (Retroarch)</name>
+    <name>Philips Videopac+ G7400 (RA)</name>
     <category>Consoles</category>
     <Launcher_NFO>../Launcher assets Consoles/Philips Videopac Plus G7400.nfo</Launcher_NFO>
     <platform>Philips Videopac Plus G7400</platform>

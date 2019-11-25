@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-    <name>GCE Vectrex (Retroarch)</name>
+    <name>GCE Vectrex (RA)</name>
     <category>Consoles</category>
     <Launcher_NFO>../Launcher assets Consoles/GCE Vectrex.nfo</Launcher_NFO>
     <platform>GCE Vectrex</platform>
