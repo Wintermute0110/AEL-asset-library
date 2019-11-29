@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>Game Boy (RA)</name>
-  <category>Nintendo</category>
-  <Launcher_NFO>../Launcher assets Nintendo/Game Boy.nfo</Launcher_NFO>
-  <platform>Nintendo GameBoy</platform>
-  <application>/home/kodi/bin/retroarch</application>
-  <args>-L /home/kodi/bin/libretro/gambatte_libretro.so &quot;$rom$&quot;</args>
-  <args>-L /home/kodi/bin/libretro/sameboy_libretro.so &quot;$rom$&quot;</args>
-  <args>-L /home/kodi/bin/libretro/gearboy_libretro.so &quot;$rom$&quot;</args>
-  <ROM_path>/home/kodi/AEL-ROMs/nintendo-gb/</ROM_path>
-  <ROM_ext>zip</ROM_ext>
-  <ROM_asset_path>/home/kodi/AEL-assets/nintendo-gb</ROM_asset_path>
-  <Asset_Prefix>../Launcher assets Nintendo/Game Boy</Asset_Prefix>
+    <name>Game Boy (RA)</name>
+    <category>Nintendo</category>
+    <Launcher_NFO>../Launcher assets Nintendo/Game Boy.nfo</Launcher_NFO>
+    <platform>Nintendo GameBoy</platform>
+    <application>/home/kodi/bin/retroarch</application>
+    <args>-L /home/kodi/bin/libretro/sameboy_libretro.so &quot;$rom$&quot;</args>
+    <args>-L /home/kodi/bin/libretro/gambatte_libretro.so &quot;$rom$&quot;</args>
+    <args>-L /home/kodi/bin/libretro/gearboy_libretro.so &quot;$rom$&quot;</args>
+    <ROM_path>/home/kodi/AEL-ROMs/nintendo-gb/</ROM_path>
+    <ROM_ext>zip</ROM_ext>
+    <ROM_asset_path>/home/kodi/AEL-assets/nintendo-gb</ROM_asset_path>
+    <Asset_Prefix>../Launcher assets Nintendo/Game Boy</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

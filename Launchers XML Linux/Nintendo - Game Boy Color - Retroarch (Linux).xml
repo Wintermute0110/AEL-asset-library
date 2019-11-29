@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>Game Boy Color (RA)</name>
-  <category>Nintendo</category>
-  <Launcher_NFO>../Launcher assets Nintendo/Game Boy Color.nfo</Launcher_NFO>
-  <platform>Nintendo GameBoy Color</platform>
-  <application>/home/kodi/bin/retroarch</application>
-  <args>-L /home/kodi/bin/libretro/gambatte_libretro.so &quot;$rom$&quot;</args>
-  <args>-L /home/kodi/bin/libretro/sameboy_libretro.so &quot;$rom$&quot;</args>
-  <args>-L /home/kodi/bin/libretro/gearboy_libretro.so &quot;$rom$&quot;</args>
-  <ROM_path>/home/kodi/AEL-ROMs/nintendo-gbcolor/</ROM_path>
-  <ROM_ext>zip</ROM_ext>
-  <ROM_asset_path>/home/kodi/AEL-assets/nintendo-gbcolor/</ROM_asset_path>
-  <Asset_Prefix>../Launcher assets Nintendo/Game Boy Color</Asset_Prefix>
+    <name>Game Boy Color (RA)</name>
+    <category>Nintendo</category>
+    <Launcher_NFO>../Launcher assets Nintendo/Game Boy Color.nfo</Launcher_NFO>
+    <platform>Nintendo GameBoy Color</platform>
+    <application>/home/kodi/bin/retroarch</application>
+    <args>-L /home/kodi/bin/libretro/sameboy_libretro.so &quot;$rom$&quot;</args>
+    <args>-L /home/kodi/bin/libretro/gambatte_libretro.so &quot;$rom$&quot;</args>
+    <args>-L /home/kodi/bin/libretro/gearboy_libretro.so &quot;$rom$&quot;</args>
+    <ROM_path>/home/kodi/AEL-ROMs/nintendo-gbcolor/</ROM_path>
+    <ROM_ext>zip</ROM_ext>
+    <ROM_asset_path>/home/kodi/AEL-assets/nintendo-gbcolor/</ROM_asset_path>
+    <Asset_Prefix>../Launcher assets Nintendo/Game Boy Color</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>
