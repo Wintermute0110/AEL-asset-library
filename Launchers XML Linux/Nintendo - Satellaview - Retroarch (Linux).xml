@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+    BS-X.bin, aka BS-X - Sore wa Namae o Nusumareta Machi no Monogatari (Japan) (Rev 1),
+    must be in the system directory. There are translated version of this BIOS out there.
+-->
 <advanced_emulator_launcher_configuration>
 <launcher>
     <name>Satellaview (RA)</name>
@@ -6,7 +10,7 @@
     <Launcher_NFO>../Launcher assets Nintendo/SNES.nfo</Launcher_NFO>
     <platform>Nintendo Satellaview</platform>
     <application>/home/kodi/bin/retroarch</application>
-    <args>-L /home/kodi/bin/libretro/bsnes_balanced_libretro.so &quot;$rom$&quot;</args>
+    <args>-L /home/kodi/bin/libretro/snes9x_libretro.so &quot;$rom$&quot;</args>
     <ROM_path>/home/kodi/AEL-ROMs/nintendo-satellaview/</ROM_path>
     <ROM_ext>zip</ROM_ext>
     <ROM_asset_path>/home/kodi/AEL-assets/nintendo-satellaview/</ROM_asset_path>
