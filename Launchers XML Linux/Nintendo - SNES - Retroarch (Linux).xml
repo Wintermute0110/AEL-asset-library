@@ -12,7 +12,7 @@
     <args>-L /home/kodi/bin/libretro/higan_sfc_libretro.so &quot;$rom$&quot;</args>
     <args>-L /home/kodi/bin/libretro/higan_sfc_balanced_libretro.so &quot;$rom$&quot;</args>
     <ROM_path>/home/kodi/AEL-ROMs/nintendo-snes/</ROM_path>
-    <ROM_ext>zip</ROM_ext>
+    <ROM_ext>sfc|smc|zip</ROM_ext>
     <ROM_asset_path>/home/kodi/AEL-assets/nintendo-snes/</ROM_asset_path>
     <Asset_Prefix>../Launcher assets Nintendo/SNES</Asset_Prefix>
 </launcher>
