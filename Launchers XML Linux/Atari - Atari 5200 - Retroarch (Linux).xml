@@ -7,9 +7,9 @@
   <platform>Atari 5200</platform>
   <application>/home/kodi/bin/retroarch</application>
   <args>-L /home/kodi/bin/libretro/atari800_libretro.so &quot;$rom$&quot;</args>
-  <ROM_path>/home/kodi/AEL-ROMs/atari-5200/</ROM_path>
+  <ROM_path>/home/kodi/AEL-ROMs/atari-a5200/</ROM_path>
   <ROM_ext>zip</ROM_ext>
-  <ROM_asset_path>/home/kodi/AEL-assets/atari-5200/</ROM_asset_path>
+  <ROM_asset_path>/home/kodi/AEL-assets/atari-a5200/</ROM_asset_path>
   <Asset_Prefix>../Launcher assets Atari/Atari 5200</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

@@ -7,9 +7,9 @@
     <platform>Bandai WonderSwan Color</platform>
     <application>/home/kodi/bin/retroarch</application>
     <args>-L /home/kodi/bin/libretro/mednafen_wswan_libretro.so &quot;$rom$&quot;</args>
-    <ROM_path>/home/kodi/AEL-ROMs/con-wswanc/</ROM_path>
+    <ROM_path>/home/kodi/AEL-ROMs/bandai-wswancolor/</ROM_path>
     <ROM_ext>zip</ROM_ext>
-    <ROM_asset_path>/home/kodi/AEL-assets/con-wswanc/</ROM_asset_path>
+    <ROM_asset_path>/home/kodi/AEL-assets/bandai-wswancolor/</ROM_asset_path>
     <Asset_Prefix>../Launcher assets Consoles/Bandai WonderSwan Color</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>
