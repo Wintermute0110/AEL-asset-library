@@ -6,7 +6,7 @@
     <Launcher_NFO>../Launcher assets Arcade/MAME.nfo</Launcher_NFO>
     <platform>MAME</platform>
     <application>/home/kodi/bin/mame64</application>
-    <args>&quot;$rom$&quot;</args>
+    <args>&quot;$rombasenoext$&quot;</args>
     <ROM_path>/home/kodi/AEL-ROMs/mame/</ROM_path>
     <ROM_ext>zip</ROM_ext>
     <ROM_asset_path>/home/kodi/AEL-assets/mame/</ROM_asset_path>
