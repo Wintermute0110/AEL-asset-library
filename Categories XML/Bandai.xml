@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<category>
+    <name>Bandai</name>
+    <genre>Company</genre>
+    <rating></rating>
+    <plot>Bandai Co. Ltd. is a Japanese toy maker and a producer of many plastic model kits as well as a former video game company.</plot>
+    <Asset_Prefix>../Category assets/Bandai</Asset_Prefix>
+</category>
+</advanced_emulator_launcher_configuration>
