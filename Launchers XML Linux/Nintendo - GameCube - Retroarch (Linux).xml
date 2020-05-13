@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>GameCube (RA)</name>
-  <category>Nintendo</category>
-  <Launcher_NFO>../Launcher assets Nintendo/GameCube.nfo</Launcher_NFO>
-  <platform>Nintendo GameCube</platform>
-  <application>/home/kodi/bin/retroarch</application>
-  <args>-L /home/kodi/bin/libretro/dolphin_libretro.so &quot;$rom$&quot;</args>
-  <ROM_path>/home/kodi/AEL-ROMs/nintendo-gamecube/</ROM_path>
-  <ROM_ext>iso|gcm</ROM_ext>
-  <ROM_asset_path>/home/kodi/AEL-assets/nintendo-gamecube/</ROM_asset_path>
-  <Asset_Prefix>../Launcher assets Nintendo/GameCube</Asset_Prefix>
+    <name>GameCube (RA)</name>
+    <category>Nintendo</category>
+    <Launcher_NFO>../Launcher assets Nintendo/GameCube.nfo</Launcher_NFO>
+    <platform>Nintendo GameCube</platform>
+    <application>/home/kodi/bin/retroarch</application>
+    <args>-L /home/kodi/bin/libretro/dolphin_libretro.so &quot;$rom$&quot;</args>
+    <ROM_path>/home/kodi/AEL-ROMs/nintendo-gamecube/</ROM_path>
+    <ROM_ext>iso|gcz</ROM_ext>
+    <ROM_asset_path>/home/kodi/AEL-assets/nintendo-gamecube/</ROM_asset_path>
+    <Asset_Prefix>../Launcher assets Nintendo/GameCube</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>
