@@ -20,7 +20,7 @@ There are two ways to use the library:
    the XML file defines the metadata and assets. For Launchers, the XML file defines the
    metadata, the assets and the emulator parameters (aka the arguments).
 
-   To import and XML file, go to AEL addon settins, then go to "IO" tab, then
+ * To import and XML file, go to AEL addon settings, then go to "IO" tab, then
    select "Import configuration". Remember to change the ROM path, assets path and
    application path in the XML before importing (or you can change later after importing using
    the "Edit Launcher" context menu).
@@ -46,12 +46,25 @@ XML files that containt all the metadata AEL is able to display.
 
 A Category NFO file looks like this:
 ```
-asdfg
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<category>
+  <genre>Company</genre>
+  <plot>Sony Corporation, commonly referred to as Sony, styled SONY /ˈsoʊniː/, is a Japanese multinational conglomerate corporation headquartered in Kōnan Minato, Tokyo, Japan. Its diversified business includes consumer and professional electronics, gaming, entertainment and financial services. The company is one of the leading manufacturers of electronic products for the consumer and professional markets. Sony is ranked 116th on the 2015 list of Fortune Global 500.&#10;Sony Corporation is the electronics business unit and the parent company of the Sony Group, which is engaged in business through its four operating segments: electronics (including video games, network services and medical business), motion pictures, music and financial services. These make Sony one of the most comprehensive entertainment companies in the world. Sony's principal business operations include Sony Corporation (Sony Electronics in the U.S.), Sony Pictures Entertainment, Sony Interactive Entertainment, Sony Music Entertainment, Sony Mobile Communications (formerly Sony Ericsson) and Sony Financial. Sony is among the Worldwide Top 20 Semiconductor Sales Leaders and as of 2013, the fourth-largest television manufacturer in the world, after Samsung Electronics, LG Electronics and TCL.</plot>
+</category>
+
 ```
 
 A Launcher NFO file looks like this:
 ```
-asdfg
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<launcher>
+  <year>1994</year>
+  <genre>Fifth generation console</genre>
+  <developer>SONY</developer>
+  <rating></rating>
+  <plot>The PlayStation (officially abbreviated as PS, and commonly known as the PS1 or PSX) is a home video game console developed and marketed by Sony Computer Entertainment. The console was released on 3 December 1994 in Japan, 9 September 1995 in North America, 29 September 1995 in Europe, 15 November 1995 in Australia, and for Korea in 1996. The console was the first of the PlayStation lineup of home video game consoles. It primarily competed with the Nintendo 64 and the Sega Saturn as part of the fifth generation of video game consoles.</plot>
+</launcher>
+
 ```
 
 ## The Category and Launcher assets ##
@@ -156,12 +169,14 @@ The XML files in this library assume the following **ROM paths** and **asset dir
 | <sub>Nintendo</sub>  | <sub>Nintendo DS</sub>                 | <sub>`/home/kodi/AEL-ROMs/nintendo-ds/`</sub>                  | <sub>`/home/kodi/AEL-assets/nintendo-ds/`</sub>       |
 | <sub>Nintendo</sub>  | <sub>Pokemon Mini</sub>                | <sub>`/home/kodi/AEL-ROMs/nintendo-pokemini/`</sub>            | <sub>`/home/kodi/AEL-assets/nintendo-pokemini/`</sub> |
 | <sub>Nintendo</sub>  | <sub>SNES</sub>                        | <sub>`/home/kodi/AEL-ROMs/nintendo-snes/`</sub>                | <sub>`/home/kodi/AEL-assets/nintendo-snes/`</sub>     |
+| <sub>Nintendo</sub>  | <sub>Switch</sub>                      | <sub>`/home/kodi/AEL-ROMs/nintendo-switch/`</sub>              | <sub>`/home/kodi/AEL-assets/nintendo-switch/`</sub>   |
 | <sub>Nintendo</sub>  | <sub>Virtual Boy</sub>                 | <sub>`/home/kodi/AEL-ROMs/nintendo-vb/`</sub>                  | <sub>`/home/kodi/AEL-assets/nintendo-vb/`</sub>       |
 | <sub>Nintendo</sub>  | <sub>Wii</sub>                         | <sub>`/home/kodi/AEL-ROMs/nintendo-wii/`</sub>                 | <sub>`/home/kodi/AEL-assets/nintendo-wii/`</sub>      |
+| <sub>Nintendo</sub>  | <sub>Wii U</sub>                       | <sub>`/home/kodi/AEL-ROMs/nintendo-wiiu/`</sub>                | <sub>`/home/kodi/AEL-assets/nintendo-wiiu/`</sub>     |
 | <sub>SEGA</sub>      | <sub>32X</sub>                         | <sub>`/home/kodi/AEL-ROMs/sega-32x/`</sub>                     | <sub>`/home/kodi/AEL-assets/sega-32x/`</sub>          |
 | <sub>SEGA</sub>      | <sub>Dreamcast</sub>                   | <sub>`/home/kodi/AEL-ROMs/sega-dreamcast/`</sub>               | <sub>`/home/kodi/AEL-assets/sega-dreamcast/`</sub>    |
 | <sub>SEGA</sub>      | <sub>Game Gear</sub>                   | <sub>`/home/kodi/AEL-ROMs/sega-gg/`</sub>                      | <sub>`/home/kodi/AEL-assets/sega-gg`</sub>            |
-| <sub>SEGA</sub>      | <sub>Genesis</sub>                     | <sub>`/home/kodi/AEL-ROMs/sega-genesis/`</sub>                 | <sub>`/home/kodi/AEL-assets/sega-genesis`</sub>           |
+| <sub>SEGA</sub>      | <sub>Genesis</sub>                     | <sub>`/home/kodi/AEL-ROMs/sega-genesis/`</sub>                 | <sub>`/home/kodi/AEL-assets/sega-genesis`</sub>       |
 | <sub>SEGA</sub>      | <sub>Master System</sub>               | <sub>`/home/kodi/AEL-ROMs/sega-sms/`</sub>                     | <sub>`/home/kodi/AEL-assets/sega-sms`</sub>           |
 | <sub>SEGA</sub>      | <sub>Mega CD</sub>                     | <sub>`/home/kodi/AEL-ROMs/sega-megacd/`</sub>                  | <sub>`/home/kodi/AEL-assets/sega-megacd`</sub>        |
 | <sub>SEGA</sub>      | <sub>Mega Drive</sub>                  | <sub>`/home/kodi/AEL-ROMs/sega-genesis/`</sub>                 | <sub>`/home/kodi/AEL-assets/sega-genesis`</sub>       |
@@ -194,6 +209,25 @@ In Windows it is recommended to use the `Notepad++` editor to edit the XML files
 
  * MAME exectuable is located in `/usr/games/mame`. Remember to edit your `mame.ini`
    to include the **ROM path**. Otherwise MAME will not find the ROMs.
+
+ * Cemu (Wii U emulator) executable is located in `/home/kodi/bin/cemu/Cemu.exe`. At the time of writing this is a windows-only emulator and thus requires [Wine](https://www.winehq.org/) to run. The pyhton wrapper script below can be used to launch games:
+ 
+ ```
+#!/usr/bin/python3
+# File /home/kodi/bin/cemu-launcher.py
+import subprocess
+import sys
+arg_list = [
+    '/usr/bin/wine',
+    '/home/kodi/bin/cemu/cemu.exe',
+    '-g',
+    # Insert Z: and change slashes into backslashes
+    '{}'.format('Z:' + sys.argv[1].replace('/', '\\'))
+]
+subprocess.run(arg_list)
+ ```
+   
+ * Yuzu (Switch emulator) exectuable is located in `/home/kodi/bin/yuzu.AppImage`.
 
 The XML files with emulator configurations are located in the 
 [Launchers XML Linux](./Launchers%20XML%20Linux) directory.
@@ -261,6 +295,8 @@ The XML files with emulator configurations are located in the
 | <sub>Nintendo</sub>  | <sub>SNES</sub>                        | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20SNES%20-%20Retroarch%20(Linux).xml) |
 | <sub>Nintendo</sub>  | <sub>Virtual Boy</sub>                 | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20Virtual%20Boy-%20Retroarch%20(Linux).xml) |
 | <sub>Nintendo</sub>  | <sub>Wii</sub>                         | [Retroarch](./Launchers%20XML%20Linux/Nintendo%20-%20Wii%20-%20Retroarch%20(Linux).xml) |
+| <sub>Nintendo</sub>  | <sub>Wii U</sub>                       | [Cemu](./Launchers%20XML%20Linux/Nintendo%20-%20Wii%20U%20-%20Cemu%20(Linux).xml) |
+| <sub>Nintendo</sub>  | <sub>Switch</sub>                      | [Yuzu](./Launchers%20XML%20Linux/Nintendo%20-%20Switch%20-%20Yuzu%20(Linux).xml) |
 | <sub>SEGA</sub>      | <sub>32X</sub>                         | [Retroarch](./Launchers%20XML%20Linux/SEGA%20-%2032X%20-%20Retroarch%20(Linux).xml) |
 | <sub>SEGA</sub>      | <sub>Dreamcast</sub>                   | [Retroarch](./Launchers%20XML%20Linux/SEGA%20-%20Dreamcast%20-%20Retroarch%20(Linux).xml) |
 | <sub>SEGA</sub>      | <sub>Game Gear</sub>                   | [Retroarch](./Launchers%20XML%20Linux/SEGA%20-%20Game%20Gear%20-%20Retroarch%20(Linux).xml) |
