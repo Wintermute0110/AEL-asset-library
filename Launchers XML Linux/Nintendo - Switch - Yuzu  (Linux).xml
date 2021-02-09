@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher_configuration>
+<launcher>
+    <name>Switch</name>
+    <category>Nintendo</category>
+    <Launcher_NFO>../Launcher assets Nintendo/Switch.nfo</Launcher_NFO>
+    <platform>Nintendo Switch</platform>
+    <application>/home/kodi/bin/yuzu.AppImage</application>
+    <args>-f -g &quot;$rom$&quot;</args>
+    <ROM_path>/home/kodi/AEL-ROMs/nintendo-switch</ROM_path>
+    <ROM_ext>xci|nsp</ROM_ext>
+    <ROM_asset_path>/home/kodi/AEL-assets/nintendo-switch/</ROM_asset_path>
+    <Asset_Prefix>../Launcher assets Nintendo/Switch</Asset_Prefix>
+</launcher>
+</advanced_emulator_launcher_configuration>
