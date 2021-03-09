@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>Game Gear (RA)</name>
+  <name>Game Gear</name>
   <category>SEGA</category>
   <Launcher_NFO>../Launcher assets SEGA/Game Gear.nfo</Launcher_NFO>
   <platform>Sega Game Gear</platform>

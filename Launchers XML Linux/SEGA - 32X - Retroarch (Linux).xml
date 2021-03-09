@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>32X (RA)</name>
+  <name>32X</name>
   <category>SEGA</category>
   <Launcher_NFO>../Launcher assets SEGA/32X.nfo</Launcher_NFO>
   <platform>Sega 32X</platform>

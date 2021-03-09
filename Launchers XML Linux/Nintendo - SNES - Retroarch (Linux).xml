@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-    <name>SNES (RA)</name>
-    <category>Nintendo</category>
-    <Launcher_NFO>../Launcher assets Nintendo/SNES.nfo</Launcher_NFO>
-    <platform>Nintendo SNES</platform>
-    <application>/home/kodi/bin/retroarch</application>
-    <args>-L /home/kodi/bin/libretro/snes9x_libretro.so &quot;$rom$&quot;</args>
-    <args>-L /home/kodi/bin/libretro/mesen-s_libretro.so &quot;$rom$&quot;</args>
-    <args>-L /home/kodi/bin/libretro/bsnes_libretro.so &quot;$rom$&quot;</args>
-    <args>-L /home/kodi/bin/libretro/higan_sfc_libretro.so &quot;$rom$&quot;</args>
-    <args>-L /home/kodi/bin/libretro/higan_sfc_balanced_libretro.so &quot;$rom$&quot;</args>
-    <ROM_path>/home/kodi/AEL-ROMs/nintendo-snes/</ROM_path>
-    <ROM_extra_path>/home/kodi/AEL-ROMs/nintendo-snes-extra/</ROM_extra_path>
-    <ROM_ext>zip|sfc|smc</ROM_ext>
-    <ROM_asset_path>/home/kodi/AEL-assets/nintendo-snes/</ROM_asset_path>
-    <Asset_Prefix>../Launcher assets Nintendo/SNES</Asset_Prefix>
+  <name>SNES</name>
+  <category>Nintendo</category>
+  <Launcher_NFO>../Launcher assets Nintendo/SNES.nfo</Launcher_NFO>
+  <platform>Nintendo SNES</platform>
+  <application>/home/kodi/bin/retroarch</application>
+  <args>-L /home/kodi/bin/libretro/snes9x_libretro.so &quot;$rom$&quot;</args>
+  <args>-L /home/kodi/bin/libretro/mesen-s_libretro.so &quot;$rom$&quot;</args>
+  <args>-L /home/kodi/bin/libretro/bsnes_libretro.so &quot;$rom$&quot;</args>
+  <args>-L /home/kodi/bin/libretro/higan_sfc_libretro.so &quot;$rom$&quot;</args>
+  <args>-L /home/kodi/bin/libretro/higan_sfc_balanced_libretro.so &quot;$rom$&quot;</args>
+  <ROM_path>/home/kodi/AEL-ROMs/nintendo-snes/</ROM_path>
+  <ROM_extra_path>/home/kodi/AEL-ROMs/nintendo-snes-extra/</ROM_extra_path>
+  <ROM_ext>zip|sfc|smc</ROM_ext>
+  <ROM_asset_path>/home/kodi/AEL-assets/nintendo-snes/</ROM_asset_path>
+  <Asset_Prefix>../Launcher assets Nintendo/SNES</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>

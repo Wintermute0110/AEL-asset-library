@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-  <name>Master System (RA)</name>
+  <name>Master System</name>
   <category>SEGA</category>
   <Launcher_NFO>../Launcher assets SEGA/Master System.nfo</Launcher_NFO>
   <platform>Sega Master System</platform>

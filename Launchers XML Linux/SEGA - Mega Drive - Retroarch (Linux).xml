@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher_configuration>
 <launcher>
-    <category>SEGA</category>
-    <name>Mega Drive (RA)</name>
-    <Launcher_NFO>../Launcher assets SEGA/Genesis.nfo</Launcher_NFO>
-    <platform>Sega Mega Drive</platform>
-    <application>/home/kodi/bin/retroarch</application>
-    <args>-L /home/kodi/bin/libretro/genesis_plus_gx_libretro.so &quot;$rom$&quot;</args>
-    <args_extra>-L /home/kodi/bin/libretro/picodrive_libretro.so &quot;$rom$&quot;</args_extra>
-    <args_extra>-L /home/kodi/bin/libretro/blastem_libretro.so &quot;$rom$&quot;</args_extra>
-    <ROM_path>/home/kodi/AEL-ROMs/sega-megadrive/</ROM_path>
-    <ROM_ext>smd|md|bin|zip</ROM_ext>
-    <ROM_asset_path>/home/kodi/AEL-assets/sega-megadrive/</ROM_asset_path>
-    <Asset_Prefix>../Launcher assets SEGA/Mega Drive</Asset_Prefix>
+  <name>Mega Drive</name>
+  <category>SEGA</category>
+  <Launcher_NFO>../Launcher assets SEGA/Genesis.nfo</Launcher_NFO>
+  <platform>Sega Mega Drive</platform>
+  <application>/home/kodi/bin/retroarch</application>
+  <args>-L /home/kodi/bin/libretro/genesis_plus_gx_libretro.so &quot;$rom$&quot;</args>
+  <args_extra>-L /home/kodi/bin/libretro/genesis_plus_gx_wide_libretro.so &quot;$rom$&quot;</args_extra>
+  <args_extra>-L /home/kodi/bin/libretro/picodrive_libretro.so &quot;$rom$&quot;</args_extra>
+  <args_extra>-L /home/kodi/bin/libretro/blastem_libretro.so &quot;$rom$&quot;</args_extra>
+  <ROM_path>/home/kodi/AEL-ROMs/sega-megadrive/</ROM_path>
+  <ROM_ext>smd|md|bin|zip</ROM_ext>
+  <ROM_asset_path>/home/kodi/AEL-assets/sega-megadrive/</ROM_asset_path>
+  <Asset_Prefix>../Launcher assets SEGA/Mega Drive</Asset_Prefix>
 </launcher>
 </advanced_emulator_launcher_configuration>
