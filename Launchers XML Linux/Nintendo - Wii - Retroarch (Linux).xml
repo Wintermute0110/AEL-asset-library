@@ -6,7 +6,7 @@
     <Launcher_NFO>../Launcher assets Nintendo/Wii.nfo</Launcher_NFO>
     <platform>Nintendo Wii</platform>
     <application>/home/kodi/bin/retroarch</application>
-    <args>-L /home/kodi/bin/libretro/dolphin_libretro.so &quot;$rom$&quot;</args>
+    <args>-L /home/kodi/libretro/dolphin_libretro.so &quot;$rom$&quot;</args>
     <ROM_path>/home/kodi/AEL-ROMs/nintendo-wii/</ROM_path>
     <ROM_ext>iso|gcz|wbfs|wad</ROM_ext>
     <ROM_asset_path>/home/kodi/AEL-assets/nintendo-wii/</ROM_asset_path>
