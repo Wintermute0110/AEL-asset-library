@@ -6,7 +6,7 @@
     <Launcher_NFO>../Launcher assets SONY/PSP.nfo</Launcher_NFO>
     <platform>Sony PlayStation Portable</platform>
     <application>/home/kodi/bin/retroarch</application>
-    <args>-L /home/kodi/bin/libretro/ppsspp_libretro.so &quot;$rom$&quot;</args>
+    <args>-L /home/kodi/libretro/ppsspp_libretro.so &quot;$rom$&quot;</args>
     <ROM_path>/home/kodi/AEL-ROMs/sony-psp/</ROM_path>
     <ROM_ext>elf|iso|cso|prx|pbp</ROM_ext>
     <ROM_asset_path>/home/kodi/AEL-assets/sony-psp/</ROM_asset_path>

@@ -6,7 +6,7 @@
     <Launcher_NFO>../Launcher assets Nintendo/Wii U.nfo</Launcher_NFO>
     <platform>Nintendo Wii U</platform>
     <application>/home/kodi/bin/cemu-launcher.py</application>
-    <args>$rom$</args>
+    <args>&quot;$rom$&quot;</args>
     <ROM_path>/home/kodi/AEL-ROMs/nintendo-wiiu</ROM_path>
     <ROM_ext>rpx</ROM_ext>
     <ROM_asset_path>/home/kodi/AEL-assets/nintendo-wiiu/</ROM_asset_path>

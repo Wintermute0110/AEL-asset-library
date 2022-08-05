@@ -6,9 +6,10 @@
     <Launcher_NFO>../Launcher assets SONY/PlayStation 2.nfo</Launcher_NFO>
     <platform>Sony PlayStation 2</platform>
     <application>/home/kodi/bin/retroarch</application>
-    <args>-L /home/kodi/bin/libretro/play_libretro.so &quot;$rom$&quot;</args>
+    <args>-L /home/kodi/libretro/pcsx2_libretro.so &quot;$rom$&quot;</args>
+    <args_extra>-L /home/kodi/libretro/play_libretro.so &quot;$rom$&quot;</args_extra>
     <ROM_path>/home/kodi/AEL-ROMs/sony-ps2/</ROM_path>
-    <ROM_ext>iso</ROM_ext>
+    <ROM_ext>iso|chd</ROM_ext>
     <ROM_asset_path>/home/kodi/AEL-assets/sony-ps2</ROM_asset_path>
     <Asset_Prefix>../Launcher assets SONY/PlayStation 2</Asset_Prefix>
 </launcher>
